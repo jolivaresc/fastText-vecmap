@@ -2,3 +2,5 @@ datasets/
 .ipynb_checkpoints
 __pycache__/
 test.py
+models/
+.vscode/
