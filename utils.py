@@ -30,8 +30,9 @@ def read(file,vocabulary=None,is_zipped=True,encoding="utf-8",dtype=np.float64,)
             words.append(word)
             matrix[i] = np.fromstring(vec, sep=" ", dtype=dtype)
         elif word in vocabulary:
-            words.append(word)
-            matrix.append(np.fromstring(vec,sep=" ", dtype=dtype))
+            for _ in range(vocabulary[word]):
+                words.append(word)
+                matrix.append(np.fromstring(vec,sep=" ", dtype=dtype))
     file.close()
     return (words,matrix) if vocabulary is None else (words,np.array(matrix,dtype=dtype))
 
@@ -74,13 +75,17 @@ def load_lexicon(source):
 
 def open_file(source):
     if source.__eq__("en-wiki"):
+        #2519370 vectors
+        file = ZipFile("datasets/wiki/wiki.en.zip")\
+                        .open("wiki.en.vec")
+    elif source.__eq__("en-wiki-news"):
         file = ZipFile("datasets/wiki-news-300d-1M-subword.vec.zip")\
                         .open("wiki-news-300d-1M-subword.vec")
-    if source.__eq__("en-crawl"):
+    elif source.__eq__("en-crawl"):
         file = ZipFile("datasets/crawl-300d-2M.vec.zip")\
                         .open("crawl-300d-2M.vec")
     elif source.__eq__("it"):
-        file = gzip.open("datasets/en-it/cc.it.300.vec.gz",)
+        file = gzip.open("datasets/en-it/cc.it.300.vec.gz")
     elif source.__eq__("de"):
         file = gzip.open("datasets/en-de/cc.de.300.vec.gz")
     elif source.__eq__("fi"):
@@ -98,3 +103,21 @@ def get_vectors(lexicon, words, embeddings, dtype='float'):
         if lexicon[i] in words:
             matrix[i] = embeddings[words.index(lexicon[i])]
     return np.asarray(matrix, dtype=dtype)
+
+
+def next_batch(x, y, step, batch_size):
+    ix = batch_size * step
+    iy = ix + batch_size
+    return x[ix:iy],y[ix:iy]
+
+
+def get_top10_vectors(vector,matrix):
+    unsorted = list(enumerate(((np.matmul(vector, matrix.T)/(np.linalg.norm(
+        vector)*np.sqrt(np.einsum('ij,ij->i',matrix, matrix)))))))
+
+    distances = sorted(unsorted,key=lambda dist:dist[1],reverse=True)
+
+    dist10 = distances[:10]
+    del unsorted
+    del distances
+    return dist10
