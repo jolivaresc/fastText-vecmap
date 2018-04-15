@@ -17,8 +17,8 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
         header = file.readline().strip().decode(encoding).split()
     else:
         header = file.readline().split()
-    count = int(header[0])# if is_zipped else 5000
-    dim = int(header[1])# if is_zipped else 300
+    count = int(header[0])  # if is_zipped else 5000
+    dim = int(header[1])  # if is_zipped else 300
     matrix = np.empty((count, dim), dtype=dtype) if vocabulary is None else []
     for i in range(count):
         if is_zipped:
@@ -27,7 +27,7 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
             try:
                 word, vec = file.readline().split(" ", 1)
             except ValueError as e:
-                print(e, file.readline().split(" ", 1),i)
+                print(e, file.readline().split(" ", 1), i)
         if vocabulary is None:
             words.append(word)
             matrix[i] = np.fromstring(vec, sep=" ", dtype=dtype)
@@ -61,6 +61,10 @@ def get_lexicon(source, path=None):
         src, trg = load_lexicon(path + "en-fi.test.txt")
     elif source.__eq__("en-fi.train"):
         src, trg = load_lexicon(path + "en-fi.train.txt")
+    elif source.__eq__("es-na.train"):
+        src, trg = load_lexicon(path + "es-na.train.txt")
+    elif source.__eq__("es-na.test"):
+        src, trg = load_lexicon(path + "es-na.test.true.txt")
     else:
         raise ValueError("{} no encontrado".format(source))
     return (src, trg)
@@ -75,35 +79,44 @@ def load_lexicon(source):
     return (src, trg)
 
 
-def open_file(source):
+def open_file(source,path=None):
+    path = "datasets/" if path is None else path
     if source.__eq__("en.norm.fst"):
-        return open("datasets/en.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
+        return open(path+"en.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("en.fst"):
-        return open("datasets/en.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
+        return open(path+"en.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("it.fst"):
-        return open("datasets/en-it/it.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
-    if source.__eq__("it.fst.norm"):
-        return open("datasets/en-it/it.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
+        return open(path+"en-it/it.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
+    if source.__eq__("it.norm.fst"):
+        return open(path+"en-it/it.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("it.fst"):
-        return open("datasets/en-it/it.200k.300d.fst","r", encoding="utf-8", errors="surrogateescape")
+        return open(path+"en-it/it.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("en-wiki"):
         #2519370 vectors
-        file = ZipFile("datasets/wiki/wiki.en.zip")\
+        file = ZipFile(path+"wiki/wiki.en.zip")\
             .open("wiki.en.vec")
     elif source.__eq__("en-wiki-news"):
-        file = ZipFile("datasets/wiki-news-300d-1M-subword.vec.zip")\
+        file = ZipFile(path+"wiki-news-300d-1M-subword.vec.zip")\
             .open("wiki-news-300d-1M-subword.vec")
     elif source.__eq__("en-crawl"):
-        file = ZipFile("datasets/crawl-300d-2M.vec.zip")\
+        file = ZipFile(path+"crawl-300d-2M.vec.zip")\
             .open("crawl-300d-2M.vec")
     elif source.__eq__("it"):
-        file = gzip.open("datasets/en-it/cc.it.300.vec.gz")
+        file = gzip.open(path+"en-it/cc.it.300.vec.gz")
     elif source.__eq__("de"):
-        file = gzip.open("datasets/en-de/cc.de.300.vec.gz")
+        file = gzip.open(path+"en-de/cc.de.300.vec.gz")
     elif source.__eq__("fi"):
-        file = gzip.open("datasets/en-fi/cc.fi.300.vec.gz")
+        file = gzip.open(path+"en-fi/cc.fi.300.vec.gz")
     elif source.__eq__("es"):
-        file = gzip.open("datasets/en-es/cc.es.300.vec.gz")
+        file = gzip.open(path+"en-es/cc.es.300.vec.gz")
+    elif source.__eq__("es.n2v"):
+        file = open("es.node2vec.embeddings")
+    elif source.__eq__("es.norm.n2v"):
+        file = open("es.node2vec.norm.embeddings")
+    elif source.__eq__("na.n2v"):
+        file = open("na.node2vec.embeddings")
+    elif source.__eq__("na.norm.n2v"):
+        file = open("na.node2vec.norm.embeddings")
     else:
         raise ValueError("{} no encontrado".format(source))
     return BufferedReader(file)
