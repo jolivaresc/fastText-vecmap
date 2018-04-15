@@ -7,10 +7,9 @@
 import tensorflow as tf
 import numpy as np
 import utils
-
+import time
 from collections import Counter
 
-import time
 
 start_time = time.time()
 
@@ -37,7 +36,8 @@ words_scr_lexicon, words_trg_lexicon = utils.get_lexicon("en-it.test")
 # In[3]:
 
 
-source_vec = utils.open_file('en.fst')
+source_vec = utils.open_file('en.norm.fst')
+print("source_vec: en.norm.fst")
 words_src, source_vec = utils.read(source_vec,is_zipped=False)
 eval_src = list(set(words_scr_lexicon))
 src_vec = utils.get_vectors(eval_src, words_src, source_vec)
@@ -47,7 +47,8 @@ src_vec = utils.get_vectors(eval_src, words_src, source_vec)
 # In[4]:
 
 
-target_vec = utils.open_file("it.fst")
+target_vec = utils.open_file("it.norm.fst")
+print("target_vec: it.norm.fst")
 words_trg, target_vec = utils.read(target_vec,is_zipped=False)
 #eval_it = list(set(it))
 #trg_vec = get_vectors(eval_it, words_it, it_vec)
@@ -65,7 +66,7 @@ test_vectors = src_vec
 
 tf.reset_default_graph()
 sess = tf.Session()
-path="models/en-it/2/"
+path="models/en-it/3/"
 saver = tf.train.import_meta_graph(path+"model2250.ckpt.meta")
 saver.restore(sess,tf.train.latest_checkpoint(path))
 
@@ -81,13 +82,13 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 # In[8]:
 
 
-#([n.name for n in graph.as_graph_def().node])
+#print([n.name for n in graph.as_graph_def().node])
 
 
 # In[16]:
 
 
-output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
+output_NN = graph.get_tensor_by_name("nah_predicted/Tanh:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted:0")
 #code = graph.get_tensor_by_name("xw_plus_b_2:0")
 #print(output_NN)
@@ -100,7 +101,6 @@ pred = sess.run(output_NN, feed_dict)
 # In[17]:
 
 
-#get_ipython().run_cell_magic('time', '', 'top_10 = [utils.get_top10_vectors(pred[_], target_vec) for _ in range(pred.shape[0])]')
 top_10 = [utils.get_top10_vectors(pred[_],target_vec) for _ in range(pred.shape[0])]
 
 # In[18]:
@@ -124,7 +124,6 @@ gold = utils.gold_dict(words_scr_lexicon, words_trg_lexicon)
 # In[21]:
 
 
-#get_ipython().run_cell_magic('time', '', 'p1, p5, p10 = 0, 0, 0\nlist_en_eval = list(resultados.keys())\nhits, not_found = [], []\n\nfor palabra_gold in list_en_eval:\n    for i in gold[palabra_gold]:\n        if i in resultados[palabra_gold]:\n            hits.append(resultados[palabra_gold].index(i))\n    if hits.__len__() > 0:\n        if min(hits) == 0:\n            p1 += 1\n            p5 += 1\n            p10 += 1\n        if min(hits) >= 1 and min(hits) <= 5:\n            p5 += 1\n            p10 += 1\n        if min(hits) > 5 and min(hits) < 10:\n            p10 += 1\n    else:\n        not_found.append(palabra_gold)\n    hits.clear()\n\nlength = list_en_eval.__len__()\nprint("not found:", not_found.__len__(), "-", not_found.__len__() / length, "%")\nprint("P@1:", p1, "\\tP@5:", p5, "\\tP@10:", p10)\nprint("P@1:", p1 / length, "\\tP@5:", p5 /length, "\\tP@10:", p10 / length)')
 p1, p5, p10 = 0, 0, 0
 list_en_eval = list(resultados.keys())
 hits, not_found = [], []
