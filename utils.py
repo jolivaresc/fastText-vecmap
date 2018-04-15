@@ -76,8 +76,14 @@ def load_lexicon(source):
 
 
 def open_file(source):
+    if source.__eq__("en.norm.fst"):
+        return open("datasets/en.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("en.fst"):
         return open("datasets/en.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
+    if source.__eq__("it.fst"):
+        return open("datasets/en-it/it.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
+    if source.__eq__("it.fst.norm"):
+        return open("datasets/en-it/it.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("it.fst"):
         return open("datasets/en-it/it.200k.300d.fst","r", encoding="utf-8", errors="surrogateescape")
     if source.__eq__("en-wiki"):
