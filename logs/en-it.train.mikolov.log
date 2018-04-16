@@ -1,6 +1,0 @@
-Reading the training data
-Reading: ../fastText-vecmap/datasets/en.200k.300d.norm.fst
-Reading: ../fastText-vecmap/datasets/en-it/it.200k.300d.norm.fst
-Learning the translation matrix
-Training using: 5000 word pairs
-Printing the translation matrix

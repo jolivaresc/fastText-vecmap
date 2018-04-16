@@ -34,7 +34,7 @@ Id: 2 Source: cooking
 		preparazione:0.533
 		gastronomia:0.531
 		ristorazione:0.524 
-	Gold: {'cottura', 'cucinare'} 
+	Gold: {'cucinare', 'cottura'} 
 	Rank: 2
 
 Id: 3 Source: music 
@@ -49,7 +49,7 @@ Id: 3 Source: music
 		lirica:0.528
 		rock:0.523
 		multimediale:0.522 
-	Gold: {'musica', 'musicali'} 
+	Gold: {'musicali', 'musica'} 
 	Rank: 1
 
 Id: 4 Source: estimate 
@@ -154,7 +154,7 @@ Id: 10 Source: spoken
 		dialetti:0.454
 		parlato:0.454
 		risuonata:0.448 
-	Gold: {'parlato', 'intervenuti'} 
+	Gold: {'intervenuti', 'parlato'} 
 	Rank: 9
 
 Id: 11 Source: traffic 
@@ -199,7 +199,7 @@ Id: 13 Source: past
 		avvenimenti:0.472
 		parecchi:0.472
 		passate:0.472 
-	Gold: {'ultimi', 'passato'} 
+	Gold: {'passato', 'ultimi'} 
 	Rank: 2
 
 Id: 14 Source: roots 
@@ -364,7 +364,7 @@ Id: 24 Source: problem
 		irrisolvibile:0.546
 		ovviare:0.543
 		risolto:0.541 
-	Gold: {'problema', 'problem'} 
+	Gold: {'problem', 'problema'} 
 	Rank: 1
 
 Id: 25 Source: magnetic 
@@ -379,7 +379,7 @@ Id: 25 Source: magnetic
 		magneto:0.517
 		magneticamente:0.495
 		gravitazionale:0.493 
-	Gold: {'magnetico', 'magnetici', 'magnetica'} 
+	Gold: {'magnetici', 'magnetica', 'magnetico'} 
 	Rank: 1
 
 Id: 26 Source: worth 
@@ -439,7 +439,7 @@ Id: 29 Source: have
 		aver:0.593
 		però:0.592
 		essere:0.589 
-	Gold: {'auguri', 'sono', 'hanno'} 
+	Gold: {'sono', 'auguri', 'hanno'} 
 	Rank: 4
 
 Id: 30 Source: profession 
@@ -514,7 +514,7 @@ Id: 34 Source: experimental
 		sperimentatori:0.478
 		avanguardistica:0.467
 		convenzionale:0.467 
-	Gold: {'sperimentale', 'sperimentali'} 
+	Gold: {'sperimentali', 'sperimentale'} 
 	Rank: 1
 
 Id: 35 Source: grand 
@@ -544,7 +544,7 @@ Id: 36 Source: appointed
 		eletto:0.583
 		consigliere:0.581
 		segretario:0.575 
-	Gold: {'nominati', 'nominato'} 
+	Gold: {'nominato', 'nominati'} 
 	Rank: 1
 
 Id: 37 Source: tuesday 
@@ -649,7 +649,7 @@ Id: 43 Source: parish
 		borgo:0.494
 		municipio:0.488
 		vescovato:0.470 
-	Gold: {'parrocchia', 'parrocchiale', 'parish', 'parrocchiali'} 
+	Gold: {'parrocchia', 'parrocchiali', 'parish', 'parrocchiale'} 
 	Rank: 1
 
 Id: 44 Source: magazine 
@@ -709,7 +709,7 @@ Id: 47 Source: enough
 		certamente:0.577
 		veramente:0.574
 		comunque:0.572 
-	Gold: {'sufficiente', 'abbastanza'} 
+	Gold: {'abbastanza', 'sufficiente'} 
 	Rank: 1
 
 Id: 48 Source: numbers 
@@ -724,7 +724,7 @@ Id: 48 Source: numbers
 		percentuale:0.442
 		permutazioni:0.439
 		numeriche:0.437 
-	Gold: {'numeri', 'numbers'} 
+	Gold: {'numbers', 'numeri'} 
 	Rank: 1
 
 Id: 49 Source: knowledge 
@@ -739,7 +739,7 @@ Id: 49 Source: knowledge
 		esperienza:0.564
 		padronanza:0.563
 		capacità:0.540 
-	Gold: {'conoscenze', 'conoscenza'} 
+	Gold: {'conoscenza', 'conoscenze'} 
 	Rank: 1
 
 Id: 50 Source: school 
@@ -784,7 +784,7 @@ Id: 52 Source: excellent
 		impareggiabile:0.575
 		notevole:0.573
 		formidabile:0.573 
-	Gold: {'ottima', 'eccellente', 'ottimo'} 
+	Gold: {'ottimo', 'eccellente', 'ottima'} 
 	Rank: 1
 
 Id: 53 Source: parallel 
@@ -829,7 +829,7 @@ Id: 55 Source: adopted
 		adotta:0.559
 		elaborato:0.557
 		adottando:0.556 
-	Gold: {'adottato', 'adottata'} 
+	Gold: {'adottata', 'adottato'} 
 	Rank: 1
 
 Id: 56 Source: fault 
@@ -859,7 +859,7 @@ Id: 57 Source: football
 		campionato:0.570
 		squadra:0.557
 		squadre:0.552 
-	Gold: {'football', 'calcio'} 
+	Gold: {'calcio', 'football'} 
 	Rank: 2
 
 Id: 58 Source: standards 
@@ -904,7 +904,7 @@ Id: 60 Source: gulf
 		oceano:0.470
 		nordafrica:0.467
 		mari:0.463 
-	Gold: {'abisso', 'golfo'} 
+	Gold: {'golfo', 'abisso'} 
 	Rank: 1
 
 Id: 61 Source: contract 
@@ -1009,7 +1009,7 @@ Id: 67 Source: concluded
 		esaminato:0.624
 		analizzato:0.623
 		emerso:0.609 
-	Gold: {'conclusi', 'concluso'} 
+	Gold: {'concluso', 'conclusi'} 
 	Rank: 1
 
 Id: 68 Source: articles 
@@ -1264,7 +1264,7 @@ Id: 84 Source: clay
 		granito:0.417
 		tufo:0.410
 		brown:0.409 
-	Gold: {'argillosi', 'argilla'} 
+	Gold: {'argilla', 'argillosi'} 
 	Rank: 1
 
 Id: 85 Source: racial 
@@ -1279,7 +1279,7 @@ Id: 85 Source: racial
 		uguaglianza:0.500
 		emarginazione:0.499
 		multirazziale:0.497 
-	Gold: {'razziale', 'razziali'} 
+	Gold: {'razziali', 'razziale'} 
 	Rank: 1
 
 Id: 86 Source: image 
@@ -1369,7 +1369,7 @@ Id: 91 Source: community
 		ecclesiale:0.446
 		condivisione:0.442
 		culturale:0.438 
-	Gold: {'comunità', 'comunitario', 'comunitarie', 'comunitaria'} 
+	Gold: {'comunitaria', 'comunità', 'comunitarie', 'comunitario'} 
 	Rank: 1
 
 Id: 92 Source: acceptance 
@@ -1459,7 +1459,7 @@ Id: 97 Source: bird
 		gabbiano:0.471
 		scoiattolo:0.470
 		uccellina:0.470 
-	Gold: {'aviaria', 'uccelli'} 
+	Gold: {'uccelli', 'aviaria'} 
 	Rank: 3
 
 Id: 98 Source: legislative 
@@ -1474,7 +1474,7 @@ Id: 98 Source: legislative
 		assemblea:0.542
 		legislatura:0.521
 		amministrative:0.520 
-	Gold: {'legislativa', 'legislativo', 'legislative'} 
+	Gold: {'legislativa', 'legislative', 'legislativo'} 
 	Rank: 4
 
 Id: 99 Source: clearly 
@@ -1549,7 +1549,7 @@ Id: 103 Source: green
 		arancio:0.534
 		green:0.523
 		rossa:0.520 
-	Gold: {'verdi', 'verde'} 
+	Gold: {'verde', 'verdi'} 
 	Rank: 2
 
 Id: 104 Source: choose 
@@ -1609,7 +1609,7 @@ Id: 107 Source: cold
 		gelida:0.489
 		clima:0.484
 		calda:0.473 
-	Gold: {'freddo', 'fredda'} 
+	Gold: {'fredda', 'freddo'} 
 	Rank: 1
 
 Id: 108 Source: space 
@@ -1639,7 +1639,7 @@ Id: 109 Source: developed
 		progettato:0.612
 		introdotto:0.599
 		elaborato:0.597 
-	Gold: {'sviluppato', 'sviluppati'} 
+	Gold: {'sviluppati', 'sviluppato'} 
 	Rank: 1
 
 Id: 110 Source: labour 
@@ -1654,7 +1654,7 @@ Id: 110 Source: labour
 		comunista:0.474
 		liberale:0.470
 		democratico:0.468 
-	Gold: {'laburisti', 'laburista'} 
+	Gold: {'laburista', 'laburisti'} 
 	Rank: 2
 
 Id: 111 Source: trees 
@@ -1744,7 +1744,7 @@ Id: 116 Source: photograph
 		fotografo:0.554
 		filmato:0.547
 		fotogramma:0.544 
-	Gold: {'foto', 'fotografia'} 
+	Gold: {'fotografia', 'foto'} 
 	Rank: 1
 
 Id: 117 Source: heading 
@@ -1849,7 +1849,7 @@ Id: 123 Source: represent
 		caratterizzare:0.594
 		comprendere:0.591
 		mostrare:0.591 
-	Gold: {'rappresentare', 'rappresentano'} 
+	Gold: {'rappresentano', 'rappresentare'} 
 	Rank: 1
 
 Id: 124 Source: titles 
@@ -1909,7 +1909,7 @@ Id: 127 Source: funding
 		investimenti:0.565
 		cofinanziamenti:0.560
 		cofinanziamento:0.558 
-	Gold: {'finanziamenti', 'finanziamento'} 
+	Gold: {'finanziamento', 'finanziamenti'} 
 	Rank: 1
 
 Id: 128 Source: secret 
@@ -1969,7 +1969,7 @@ Id: 131 Source: criminal
 		criminologica:0.570
 		delitti:0.569
 		criminalità:0.551 
-	Gold: {'penali', 'criminale', 'penale', 'criminali'} 
+	Gold: {'penale', 'criminale', 'criminali', 'penali'} 
 	Rank: 1
 
 Id: 132 Source: red 
@@ -1984,7 +1984,7 @@ Id: 132 Source: red
 		verde:0.574
 		bianca:0.555
 		nero:0.548 
-	Gold: {'rosso', 'rossa'} 
+	Gold: {'rossa', 'rosso'} 
 	Rank: 2
 
 Id: 133 Source: estimates 
@@ -2389,7 +2389,7 @@ Id: 159 Source: gold
 		medaglia:0.486
 		rame:0.475
 		diamante:0.464 
-	Gold: {'gold', 'oro'} 
+	Gold: {'oro', 'gold'} 
 	Rank: 1
 
 Id: 160 Source: writer 
@@ -2599,7 +2599,7 @@ Id: 173 Source: aim
 		sviluppare:0.532
 		finalizzato:0.531
 		mira:0.531 
-	Gold: {'aim', 'obiettivo', 'scopo'} 
+	Gold: {'aim', 'scopo', 'obiettivo'} 
 	Rank: 1
 
 Id: 174 Source: aid 
@@ -2614,7 +2614,7 @@ Id: 174 Source: aid
 		soccorso:0.490
 		facilitare:0.475
 		aiutarli:0.466 
-	Gold: {'aiuto', 'aiuti'} 
+	Gold: {'aiuti', 'aiuto'} 
 	Rank: 1
 
 Id: 175 Source: true 
@@ -2644,7 +2644,7 @@ Id: 176 Source: welcome
 		invitarvi:0.489
 		piacevole:0.484
 		augurio:0.481 
-	Gold: {'diamo', 'accogliamo', 'benvenuto'} 
+	Gold: {'accogliamo', 'benvenuto', 'diamo'} 
 	Rank: 1
 
 Id: 177 Source: forms 
@@ -2719,7 +2719,7 @@ Id: 181 Source: valuable
 		preziosissima:0.538
 		preziosissimo:0.537
 		preziosissimi:0.530 
-	Gold: {'prezioso', 'preziosa'} 
+	Gold: {'preziosa', 'prezioso'} 
 	Rank: 3
 
 Id: 182 Source: dream 
@@ -2749,7 +2749,7 @@ Id: 183 Source: ready
 		prontissimo:0.491
 		prepara:0.489
 		prepararsi:0.486 
-	Gold: {'pronta', 'pronti', 'pronto'} 
+	Gold: {'pronti', 'pronto', 'pronta'} 
 	Rank: 1
 
 Id: 184 Source: game 
@@ -2989,7 +2989,7 @@ Id: 199 Source: money
 		soldini:0.530
 		finanziare:0.525
 		contanti:0.524 
-	Gold: {'fondi', 'denaro', 'money'} 
+	Gold: {'denaro', 'money', 'fondi'} 
 	Rank: 2
 
 Id: 200 Source: applicable 
@@ -3004,7 +3004,7 @@ Id: 200 Source: applicable
 		specificate:0.482
 		normativa:0.481
 		specifica:0.469 
-	Gold: {'applicabili', 'applicabile'} 
+	Gold: {'applicabile', 'applicabili'} 
 	Rank: 1
 
 Id: 201 Source: majority 
@@ -3049,7 +3049,7 @@ Id: 203 Source: obvious
 		vero:0.543
 		banale:0.541
 		inutile:0.540 
-	Gold: {'ovvio', 'evidente'} 
+	Gold: {'evidente', 'ovvio'} 
 	Rank: 1
 
 Id: 204 Source: reserved 
@@ -3064,7 +3064,7 @@ Id: 204 Source: reserved
 		riservare:0.466
 		concessa:0.459
 		esclusiva:0.451 
-	Gold: {'riservata', 'riservati', 'riservato'} 
+	Gold: {'riservata', 'riservato', 'riservati'} 
 	Rank: 1
 
 Id: 205 Source: unlikely 
@@ -3184,7 +3184,7 @@ Id: 212 Source: college
 		colleges:0.491
 		universita:0.485
 		campus:0.483 
-	Gold: {'collegio', 'accademia'} 
+	Gold: {'accademia', 'collegio'} 
 	Rank: 12
 
 Id: 213 Source: pop 
@@ -3259,7 +3259,7 @@ Id: 217 Source: influenced
 		sostenuto:0.565
 		stimolato:0.563
 		ispirati:0.561 
-	Gold: {'influenzato', 'influenzata'} 
+	Gold: {'influenzata', 'influenzato'} 
 	Rank: 1
 
 Id: 218 Source: influences 
@@ -3304,7 +3304,7 @@ Id: 220 Source: political
 		culturale:0.546
 		politologico:0.525
 		politologica:0.521 
-	Gold: {'politici', 'politico', 'politiche', 'politica'} 
+	Gold: {'politica', 'politico', 'politici', 'politiche'} 
 	Rank: 1
 
 Id: 221 Source: graham 
@@ -3439,7 +3439,7 @@ Id: 229 Source: charity
 		filantropica:0.472
 		solidarietà:0.471
 		onlus:0.468 
-	Gold: {'beneficenza', 'carità'} 
+	Gold: {'carità', 'beneficenza'} 
 	Rank: 1
 
 Id: 230 Source: roads 
@@ -3484,7 +3484,7 @@ Id: 232 Source: powers
 		funzioni:0.440
 		superpoteri:0.433
 		potestà:0.432 
-	Gold: {'poteri', 'competenze'} 
+	Gold: {'competenze', 'poteri'} 
 	Rank: 1
 
 Id: 233 Source: phase 
@@ -3544,7 +3544,7 @@ Id: 236 Source: abstract
 		astrazioni:0.494
 		oggettuale:0.489
 		astrattismo:0.488 
-	Gold: {'astratto', 'astratta', 'astratte'} 
+	Gold: {'astratta', 'astratto', 'astratte'} 
 	Rank: 1
 
 Id: 237 Source: upper 
@@ -3574,7 +3574,7 @@ Id: 238 Source: typical
 		simile:0.530
 		tipo:0.528
 		differente:0.519 
-	Gold: {'tipica', 'tipico'} 
+	Gold: {'tipico', 'tipica'} 
 	Rank: 1
 
 Id: 239 Source: samuel 
@@ -3724,7 +3724,7 @@ Id: 248 Source: even
 		certamente:0.690
 		neanche:0.689
 		perlomeno:0.676 
-	Gold: {'anche', 'persino'} 
+	Gold: {'persino', 'anche'} 
 	Rank: 15
 
 Id: 249 Source: involve 
@@ -3754,7 +3754,7 @@ Id: 250 Source: correct
 		spiegare:0.522
 		esatto:0.516
 		giusto:0.516 
-	Gold: {'corretto', 'corretta'} 
+	Gold: {'corretta', 'corretto'} 
 	Rank: 1
 
 Id: 251 Source: ministry 
@@ -3844,7 +3844,7 @@ Id: 256 Source: published
 		pubblicazione:0.593
 		divulgato:0.588
 		libro:0.577 
-	Gold: {'pubblicata', 'pubblicato'} 
+	Gold: {'pubblicato', 'pubblicata'} 
 	Rank: 1
 
 Id: 257 Source: buses 
@@ -3904,7 +3904,7 @@ Id: 260 Source: flower
 		fiorita:0.495
 		albero:0.491
 		ortensia:0.486 
-	Gold: {'flower', 'fiore'} 
+	Gold: {'fiore', 'flower'} 
 	Rank: 2
 
 Id: 261 Source: learners 
@@ -4084,7 +4084,7 @@ Id: 272 Source: promoted
 		introdotto:0.471
 		riconfermato:0.468
 		avviato:0.466 
-	Gold: {'promosso', 'promossa'} 
+	Gold: {'promossa', 'promosso'} 
 	Rank: 1
 
 Id: 273 Source: host 
@@ -4264,7 +4264,7 @@ Id: 284 Source: says
 		sottolinea:0.643
 		considera:0.642
 		chiarisce:0.629 
-	Gold: {'dice', 'afferma'} 
+	Gold: {'afferma', 'dice'} 
 	Rank: 1
 
 Id: 285 Source: minimum 
@@ -4279,7 +4279,7 @@ Id: 285 Source: minimum
 		soglia:0.511
 		sufficiente:0.505
 		requisito:0.502 
-	Gold: {'minimo', 'minima', 'minimi', 'minime'} 
+	Gold: {'minimi', 'minima', 'minimo', 'minime'} 
 	Rank: 2
 
 Id: 286 Source: accommodation 
@@ -4309,7 +4309,7 @@ Id: 287 Source: walls
 		murature:0.523
 		fortificazioni:0.519
 		vetrate:0.515 
-	Gold: {'muri', 'walls'} 
+	Gold: {'walls', 'muri'} 
 	Rank: 1
 
 Id: 288 Source: shops 
@@ -4384,7 +4384,7 @@ Id: 292 Source: supporting
 		appoggia:0.511
 		sostiene:0.505
 		rafforzare:0.501 
-	Gold: {'sostenere', 'sostenendo'} 
+	Gold: {'sostenendo', 'sostenere'} 
 	Rank: 2
 
 Id: 293 Source: widely 
@@ -4549,7 +4549,7 @@ Id: 303 Source: rewarded
 		premiata:0.571
 		garantito:0.563
 		offerto:0.558 
-	Gold: {'premiati', 'ricompensati'} 
+	Gold: {'ricompensati', 'premiati'} 
 	Rank: 12
 
 Id: 304 Source: universally 
@@ -4639,7 +4639,7 @@ Id: 309 Source: brazilian
 		sudamericana:0.552
 		brasile:0.538
 		sudamericani:0.537 
-	Gold: {'brasiliane', 'brasiliana', 'brasiliano', 'brasiliani'} 
+	Gold: {'brasiliana', 'brasiliane', 'brasiliano', 'brasiliani'} 
 	Rank: 1
 
 Id: 310 Source: puppy 
@@ -4654,7 +4654,7 @@ Id: 310 Source: puppy
 		cucciolotti:0.551
 		cucciolone:0.549
 		cagnolini:0.534 
-	Gold: {'cagnolino', 'cucciolo'} 
+	Gold: {'cucciolo', 'cagnolino'} 
 	Rank: 1
 
 Id: 311 Source: maltese 
@@ -4684,7 +4684,7 @@ Id: 312 Source: awake
 		addormentarti:0.432
 		stare:0.428
 		risvegliarci:0.427 
-	Gold: {'sveglio', 'svegli'} 
+	Gold: {'svegli', 'sveglio'} 
 	Rank: 1
 
 Id: 313 Source: gases 
@@ -4894,7 +4894,7 @@ Id: 326 Source: seventeenth
 		sesta:0.532
 		quattordicesimo:0.530
 		settima:0.528 
-	Gold: {'diciassettesima', 'diciassettesimo'} 
+	Gold: {'diciassettesimo', 'diciassettesima'} 
 	Rank: 4
 
 Id: 327 Source: multilingual 
@@ -4909,7 +4909,7 @@ Id: 327 Source: multilingual
 		lingua:0.537
 		multilingui:0.530
 		linguistiche:0.518 
-	Gold: {'plurilingue', 'multilingue'} 
+	Gold: {'multilingue', 'plurilingue'} 
 	Rank: 1
 
 Id: 328 Source: costly 
@@ -4924,7 +4924,7 @@ Id: 328 Source: costly
 		onerose:0.569
 		dispendiosi:0.549
 		onerosi:0.547 
-	Gold: {'costose', 'costosi', 'costoso', 'costosa'} 
+	Gold: {'costose', 'costosa', 'costoso', 'costosi'} 
 	Rank: 1
 
 Id: 329 Source: arithmetic 
@@ -5059,7 +5059,7 @@ Id: 337 Source: palliative
 		internistica:0.547
 		terapeutica:0.544
 		ambulatoriale:0.543 
-	Gold: {'palliative', 'palliativo', 'palliativi'} 
+	Gold: {'palliativi', 'palliative', 'palliativo'} 
 	Rank: 167
 
 Id: 338 Source: motto 
@@ -5179,7 +5179,7 @@ Id: 345 Source: strait
 		coste:0.503
 		penisola:0.500
 		costiere:0.488 
-	Gold: {'bocche', 'striminzita', 'stretto'} 
+	Gold: {'stretto', 'striminzita', 'bocche'} 
 	Rank: 297
 
 Id: 346 Source: washing 
@@ -5194,7 +5194,7 @@ Id: 346 Source: washing
 		lavatura:0.480
 		detersione:0.480
 		pulire:0.479 
-	Gold: {'lavaggio', 'lavarsi', 'lavare'} 
+	Gold: {'lavare', 'lavarsi', 'lavaggio'} 
 	Rank: 2
 
 Id: 347 Source: micro 
@@ -5269,7 +5269,7 @@ Id: 351 Source: moored
 		molo:0.574
 		ormeggiare:0.570
 		imbarcazioni:0.563 
-	Gold: {'ormeggiate', 'ormeggiata'} 
+	Gold: {'ormeggiata', 'ormeggiate'} 
 	Rank: 3
 
 Id: 352 Source: wards 
@@ -5554,7 +5554,7 @@ Id: 370 Source: enlarged
 		ridimensionato:0.532
 		ingrandite:0.515
 		ridisegnato:0.508 
-	Gold: {'ampliata', 'allargata'} 
+	Gold: {'allargata', 'ampliata'} 
 	Rank: 2
 
 Id: 371 Source: sweep 
@@ -5854,7 +5854,7 @@ Id: 390 Source: physiological
 		biochimiche:0.590
 		fisiologici:0.587
 		morfofunzionali:0.585 
-	Gold: {'fisiologica', 'fisiologici', 'fisiologico', 'fisiologiche'} 
+	Gold: {'fisiologico', 'fisiologiche', 'fisiologici', 'fisiologica'} 
 	Rank: 1
 
 Id: 391 Source: cola 
@@ -5929,7 +5929,7 @@ Id: 395 Source: bucket
 		boccione:0.482
 		contenitore:0.463
 		bicchierino:0.451 
-	Gold: {'bidone', 'secchio'} 
+	Gold: {'secchio', 'bidone'} 
 	Rank: 1
 
 Id: 396 Source: bombed 
@@ -6019,7 +6019,7 @@ Id: 401 Source: bee
 		pennuto:0.358
 		bestiola:0.357
 		farfalla:0.357 
-	Gold: {'api', 'bee'} 
+	Gold: {'bee', 'api'} 
 	Rank: 42
 
 Id: 402 Source: unchanged 
@@ -6049,7 +6049,7 @@ Id: 403 Source: affair
 		tormentata:0.471
 		adulterina:0.463
 		turbolenta:0.462 
-	Gold: {'vicenda', 'commentarle'} 
+	Gold: {'commentarle', 'vicenda'} 
 	Rank: 5
 
 Id: 404 Source: baptist 
@@ -6064,7 +6064,7 @@ Id: 404 Source: baptist
 		cattolica:0.504
 		presbiteriano:0.498
 		catecumeno:0.496 
-	Gold: {'battisti', 'battista'} 
+	Gold: {'battista', 'battisti'} 
 	Rank: 1
 
 Id: 405 Source: dickens 
@@ -6184,7 +6184,7 @@ Id: 412 Source: deceased
 		defunta:0.474
 		deceduto:0.471
 		cadavere:0.467 
-	Gold: {'defunto', 'deceduto', 'deceduti'} 
+	Gold: {'deceduti', 'deceduto', 'defunto'} 
 	Rank: 1
 
 Id: 413 Source: bookshop 
@@ -6454,7 +6454,7 @@ Id: 430 Source: heal
 		guarirlo:0.522
 		guarisce:0.505
 		riparare:0.504 
-	Gold: {'guarire', 'sanare', 'rimarginare'} 
+	Gold: {'sanare', 'rimarginare', 'guarire'} 
 	Rank: 1
 
 Id: 431 Source: reconsider 
@@ -6544,7 +6544,7 @@ Id: 436 Source: pitfalls
 		situazioni:0.513
 		elusioni:0.507
 		scappatoie:0.507 
-	Gold: {'insidie', 'trappole'} 
+	Gold: {'trappole', 'insidie'} 
 	Rank: 14
 
 Id: 437 Source: filmed 
@@ -6634,7 +6634,7 @@ Id: 442 Source: appreciated
 		apprezzamento:0.520
 		apprezzati:0.513
 		apprezzate:0.511 
-	Gold: {'apprezzato', 'apprezzata'} 
+	Gold: {'apprezzata', 'apprezzato'} 
 	Rank: 1
 
 Id: 443 Source: pressures 
@@ -6754,7 +6754,7 @@ Id: 450 Source: investigators
 		esperti:0.545
 		testimoni:0.543
 		scienziati:0.542 
-	Gold: {'inquirenti', 'investigatori'} 
+	Gold: {'investigatori', 'inquirenti'} 
 	Rank: 1
 
 Id: 451 Source: colorado 
@@ -7039,7 +7039,7 @@ Id: 469 Source: generalised
 		generalizzato:0.476
 		lineare:0.475
 		logica:0.467 
-	Gold: {'generalizzato', 'generalizzate', 'generalizzata'} 
+	Gold: {'generalizzata', 'generalizzato', 'generalizzate'} 
 	Rank: 1
 
 Id: 470 Source: khan 
@@ -7054,7 +7054,7 @@ Id: 470 Source: khan
 		pakistano:0.456
 		califfo:0.453
 		shah:0.453 
-	Gold: {'khan', 'kahn'} 
+	Gold: {'kahn', 'khan'} 
 	Rank: 2
 
 Id: 471 Source: sneak 
@@ -7099,7 +7099,7 @@ Id: 473 Source: unreasonable
 		inammissibile:0.523
 		assurdo:0.523
 		irragionevolmente:0.519 
-	Gold: {'irragionevole', 'irragionevoli'} 
+	Gold: {'irragionevoli', 'irragionevole'} 
 	Rank: 1
 
 Id: 474 Source: randy 
@@ -7174,7 +7174,7 @@ Id: 478 Source: mythical
 		mitologia:0.471
 		leggendarie:0.471
 		mitologie:0.460 
-	Gold: {'fantomatiche', 'mitico', 'leggendario', 'mitica'} 
+	Gold: {'mitico', 'fantomatiche', 'mitica', 'leggendario'} 
 	Rank: 39
 
 Id: 479 Source: beijing 
@@ -7384,7 +7384,7 @@ Id: 492 Source: crowded
 		affolla:0.457
 		congestionate:0.453
 		caotiche:0.452 
-	Gold: {'affollata', 'affollato'} 
+	Gold: {'affollato', 'affollata'} 
 	Rank: 2
 
 Id: 493 Source: cyclone 
@@ -7489,7 +7489,7 @@ Id: 499 Source: seriousness
 		pericolosità:0.543
 		decisività:0.540
 		gravità:0.537 
-	Gold: {'gravità', 'serietà'} 
+	Gold: {'serietà', 'gravità'} 
 	Rank: 10
 
 Id: 500 Source: vibration 
@@ -7669,7 +7669,7 @@ Id: 511 Source: competent
 		dimostrarsi:0.498
 		efficace:0.494
 		abile:0.492 
-	Gold: {'competenti', 'competente'} 
+	Gold: {'competente', 'competenti'} 
 	Rank: 1
 
 Id: 512 Source: awakening 
@@ -7744,7 +7744,7 @@ Id: 516 Source: patrol
 		perlustrazione:0.505
 		polizia:0.503
 		pattugliano:0.495 
-	Gold: {'pattugliamento', 'pattugliare'} 
+	Gold: {'pattugliare', 'pattugliamento'} 
 	Rank: 1
 
 Id: 517 Source: traders 
@@ -7954,7 +7954,7 @@ Id: 530 Source: textual
 		testo:0.526
 		concettuale:0.515
 		documentazione:0.515 
-	Gold: {'testuale', 'testuali'} 
+	Gold: {'testuali', 'testuale'} 
 	Rank: 1
 
 Id: 531 Source: boyfriend 
@@ -8029,7 +8029,7 @@ Id: 535 Source: oyster
 		pescheria:0.447
 		oyster:0.446
 		tonno:0.442 
-	Gold: {'mollusco', 'ostrica', 'ostriche'} 
+	Gold: {'ostrica', 'ostriche', 'mollusco'} 
 	Rank: 2
 
 Id: 536 Source: pda 
@@ -8074,7 +8074,7 @@ Id: 538 Source: mint
 		cioccolata:0.392
 		caramella:0.387
 		confetteria:0.386 
-	Gold: {'mint', 'menta'} 
+	Gold: {'menta', 'mint'} 
 	Rank: 12
 
 Id: 539 Source: homosexual 
@@ -8089,7 +8089,7 @@ Id: 539 Source: homosexual
 		sessuali:0.612
 		sesso:0.608
 		eterosessuali:0.592 
-	Gold: {'omosessuale', 'omosessuali'} 
+	Gold: {'omosessuali', 'omosessuale'} 
 	Rank: 1
 
 Id: 540 Source: neighbour 
@@ -8224,7 +8224,7 @@ Id: 548 Source: convictions
 		crimini:0.520
 		sentenze:0.518
 		assoluzioni:0.518 
-	Gold: {'convinzioni', 'condanne'} 
+	Gold: {'condanne', 'convinzioni'} 
 	Rank: 1
 
 Id: 549 Source: soap 
@@ -8314,7 +8314,7 @@ Id: 554 Source: elementary
 		insegnati:0.455
 		scolastici:0.434
 		insegnante:0.434 
-	Gold: {'elementare', 'elementari'} 
+	Gold: {'elementari', 'elementare'} 
 	Rank: 1
 
 Id: 555 Source: signalling 
@@ -8374,7 +8374,7 @@ Id: 558 Source: multilateral
 		intergovernative:0.577
 		partenariato:0.576
 		bilaterali:0.570 
-	Gold: {'multilaterali', 'multilaterale'} 
+	Gold: {'multilaterale', 'multilaterali'} 
 	Rank: 1
 
 Id: 559 Source: contradictions 
@@ -8449,7 +8449,7 @@ Id: 563 Source: orphan
 		bambina:0.373
 		orfanotrofio:0.371
 		adottiva:0.366 
-	Gold: {'orfani', 'orfane'} 
+	Gold: {'orfane', 'orfani'} 
 	Rank: 2
 
 Id: 564 Source: victories 
@@ -8599,7 +8599,7 @@ Id: 573 Source: aptitude
 		capacità:0.498
 		bravura:0.498
 		competenza:0.497 
-	Gold: {'attitudine', 'attitudinali', 'attitudinale'} 
+	Gold: {'attitudine', 'attitudinale', 'attitudinali'} 
 	Rank: 2
 
 Id: 574 Source: shark 
@@ -8704,7 +8704,7 @@ Id: 580 Source: accidental
 		fatale:0.498
 		accidentali:0.495
 		errore:0.492 
-	Gold: {'accidentale', 'accidentali'} 
+	Gold: {'accidentali', 'accidentale'} 
 	Rank: 1
 
 Id: 581 Source: lime 
@@ -8779,7 +8779,7 @@ Id: 585 Source: ecological
 		agroecosistemi:0.574
 		sostenibilità:0.561
 		ecologiche:0.556 
-	Gold: {'ecologica', 'ecologico', 'ecologici'} 
+	Gold: {'ecologico', 'ecologica', 'ecologici'} 
 	Rank: 23
 
 Id: 586 Source: ramps 
@@ -8854,7 +8854,7 @@ Id: 590 Source: trio
 		solisti:0.450
 		musicisti:0.445
 		sestetto:0.443 
-	Gold: {'triade', 'trio'} 
+	Gold: {'trio', 'triade'} 
 	Rank: 2
 
 Id: 591 Source: trump 
@@ -8989,7 +8989,7 @@ Id: 599 Source: idyllic
 		bucolico:0.539
 		romantica:0.522
 		idilliache:0.514 
-	Gold: {'idilliaca', 'idilliaco'} 
+	Gold: {'idilliaco', 'idilliaca'} 
 	Rank: 1
 
 Id: 600 Source: dependency 
@@ -9274,7 +9274,7 @@ Id: 618 Source: recoverable
 		ammontare:0.435
 		quantificati:0.430
 		recuperabilità:0.430 
-	Gold: {'recuperabile', 'recuperabili'} 
+	Gold: {'recuperabili', 'recuperabile'} 
 	Rank: 1
 
 Id: 619 Source: spas 
@@ -9439,7 +9439,7 @@ Id: 629 Source: unfounded
 		infondata:0.539
 		inattendibili:0.539
 		falsità:0.534 
-	Gold: {'infondata', 'infondati', 'infondate'} 
+	Gold: {'infondati', 'infondata', 'infondate'} 
 	Rank: 3
 
 Id: 630 Source: paradoxical 
@@ -9529,7 +9529,7 @@ Id: 635 Source: compatriot
 		disputato:0.389
 		fuoriclasse:0.387
 		iridato:0.385 
-	Gold: {'connazionale', 'compatriota'} 
+	Gold: {'compatriota', 'connazionale'} 
 	Rank: 1
 
 Id: 636 Source: conscripts 
@@ -10069,7 +10069,7 @@ Id: 671 Source: intestine
 		mucosa:0.486
 		mucoso:0.482
 		esofago:0.475 
-	Gold: {'intestinale', 'intestino'} 
+	Gold: {'intestino', 'intestinale'} 
 	Rank: 1
 
 Id: 672 Source: blaise 
@@ -10129,7 +10129,7 @@ Id: 675 Source: dispel
 		provocare:0.555
 		impedire:0.550
 		indurre:0.547 
-	Gold: {'sfatare', 'dissipare'} 
+	Gold: {'dissipare', 'sfatare'} 
 	Rank: 21
 
 Id: 676 Source: bulimia 
@@ -10174,7 +10174,7 @@ Id: 678 Source: scourge
 		infame:0.415
 		debellare:0.414
 		sanguinaria:0.412 
-	Gold: {'flagello', 'piaga'} 
+	Gold: {'piaga', 'flagello'} 
 	Rank: 1
 
 Id: 679 Source: malagasy 
@@ -10189,7 +10189,7 @@ Id: 679 Source: malagasy
 		bantù:0.454
 		africana:0.453
 		congolese:0.449 
-	Gold: {'malgasci', 'malgascia', 'malgascio'} 
+	Gold: {'malgascio', 'malgascia', 'malgasci'} 
 	Rank: 1
 
 Id: 680 Source: copd 
@@ -10219,7 +10219,7 @@ Id: 681 Source: federalist
 		riformista:0.546
 		socialista:0.539
 		repubblicane:0.535 
-	Gold: {'federalista', 'federalisti'} 
+	Gold: {'federalisti', 'federalista'} 
 	Rank: 2
 
 Id: 682 Source: spades 
@@ -10324,7 +10324,7 @@ Id: 688 Source: cellars
 		stanze:0.462
 		terrazze:0.459
 		enoteche:0.448 
-	Gold: {'caveau', 'cantine'} 
+	Gold: {'cantine', 'caveau'} 
 	Rank: 1
 
 Id: 689 Source: muted 
@@ -10339,7 +10339,7 @@ Id: 689 Source: muted
 		insolitamente:0.478
 		smorzata:0.469
 		enfatizzato:0.460 
-	Gold: {'tenue', 'tenui'} 
+	Gold: {'tenui', 'tenue'} 
 	Rank: 30
 
 Id: 690 Source: pasteur 
@@ -10399,7 +10399,7 @@ Id: 693 Source: morbid
 		atroce:0.425
 		morbosità:0.424
 		raccapricciante:0.423 
-	Gold: {'morboso', 'morbosa'} 
+	Gold: {'morbosa', 'morboso'} 
 	Rank: 1
 
 Id: 694 Source: classifying 
@@ -10669,7 +10669,7 @@ Id: 711 Source: riyadh
 		iraqeni:0.462
 		emirato:0.462
 		iran:0.460 
-	Gold: {'riyadh', 'riad', 'ryad'} 
+	Gold: {'riad', 'riyadh', 'ryad'} 
 	Rank: 304
 
 Id: 712 Source: jails 
@@ -10714,7 +10714,7 @@ Id: 714 Source: bloodthirsty
 		vendicativi:0.466
 		efferata:0.463
 		malvagi:0.460 
-	Gold: {'sanguinario', 'sanguinari', 'sanguinaria'} 
+	Gold: {'sanguinaria', 'sanguinario', 'sanguinari'} 
 	Rank: 2
 
 Id: 715 Source: capitalists 
@@ -10759,7 +10759,7 @@ Id: 717 Source: cesar
 		joel:0.483
 		pedro:0.482
 		diaz:0.482 
-	Gold: {'cesar', 'cesr'} 
+	Gold: {'cesr', 'cesar'} 
 	Rank: 855
 
 Id: 718 Source: encephalopathy 
@@ -11299,7 +11299,7 @@ Id: 753 Source: bogotá
 		brasile:0.449
 		barcellona:0.448
 		roma:0.446 
-	Gold: {'bogotà', 'bogotá'} 
+	Gold: {'bogotá', 'bogotà'} 
 	Rank: 11
 
 Id: 754 Source: peaches 
@@ -11374,7 +11374,7 @@ Id: 758 Source: deductive
 		meccanicistica:0.515
 		induttiva:0.513
 		ragionamento:0.507 
-	Gold: {'deduttivo', 'aprioristici'} 
+	Gold: {'aprioristici', 'deduttivo'} 
 	Rank: 4
 
 Id: 759 Source: cryptic 
@@ -11704,7 +11704,7 @@ Id: 780 Source: migratory
 		avifauna:0.520
 		anatidi:0.511
 		nidificazioni:0.508 
-	Gold: {'migratorie', 'migratori'} 
+	Gold: {'migratori', 'migratorie'} 
 	Rank: 2
 
 Id: 781 Source: sorbonne 
@@ -11794,7 +11794,7 @@ Id: 786 Source: idealised
 		immaginato:0.472
 		ispirata:0.469
 		dissimile:0.469 
-	Gold: {'idealizzata', 'idealizzato'} 
+	Gold: {'idealizzato', 'idealizzata'} 
 	Rank: 1
 
 Id: 787 Source: hazy 
@@ -11824,7 +11824,7 @@ Id: 788 Source: caricatures
 		irriverenti:0.523
 		irridenti:0.515
 		vignettisti:0.512 
-	Gold: {'caricature', 'vignette'} 
+	Gold: {'vignette', 'caricature'} 
 	Rank: 1
 
 Id: 789 Source: palermo 
@@ -12109,7 +12109,7 @@ Id: 807 Source: inadequacy
 		frustrazione:0.550
 		inaccettabilità:0.545
 		insicurezza:0.541 
-	Gold: {'insufficienza', 'inadeguatezza'} 
+	Gold: {'inadeguatezza', 'insufficienza'} 
 	Rank: 1
 
 Id: 808 Source: reintroduction 
@@ -12184,7 +12184,7 @@ Id: 812 Source: conspiracies
 		menzogne:0.534
 		speculazioni:0.515
 		misteri:0.512 
-	Gold: {'congiure', 'cospirazioni'} 
+	Gold: {'cospirazioni', 'congiure'} 
 	Rank: 2
 
 Id: 813 Source: piloting 
@@ -12544,7 +12544,7 @@ Id: 836 Source: interprofessional
 		interaziendale:0.479
 		multidisciplinare:0.470
 		manageriale:0.470 
-	Gold: {'interprofessionale', 'interprofessionali'} 
+	Gold: {'interprofessionali', 'interprofessionale'} 
 	Rank: 3
 
 Id: 837 Source: destinies 
@@ -12664,7 +12664,7 @@ Id: 844 Source: precarious
 		fragile:0.496
 		difficoltà:0.491
 		disagevole:0.479 
-	Gold: {'precari', 'precarie', 'precaria', 'precario'} 
+	Gold: {'precario', 'precari', 'precarie', 'precaria'} 
 	Rank: 1
 
 Id: 845 Source: gideon 
@@ -12709,7 +12709,7 @@ Id: 847 Source: pushchairs
 		fasciatoi:0.427
 		vasini:0.416
 		passeggino:0.414 
-	Gold: {'passeggino', 'passeggini'} 
+	Gold: {'passeggini', 'passeggino'} 
 	Rank: 2
 
 Id: 848 Source: tranche 
@@ -12889,7 +12889,7 @@ Id: 859 Source: sordid
 		ignobile:0.451
 		torbida:0.449
 		triste:0.441 
-	Gold: {'sordido', 'sordida'} 
+	Gold: {'sordida', 'sordido'} 
 	Rank: 3
 
 Id: 860 Source: liszt 
@@ -12919,7 +12919,7 @@ Id: 861 Source: ardent
 		fautore:0.478
 		infaticabile:0.475
 		entusiasta:0.462 
-	Gold: {'ardenti', 'ardente'} 
+	Gold: {'ardente', 'ardenti'} 
 	Rank: 60
 
 Id: 862 Source: playa 
@@ -13384,7 +13384,7 @@ Id: 892 Source: inadvertent
 		svista:0.500
 		involontariamente:0.495
 		evitabile:0.494 
-	Gold: {'involontaria', 'involontario'} 
+	Gold: {'involontario', 'involontaria'} 
 	Rank: 4
 
 Id: 893 Source: idealism 
@@ -13744,7 +13744,7 @@ Id: 916 Source: reread
 		rileggerli:0.538
 		rileggerla:0.531
 		rilegga:0.531 
-	Gold: {'rileggere', 'riletto'} 
+	Gold: {'riletto', 'rileggere'} 
 	Rank: 1
 
 Id: 917 Source: engulfs 
@@ -13954,7 +13954,7 @@ Id: 930 Source: togolese
 		nigeriani:0.465
 		rwandesi:0.455
 		ruandesi:0.454 
-	Gold: {'togolesi', 'togolese'} 
+	Gold: {'togolese', 'togolesi'} 
 	Rank: 3
 
 Id: 931 Source: desalination 
@@ -13969,7 +13969,7 @@ Id: 931 Source: desalination
 		idriche:0.523
 		dissalatore:0.520
 		acqua:0.511 
-	Gold: {'desalinizzazione', 'dissalazione'} 
+	Gold: {'dissalazione', 'desalinizzazione'} 
 	Rank: 1
 
 Id: 932 Source: denigrating 
@@ -14254,7 +14254,7 @@ Id: 950 Source: landfilled
 		inquinati:0.529
 		cementifici:0.527
 		inquinanti:0.525 
-	Gold: {'interrato', 'interrate'} 
+	Gold: {'interrate', 'interrato'} 
 	Rank: 274
 
 Id: 951 Source: semolina 
@@ -14779,7 +14779,7 @@ Id: 985 Source: pontificate
 		papato:0.443
 		papale:0.441
 		celebrazione:0.438 
-	Gold: {'pontificare', 'pontificato'} 
+	Gold: {'pontificato', 'pontificare'} 
 	Rank: 1
 
 Id: 986 Source: cassis 
@@ -15304,7 +15304,7 @@ Id: 1020 Source: incubators
 		ricercatori:0.460
 		bambini:0.459
 		tecnologi:0.455 
-	Gold: {'incubatori', 'incubatrici'} 
+	Gold: {'incubatrici', 'incubatori'} 
 	Rank: 1
 
 Id: 1021 Source: osha 
@@ -15664,7 +15664,7 @@ Id: 1044 Source: euphoric
 		inebriante:0.464
 		elettrizzante:0.452
 		delirante:0.450 
-	Gold: {'euforico', 'euforica'} 
+	Gold: {'euforica', 'euforico'} 
 	Rank: 1
 
 Id: 1045 Source: docomo 
@@ -15844,7 +15844,7 @@ Id: 1056 Source: redeployed
 		trasferiti:0.462
 		riorganizzati:0.462
 		smobilitati:0.456 
-	Gold: {'riassegnati', 'ridistribuiti'} 
+	Gold: {'ridistribuiti', 'riassegnati'} 
 	Rank: 40
 
 Id: 1057 Source: appallingly 
@@ -16114,7 +16114,7 @@ Id: 1074 Source: rekindling
 		riconciliarsi:0.469
 		suggellare:0.467
 		riavvicinare:0.466 
-	Gold: {'riaccende', 'riaccendersi', 'risuscitare'} 
+	Gold: {'riaccendersi', 'riaccende', 'risuscitare'} 
 	Rank: 20
 
 Id: 1075 Source: duopoly 
@@ -16444,7 +16444,7 @@ Id: 1096 Source: lynched
 		ammazzato:0.560
 		arrestati:0.559
 		fuggito:0.550 
-	Gold: {'linciati', 'linciato'} 
+	Gold: {'linciato', 'linciati'} 
 	Rank: 3
 
 Id: 1097 Source: ceausescu 
@@ -16504,7 +16504,7 @@ Id: 1100 Source: slanderous
 		calunnioso:0.539
 		calunniosi:0.536
 		diffamata:0.532 
-	Gold: {'calunniose', 'diffamatorio'} 
+	Gold: {'diffamatorio', 'calunniose'} 
 	Rank: 2
 
 Id: 1101 Source: guilders 
@@ -17014,7 +17014,7 @@ Id: 1134 Source: blackmailed
 		ricattando:0.496
 		ricatta:0.494
 		sospettato:0.489 
-	Gold: {'ricattato', 'ricattare'} 
+	Gold: {'ricattare', 'ricattato'} 
 	Rank: 1
 
 Id: 1135 Source: butchering 
@@ -17134,7 +17134,7 @@ Id: 1142 Source: tempestuous
 		turbolenta:0.524
 		tempestosi:0.519
 		burrascosi:0.506 
-	Gold: {'tempestoso', 'burrascose'} 
+	Gold: {'burrascose', 'tempestoso'} 
 	Rank: 3
 
 Id: 1143 Source: abhor 
@@ -17284,7 +17284,7 @@ Id: 1152 Source: digressions
 		narrazioni:0.548
 		trattazioni:0.544
 		esplicazioni:0.539 
-	Gold: {'digressioni', 'divagazioni', 'disquisizioni'} 
+	Gold: {'divagazioni', 'digressioni', 'disquisizioni'} 
 	Rank: 1
 
 Id: 1153 Source: invalidates 
@@ -17959,7 +17959,7 @@ Id: 1197 Source: commercialism
 		innovazione:0.486
 		ideologia:0.482
 		mercificazione:0.480 
-	Gold: {'affarismo', 'mercantilismo'} 
+	Gold: {'mercantilismo', 'affarismo'} 
 	Rank: 36
 
 Id: 1198 Source: spe 
@@ -18124,7 +18124,7 @@ Id: 1208 Source: koranic
 		musulmana:0.467
 		moschee:0.466
 		cristiani:0.454 
-	Gold: {'coraniche', 'coranica'} 
+	Gold: {'coranica', 'coraniche'} 
 	Rank: 1
 
 Id: 1209 Source: guterres 
@@ -19144,7 +19144,7 @@ Id: 1276 Source: unblocked
 		annullati:0.424
 		sbloccato:0.420
 		annullato:0.409 
-	Gold: {'sbloccata', 'sbloccate'} 
+	Gold: {'sbloccate', 'sbloccata'} 
 	Rank: 60
 
 Id: 1277 Source: marginalize 
@@ -19609,7 +19609,7 @@ Id: 1307 Source: egoistic
 		individualismo:0.506
 		vitalistico:0.505
 		idealistico:0.497 
-	Gold: {'egoistiche', 'egoisticamente'} 
+	Gold: {'egoisticamente', 'egoistiche'} 
 	Rank: 33
 
 Id: 1308 Source: pariahs 
@@ -19669,7 +19669,7 @@ Id: 1311 Source: constitutionalist
 		federalista:0.572
 		socialcomunista:0.568
 		costituzionalista:0.566 
-	Gold: {'costituzionalista', 'costituzionalisti'} 
+	Gold: {'costituzionalisti', 'costituzionalista'} 
 	Rank: 10
 
 Id: 1312 Source: scheveningen 
@@ -19789,7 +19789,7 @@ Id: 1319 Source: computerization
 		elaborazione:0.532
 		automazione:0.525
 		monitorizzazione:0.525 
-	Gold: {'informatizzazione', 'computerizzazione'} 
+	Gold: {'computerizzazione', 'informatizzazione'} 
 	Rank: 1
 
 Id: 1320 Source: plebiscites 
@@ -19834,7 +19834,7 @@ Id: 1322 Source: capitulating
 		ratificazione:0.433
 		concludere:0.430
 		pacificazione:0.428 
-	Gold: {'arrende', 'capitola'} 
+	Gold: {'capitola', 'arrende'} 
 	Rank: 918
 
 Id: 1323 Source: inés 
@@ -20479,7 +20479,7 @@ Id: 1365 Source: kafkaesque
 		inquietante:0.469
 		grottesca:0.460
 		esistenziale:0.459 
-	Gold: {'kafkiano', 'kafkiana'} 
+	Gold: {'kafkiana', 'kafkiano'} 
 	Rank: 1
 
 Id: 1366 Source: recoils 
@@ -20704,7 +20704,7 @@ Id: 1380 Source: interethnic
 		etnica:0.525
 		etnicità:0.523
 		interetnico:0.521 
-	Gold: {'interetniche', 'interetnici', 'interetnica'} 
+	Gold: {'interetnica', 'interetniche', 'interetnici'} 
 	Rank: 3
 
 Id: 1381 Source: adige 
@@ -21004,7 +21004,7 @@ Id: 1400 Source: decontaminate
 		contaminare:0.476
 		disinfettare:0.475
 		radioattivi:0.475 
-	Gold: {'decontaminazione', 'purificare', 'decontaminare'} 
+	Gold: {'purificare', 'decontaminazione', 'decontaminare'} 
 	Rank: 1
 
 Id: 1401 Source: bini 
@@ -21469,7 +21469,7 @@ Id: 1431 Source: jihadist
 		estremisti:0.591
 		islamiste:0.583
 		terrorista:0.564 
-	Gold: {'jihadisti', 'jihad', 'jihadista'} 
+	Gold: {'jihadisti', 'jihadista', 'jihad'} 
 	Rank: 4
 
 Id: 1432 Source: abysmally 
@@ -21499,7 +21499,7 @@ Id: 1433 Source: insidiously
 		subdolo:0.478
 		fastidiosamente:0.476
 		sottilmente:0.469 
-	Gold: {'insidiosamente', 'subdolamente'} 
+	Gold: {'subdolamente', 'insidiosamente'} 
 	Rank: 1
 
 Id: 1434 Source: repopulate 
@@ -21634,7 +21634,7 @@ Id: 1442 Source: extraterritorial
 		territoriale:0.468
 		doganale:0.462
 		territorio:0.462 
-	Gold: {'extraterritoriale', 'extraterritoriali'} 
+	Gold: {'extraterritoriali', 'extraterritoriale'} 
 	Rank: 3
 
 Id: 1443 Source: andreotti 
@@ -21724,7 +21724,7 @@ Id: 1448 Source: polycentric
 		geoeconomica:0.474
 		federalistico:0.474
 		organicistica:0.468 
-	Gold: {'policentrica', 'policentrico'} 
+	Gold: {'policentrico', 'policentrica'} 
 	Rank: 1
 
 Id: 1449 Source: pln 
@@ -21979,7 +21979,7 @@ Id: 1465 Source: finicky
 		abbastanza:0.463
 		incredibilmente:0.462
 		eccessivamente:0.462 
-	Gold: {'pignola', 'meticolosi'} 
+	Gold: {'meticolosi', 'pignola'} 
 	Rank: 242
 
 Id: 1466 Source: displease 

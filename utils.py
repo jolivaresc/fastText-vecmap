@@ -110,13 +110,13 @@ def open_file(source,path=None):
     elif source.__eq__("es"):
         file = gzip.open(path+"en-es/cc.es.300.vec.gz")
     elif source.__eq__("es.n2v"):
-        file = open("es.node2vec.embeddings")
+        return open(path+"es-na/es.node2vec.embeddings")
     elif source.__eq__("es.norm.n2v"):
-        file = open("es.node2vec.norm.embeddings")
+        return open(path+"es-na/es.node2vec.norm.embeddings")
     elif source.__eq__("na.n2v"):
-        file = open("na.node2vec.embeddings")
+        return open(path+"es-na/na.node2vec.embeddings")
     elif source.__eq__("na.norm.n2v"):
-        file = open("na.node2vec.norm.embeddings")
+        return open(path+"es-na/na.node2vec.norm.embeddings")
     else:
         raise ValueError("{} no encontrado".format(source))
     return BufferedReader(file)

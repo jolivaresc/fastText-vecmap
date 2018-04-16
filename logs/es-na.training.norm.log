@@ -1,0 +1,6 @@
+Reading the training data
+Reading: ../fastText-vecmap/datasets/es-na/es.node2vec.norm.embeddings
+Reading: ../fastText-vecmap/datasets/es-na/na.node2vec.norm.embeddings
+Learning the translation matrix
+Training using: 496 word pairs
+Printing the translation matrix
