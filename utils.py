@@ -8,7 +8,7 @@ from zipfile import ZipFile
 
 import numpy as np
 
-import gz
+import gzip
 
 __author__ = "Olivares Castillo José Luis"
 
@@ -232,13 +232,13 @@ def open_file(source, path=None):
         file = ZipFile(path + "crawl-300d-2M.vec.zip")\
             .open("crawl-300d-2M.vec")
     elif source.__eq__("it"):
-        file = gz.open(path + "en-it/cc.it.300.vec.gz")
+        file = gzip.open(path + "en-it/cc.it.300.vec.gz")
     elif source.__eq__("de"):
-        file = gz.open(path + "en-de/cc.de.300.vec.gz")
+        file = gzip.open(path + "en-de/cc.de.300.vec.gz")
     elif source.__eq__("fi"):
-        file = gz.open(path + "en-fi/cc.fi.300.vec.gz")
+        file = gzip.open(path + "en-fi/cc.fi.300.vec.gz")
     elif source.__eq__("es"):
-        file = gz.open(path + "en-es/cc.es.300.vec.gz")
+        file = gzip.open(path + "en-es/cc.es.300.vec.gz")
 
     # Si no encuentra el archivo o en nombre es inválido muestra un error.
     else:
