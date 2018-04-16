@@ -2,12 +2,13 @@
 # coding: utf-8
 
 
-import tensorflow as tf
-import numpy as np
-import utils
 import time
 from collections import Counter
 
+import numpy as np
+import tensorflow as tf
+
+import utils
 
 start_time = time.time()
 
@@ -68,7 +69,7 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 #print([n.name for n in graph.as_graph_def().node])
 
 
-output_NN = graph.get_tensor_by_name("nah_predicted/Tanh:0")
+output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("xw_plus_b_1:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted:0")
 #code = graph.get_tensor_by_name("xw_plus_b_2:0")
