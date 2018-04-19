@@ -24,14 +24,15 @@ print("TensorFlow version: {}".format(tf.VERSION))
 if tf.test.gpu_device_name():
     print("GPU disponible")
 
-
-#words_scr_lexicon, words_trg_lexicon = utils.get_lexicon("es-na.test")
-words_scr_lexicon, words_trg_lexicon = utils.get_lexicon("es-na.test")
+#source_lex = "en-it.test"
+source_lex = "es-na.test"
+words_scr_lexicon, words_trg_lexicon = utils.get_lexicon(source_lex)
+print("size of lexicon:",set(words_scr_lexicon).__len__())
 #print(len(words_scr_lexicon), len(words_trg_lexicon))
 
 
-source_str = "es.norm.n2v"
-#source_str = "en.norm.fst"
+source_str = "es.n2v"
+#source_str = "en.fst"
 source_vec = utils.open_file(source_str)
 words_src, source_vec = utils.read(source_vec, is_zipped=False)
 eval_src = list(set(words_scr_lexicon))
@@ -40,8 +41,8 @@ print("source_vec: " + source_str)
 #print(src_vec.shape)
 
 
-target_str = "na.norm.n2v"
-#target_str = "it.norm.fst"
+target_str = "na.n2v"
+#target_str = "it.fst"
 target_vec = utils.open_file(target_str)
 words_trg, target_vec = utils.read(target_vec, is_zipped=False)
 print("target_vec: " + target_str)
@@ -55,8 +56,8 @@ test_vectors = src_vec
 
 tf.reset_default_graph()
 sess = tf.Session()
-#path="models/en-it/3/"
-path = "models/es-na/2/"
+#path="models/en-it/2/"
+path = "models/es-na/4/"
 saver = tf.train.import_meta_graph(path + "model2250.ckpt.meta")
 saver.restore(sess, tf.train.latest_checkpoint(path))
 
@@ -69,7 +70,7 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 #print([n.name for n in graph.as_graph_def().node])
 
 
-output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
+output_NN = graph.get_tensor_by_name("nah_predicted/Tanh:0")
 #output_NN = graph.get_tensor_by_name("xw_plus_b_1:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted:0")
 #code = graph.get_tensor_by_name("xw_plus_b_2:0")
@@ -80,11 +81,10 @@ pred = sess.run(output_NN, feed_dict)
 #print(pred.shape)
 
 
-top_10 = [utils.get_top10_vectors(pred[_], target_vec)
+top_10 = [utils.get_topk_vectors(pred[_], target_vec)
           for _ in range(pred.shape[0])]
 
 
-#get_ipython().run_cell_magic('time', '', 'closest = [utils.closest_word_to(top_10[_], words_trg) for _ in range(pred.shape[0])]')
 closest = [utils.closest_word_to(top_10[_], words_trg)
            for _ in range(pred.shape[0])]
 

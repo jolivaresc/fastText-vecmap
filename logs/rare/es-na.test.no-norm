@@ -1,0 +1,2263 @@
+Loading the translation matrix
+Reading the test data
+Reading: ../fastText-vecmap/datasets/es-na/es.node2vec.embeddings
+Reading: ../fastText-vecmap/datasets/es-na/na.node2vec.embeddings
+Translating
+Applying the translation matrix, size of data: 150
+Retrieving translations
+Computing cosines and sorting target space elements
+
+Id: 1 Source: traer 
+	Translation:
+		hual:0.651
+		cui:0.571
+		huica:0.555
+		tih:0.517
+		cualica:0.491
+		huiqui:0.481
+		oquitla:0.464
+		tqui:0.461
+		t:0.460
+		namoahtapal:0.455 
+	Gold: {'cui', 'huica', 'huiqui', 'itqui'} 
+	Rank: 2
+
+Id: 2 Source: adornar 
+	Translation:
+		uan:0.606
+		chihchihua:0.591
+		apana:0.569
+		oquich:0.462
+		quimon:0.434
+		yahualoa:0.429
+		tlauhtia:0.421
+		chtilcalco:0.419
+		tealti:0.411
+		enterio:0.410 
+	Gold: {'apana', 'chihchihua'} 
+	Rank: 2
+
+Id: 3 Source: ocurrir 
+	Translation:
+		yoh:0.565
+		quem:0.528
+		pano:0.499
+		onino:0.466
+		machi:0.453
+		onite:0.452
+		zquiani:0.452
+		ammo:0.449
+		nicnemili:0.445
+		saroa:0.441 
+	Gold: {'chiuh', 'pano'} 
+	Rank: 3
+
+Id: 4 Source: ciudad 
+	Translation:
+		altepe:0.893
+		altpe:0.844
+		hueyi:0.562
+		huey:0.547
+		nemiliz:0.493
+		mexica:0.489
+		tlahtoca:0.485
+		tepe:0.450
+		gali:0.449
+		presi:0.425 
+	Gold: {'altepe', 'altpe'} 
+	Rank: 1
+
+Id: 5 Source: visceras 
+	Translation:
+		tlahuicxitilli:0.726
+		cuacualaca:0.725
+		temolcax:0.660
+		itzoltilia:0.655
+		mpanacacemachiyu:0.635
+		tzoaloni:0.618
+		cuacua:0.612
+		tetzahua:0.612
+		motlali:0.612
+		zoqui:0.609 
+	Gold: {'ihti', 'ehua'} 
+	Rank: 65
+
+Id: 6 Source: silvestre 
+	Translation:
+		tlal:0.734
+		tlalticpac:0.614
+		ayo:0.519
+		talmanic:0.484
+		cuechac:0.484
+		tal:0.482
+		ax:0.465
+		al:0.453
+		y:0.431
+		erra:0.428 
+	Gold: {'tlal', 'cuauh'} 
+	Rank: 1
+
+Id: 7 Source: llevar 
+	Translation:
+		huica:0.830
+		mama:0.645
+		cuica:0.605
+		polactia:0.565
+		tqui:0.559
+		quiliz:0.529
+		cui:0.526
+		t:0.523
+		liz:0.521
+		tepahpaquiltia:0.518 
+	Gold: {'huica', 'cuica', 'tqui'} 
+	Rank: 1
+
+Id: 8 Source: valer 
+	Translation:
+		1:0.615
+		quexquich:0.587
+		ton:0.515
+		ki:0.432
+		yancui:0.423
+		toma:0.423
+		quezqui:0.414
+		mama:0.407
+		s:0.407
+		pah:0.404 
+	Gold: {'patio'} 
+	Rank: 13
+
+Id: 9 Source: mixcólotl 
+	Translation:
+		tepuz:0.688
+		mixco:0.643
+		cochi:0.558
+		timamalihuac:0.553
+		tlachia:0.549
+		tepotz:0.535
+		naz:0.511
+		notozca:0.503
+		cuepo:0.501
+		ncmi:0.497 
+	Gold: {'mixco'} 
+	Rank: 2
+
+Id: 10 Source: cargo 
+	Translation:
+		ahqui:0.623
+		chihui:0.603
+		onino:0.572
+		tlaliliz:0.560
+		siquier:0.500
+		notelpo:0.476
+		cuitl:0.463
+		lihqueh:0.454
+		le:0.436
+		nechicalhui:0.434 
+	Gold: {'tlahtoca', 'toca'} 
+	Rank: 956
+
+Id: 11 Source: brazo 
+	Translation:
+		cuecue:0.579
+		cocone:0.474
+		yotica:0.473
+		tonehua:0.465
+		pahpaqui:0.464
+		mama:0.456
+		timamalihuac:0.445
+		ncmi:0.442
+		huetzi:0.439
+		milacatzo:0.437 
+	Gold: {'aca'} 
+	Rank: 1350
+
+Id: 12 Source: volver 
+	Translation:
+		cuepa:0.743
+		mocuep:0.717
+		ixpetani:0.691
+		cuep:0.477
+		yahualoa:0.468
+		vuelta:0.458
+		cala:0.456
+		eu:0.448
+		ac:0.446
+		ol:0.440 
+	Gold: {'cuepa', 'mocuep'} 
+	Rank: 1
+
+Id: 13 Source: mesero 
+	Translation:
+		xexelo:0.663
+		ahco:0.603
+		pech:0.586
+		cualica:0.564
+		xeloa:0.448
+		comal:0.443
+		loyan:0.439
+		lero:0.430
+		lateran:0.421
+		club:0.407 
+	Gold: {'xexelo'} 
+	Rank: 1
+
+Id: 14 Source: pesar 
+	Translation:
+		xihui:0.567
+		palehui:0.508
+		ticcua:0.495
+		tema:0.493
+		uepahua:0.471
+		mictia:0.422
+		salvador:0.417
+		hueyi:0.417
+		miec:0.412
+		toyalhuayo:0.412 
+	Gold: {'cem', 'ticcua'} 
+	Rank: 3
+
+Id: 15 Source: olvidar 
+	Translation:
+		huilli:0.729
+		quil:0.590
+		mihtalhui:0.583
+		cahua:0.577
+		el:0.558
+		xquin:0.509
+		xonm:0.502
+		peh:0.466
+		nino:0.450
+		cuecue:0.450 
+	Gold: {'cahua', 'ilcaruaz'} 
+	Rank: 4
+
+Id: 16 Source: dar 
+	Translation:
+		dar:0.897
+		maca:0.799
+		mah:0.644
+		xic:0.606
+		taca:0.591
+		zcuco:0.590
+		quin:0.583
+		auh:0.569
+		yb:0.540
+		uh:0.540 
+	Gold: {'dar', 'maca'} 
+	Rank: 1
+
+Id: 17 Source: perdonar 
+	Translation:
+		pohpo:0.847
+		mozacaticonti:0.655
+		otimitzno:0.651
+		chipahuaque:0.582
+		pahcayo:0.521
+		mochantilia:0.466
+		stancia:0.426
+		itzoltilia:0.415
+		yepazot:0.409
+		comitl:0.405 
+	Gold: {'pohpo'} 
+	Rank: 1
+
+Id: 18 Source: acabar 
+	Translation:
+		tlami:0.673
+		mic:0.600
+		yoltequipacho:0.557
+		cauh:0.549
+		ahui:0.539
+		tami:0.521
+		miqui:0.500
+		totecuyo:0.497
+		auh:0.454
+		onicnolhui:0.423 
+	Gold: {'tami', 'tlami'} 
+	Rank: 1
+
+Id: 19 Source: alegrar 
+	Translation:
+		pahpaqui:0.483
+		papa:0.452
+		ahuia:0.445
+		tlaza:0.414
+		tehhuellamac:0.412
+		tinemiz:0.389
+		nicnexti:0.386
+		tixtomahua:0.357
+		nemi:0.350
+		coco:0.348 
+	Gold: {'pahpaqui', 'ahuia', 'pahpa'} 
+	Rank: 1
+
+Id: 20 Source: esfuerzo 
+	Translation:
+		quexquich:0.654
+		ihiyo:0.497
+		chicahua:0.486
+		potztlatziuh:0.461
+		tlalhuia:0.422
+		quezqui:0.418
+		espiritu:0.395
+		nohuian:0.386
+		machi:0.383
+		cecahuil:0.379 
+	Gold: {'chicahua', 'chicahuaz', 'cuammaca'} 
+	Rank: 3
+
+Id: 21 Source: niño 
+	Translation:
+		cocone:0.741
+		tzitzintin:0.740
+		conetl:0.716
+		pipil:0.656
+		toton:0.636
+		cihuanton:0.632
+		pil:0.598
+		machti:0.562
+		chtilcalco:0.537
+		telpoca:0.535 
+	Gold: {'cocone', 'conetl', 'cihuanton', 'pipil'} 
+	Rank: 1
+
+Id: 22 Source: lavar 
+	Translation:
+		paca:0.906
+		caxi:0.701
+		tlahuicxitilli:0.611
+		ihti:0.575
+		cuacualaca:0.573
+		tlalia:0.569
+		motlali:0.566
+		zoqui:0.547
+		cciz:0.540
+		mp:0.537 
+	Gold: {'paca'} 
+	Rank: 1
+
+Id: 23 Source: cierto 
+	Translation:
+		melahua:0.902
+		nel:0.678
+		hualla:0.512
+		ichpoc:0.502
+		ihtoh:0.495
+		mita:0.489
+		mitzmo:0.486
+		oquimo:0.482
+		tel:0.470
+		ammo:0.469 
+	Gold: {'melahua', 'cecni', 'nel'} 
+	Rank: 1
+
+Id: 24 Source: limpiar 
+	Translation:
+		chipahuaque:0.858
+		pohpo:0.756
+		mitz:0.539
+		stancia:0.522
+		bo:0.513
+		comitl:0.512
+		cciz:0.504
+		tetzahua:0.472
+		ahhua:0.470
+		temi:0.463 
+	Gold: {'chipahuaque', 'pohpo', 'popo'} 
+	Rank: 1
+
+Id: 25 Source: adquisición 
+	Translation:
+		oticma:0.793
+		chiquiuh:0.776
+		amech:0.617
+		mel:0.598
+		lahtol:0.490
+		ceuh:0.484
+		amaneapan:0.452
+		poyox:0.434
+		quipiaz:0.419
+		tlatzotzonque:0.379 
+	Gold: {'quipiaz'} 
+	Rank: 9
+
+Id: 26 Source: leche 
+	Translation:
+		ihchican:0.860
+		notlazohca:0.618
+		chichi:0.572
+		itzcuin:0.502
+		illi:0.483
+		tzitzintin:0.473
+		xmechmo:0.458
+		chihchi:0.443
+		xinechmo:0.438
+		pac:0.437 
+	Gold: {'chichi'} 
+	Rank: 3
+
+Id: 27 Source: comer 
+	Translation:
+		cua:0.774
+		cuaz:0.769
+		´tos:0.694
+		tlacual:0.685
+		cualtiz:0.619
+		﻿:0.534
+		ki:0.527
+		niquintlayocoli:0.514
+		tepahpaquiltia:0.507
+		ra:0.501 
+	Gold: {'cua', 'cualtiz', 'tlacual', 'cuaz', 'otlacua'} 
+	Rank: 1
+
+Id: 28 Source: suceder 
+	Translation:
+		ga:0.448
+		cholo:0.423
+		chiuh:0.412
+		chihua:0.411
+		quenin:0.410
+		pix:0.400
+		0:0.378
+		oquimo:0.371
+		cequin:0.371
+		santiago:0.364 
+	Gold: {'panoa', 'chiuh', 'chiu', 'pano'} 
+	Rank: 3
+
+Id: 29 Source: chico 
+	Translation:
+		tzitz:0.788
+		acalli:0.778
+		tepi:0.563
+		uepahua:0.484
+		ton:0.470
+		calehcapo:0.468
+		cec:0.464
+		patlahua:0.461
+		1:0.424
+		tzi:0.416 
+	Gold: {'tzitz', 'tepi'} 
+	Rank: 1
+
+Id: 30 Source: admirar 
+	Translation:
+		mahuizo:0.852
+		imottilih:0.686
+		tlamahuiz:0.594
+		chililiz:0.553
+		itt:0.537
+		itti:0.507
+		mihtlanililia:0.503
+		onimitz:0.483
+		mahui:0.472
+		mahuiztili:0.437 
+	Gold: {'mahuizo', 'tlamahuiz'} 
+	Rank: 1
+
+Id: 31 Source: sueño 
+	Translation:
+		cochi:0.820
+		coch:0.609
+		tepuz:0.499
+		znequi:0.498
+		yohua:0.458
+		elo:0.457
+		iye:0.441
+		chix:0.439
+		tlapech:0.423
+		cuilol:0.422 
+	Gold: {'cochi'} 
+	Rank: 1
+
+Id: 32 Source: enorme 
+	Translation:
+		mil:0.740
+		huehca:0.673
+		jard:0.578
+		cpac:0.572
+		fr:0.569
+		toxochimil:0.515
+		xochi:0.509
+		occe:0.496
+		oc:0.493
+		xmatia:0.485 
+	Gold: {'huey'} 
+	Rank: 435
+
+Id: 33 Source: itacates 
+	Translation:
+		ihtacatl:0.920
+		huauh:0.617
+		calhuahza:0.603
+		pinol:0.540
+		chichil:0.516
+		xipehua:0.489
+		so:0.488
+		ezzotilli:0.488
+		michi:0.482
+		alexander:0.465 
+	Gold: {'ihtacatl'} 
+	Rank: 1
+
+Id: 34 Source: sólo 
+	Translation:
+		zan:0.794
+		zcuco:0.638
+		choh:0.636
+		im:0.633
+		ehuia:0.608
+		oc:0.595
+		onicnolhui:0.590
+		yb:0.587
+		occe:0.586
+		zque:0.583 
+	Gold: {'za', 'zan'} 
+	Rank: 1
+
+Id: 35 Source: tapar 
+	Translation:
+		pachoa:0.929
+		cciz:0.696
+		cuih:0.694
+		motequipacho:0.666
+		itzoltilia:0.614
+		pacho:0.587
+		zoqui:0.585
+		tlahuicxitilli:0.554
+		caxi:0.550
+		iztayutl:0.529 
+	Gold: {'pachoa'} 
+	Rank: 1
+
+Id: 36 Source: indio 
+	Translation:
+		ig:0.712
+		macehual:0.605
+		quixtiz:0.537
+		iteopixca:0.501
+		obispo:0.499
+		ocaxil:0.498
+		quiliz:0.489
+		monexiti:0.487
+		gu:0.461
+		quimolhui:0.461 
+	Gold: {'macehual'} 
+	Rank: 2
+
+Id: 37 Source: decir 
+	Translation:
+		lhuia:0.708
+		hto:0.682
+		lhui:0.675
+		ilhui:0.667
+		niman:0.641
+		zcuco:0.621
+		quin:0.616
+		auh:0.614
+		tlaca:0.613
+		zque:0.599 
+	Gold: {'ilhuia', 'hto', 'lhui', 'lhuia'} 
+	Rank: 1
+
+Id: 38 Source: reinar 
+	Translation:
+		14:0.752
+		tlalli:0.512
+		mahtlac:0.507
+		nahui:0.496
+		cayotl:0.479
+		nauh:0.471
+		pipil:0.434
+		peuh:0.428
+		tlalticpac:0.426
+		xeloa:0.416 
+	Gold: {'toca'} 
+	Rank: 360
+
+Id: 39 Source: salvaje 
+	Translation:
+		uanime:0.864
+		ticuahcua:0.594
+		xolochcue:0.564
+		mexica:0.509
+		misa:0.463
+		axean:0.462
+		puebla:0.462
+		nario:0.457
+		premios:0.456
+		agos:0.455 
+	Gold: {'uanime'} 
+	Rank: 1
+
+Id: 40 Source: montaña 
+	Translation:
+		huehca:0.654
+		cem:0.596
+		tepe:0.541
+		tlaloa:0.487
+		temoa:0.464
+		ahquetz:0.459
+		temo:0.442
+		miec:0.426
+		choca:0.416
+		jer:0.414 
+	Gold: {'tepe'} 
+	Rank: 3
+
+Id: 41 Source: conocer 
+	Translation:
+		ixmati:0.819
+		quix:0.700
+		mati:0.667
+		iximacho:0.601
+		ixmachilia:0.573
+		quiximati:0.534
+		machi:0.508
+		omochantili:0.490
+		tlaca:0.472
+		choh:0.442 
+	Gold: {'ixmachilia', 'mati', 'ixmati', 'oixmatilia', 'iximacho'} 
+	Rank: 1
+
+Id: 42 Source: tomar 
+	Translation:
+		cui:0.631
+		zcuco:0.614
+		tepahpaquiltia:0.594
+		yb:0.585
+		fa:0.583
+		xip:0.582
+		hual:0.579
+		dral:0.575
+		tlen:0.575
+		diego:0.566 
+	Gold: {'concui', 'can', 'ana', 'cuilia', 'cui'} 
+	Rank: 1
+
+Id: 43 Source: ver 
+	Translation:
+		ver:0.898
+		tta:0.751
+		tac:0.588
+		yb:0.549
+		uh:0.545
+		itta:0.545
+		cen:0.522
+		lti:0.517
+		ilhui:0.507
+		oncan:0.499 
+	Gold: {'conmottilia', 'itta', 'ver', 'tta', 'itac'} 
+	Rank: 1
+
+Id: 44 Source: vaca 
+	Translation:
+		uacax:0.924
+		enepil:0.779
+		huen:0.603
+		cueh:0.574
+		cuacua:0.565
+		tictohuaxcati:0.535
+		cihua:0.445
+		panoa:0.424
+		mp:0.412
+		ayecoh:0.404 
+	Gold: {'uacax', 'cuacua'} 
+	Rank: 1
+
+Id: 45 Source: desierto 
+	Translation:
+		ceuh:0.756
+		er:0.743
+		des:0.730
+		ommihzo:0.534
+		olpi:0.461
+		izquin:0.455
+		fria:0.388
+		ospital:0.380
+		xonaca:0.377
+		zapoteca:0.376 
+	Gold: {'des'} 
+	Rank: 3
+
+Id: 46 Source: fino 
+	Translation:
+		zacuan:0.625
+		tlazo:0.610
+		xomoihui:0.597
+		xical:0.559
+		cahuia:0.559
+		quetzal:0.549
+		quechol:0.542
+		concui:0.539
+		pech:0.539
+		teocuitla:0.532 
+	Gold: {'quetzal', 'tlazo'} 
+	Rank: 2
+
+Id: 47 Source: venir 
+	Translation:
+		hual:0.821
+		hualla:0.674
+		huitz:0.587
+		m:0.526
+		huitzeh:0.520
+		yb:0.515
+		cuepo:0.504
+		otihual:0.502
+		acxoya:0.497
+		zque:0.491 
+	Gold: {'hual', 'hualla'} 
+	Rank: 1
+
+Id: 48 Source: animal 
+	Translation:
+		yolca:0.946
+		v:0.657
+		pu:0.527
+		pah:0.488
+		iapizmi:0.486
+		rn:0.459
+		mictia:0.448
+		ichca:0.448
+		xonaca:0.438
+		yoyolcameh:0.438 
+	Gold: {'yolca', 'yoyolcameh'} 
+	Rank: 1
+
+Id: 49 Source: familiar 
+	Translation:
+		familiar:0.939
+		xicol:0.610
+		chmotlahpalhui:0.549
+		cocox:0.520
+		tlaloa:0.480
+		zapoteca:0.470
+		elatî:0.466
+		basilio:0.459
+		cuitlacoch:0.456
+		bicitleta:0.456 
+	Gold: {'familiar'} 
+	Rank: 1
+
+Id: 50 Source: tanto 
+	Translation:
+		ih:0.714
+		zazan:0.626
+		itemohui:0.618
+		meh:0.596
+		amuel:0.591
+		hcuilo:0.512
+		t:0.471
+		tazohta:0.460
+		iayah:0.441
+		tepahpaquiltia:0.425 
+	Gold: {'izqui', 'zazan'} 
+	Rank: 2
+
+Id: 51 Source: descanso 
+	Translation:
+		mocehui:0.830
+		calyolot:0.602
+		huizque:0.547
+		acia:0.518
+		icpal:0.515
+		pepe:0.488
+		immotla:0.488
+		icneli:0.448
+		tequiti:0.445
+		tlauh:0.441 
+	Gold: {'mocehui'} 
+	Rank: 1
+
+Id: 52 Source: nabo 
+	Translation:
+		stancia:0.883
+		bo:0.866
+		catarina:0.772
+		ga:0.643
+		cuechahua:0.635
+		cec:0.523
+		temolcax:0.523
+		zul:0.523
+		soldados:0.498
+		molcaxitl:0.490 
+	Gold: {'bo'} 
+	Rank: 2
+
+Id: 53 Source: cultura 
+	Translation:
+		cultura:0.931
+		tlamatiliz:0.919
+		toyalhuayo:0.644
+		nahuatlahtol:0.616
+		lahtol:0.558
+		iayah:0.543
+		moyacanilia:0.535
+		moteihtitili:0.503
+		tarea:0.438
+		nahua:0.438 
+	Gold: {'tlamatiliz', 'cultura'} 
+	Rank: 1
+
+Id: 54 Source: chiquillo 
+	Translation:
+		ninozcalia:0.788
+		cuitl:0.534
+		cuiya:0.520
+		pohua:0.519
+		itzopelica:0.491
+		ticchi:0.481
+		diablo:0.479
+		mahuizo:0.470
+		icneli:0.469
+		eltilitiuh:0.466 
+	Gold: {'pipil'} 
+	Rank: 956
+
+Id: 55 Source: pieza 
+	Translation:
+		xexelo:0.787
+		xeloa:0.570
+		lero:0.519
+		loyan:0.493
+		micuani:0.478
+		nah:0.475
+		cualica:0.447
+		caloltil:0.435
+		tlacual:0.432
+		huehca:0.422 
+	Gold: {'xexelo'} 
+	Rank: 1
+
+Id: 56 Source: alimento 
+	Translation:
+		tota:0.634
+		pal:0.616
+		celi:0.559
+		nuestro:0.555
+		ol:0.553
+		quiyauh:0.536
+		ihchican:0.532
+		tlacual:0.520
+		toh:0.487
+		tiaz:0.479 
+	Gold: {'atetzocoa', 'pal'} 
+	Rank: 2
+
+Id: 57 Source: molcajete 
+	Translation:
+		molcaxitl:0.947
+		temolcax:0.844
+		otzoy:0.639
+		xommo:0.622
+		tlaxamanil:0.609
+		caxi:0.604
+		tzoaloni:0.580
+		zoqui:0.578
+		textli:0.531
+		chiquihui:0.530 
+	Gold: {'temolcax', 'molcaxitl'} 
+	Rank: 1
+
+Id: 58 Source: diverso 
+	Translation:
+		nepapan:0.823
+		mota:0.793
+		motemilih:0.701
+		tatemp:0.523
+		huiptla:0.474
+		huipan:0.465
+		tenanco:0.436
+		cuexan:0.434
+		tepahpaquiltia:0.407
+		villistas:0.406 
+	Gold: {'nepapan'} 
+	Rank: 1
+
+Id: 59 Source: coger 
+	Translation:
+		ana:0.551
+		cholo:0.509
+		ictique:0.495
+		tecuan:0.483
+		ochol:0.481
+		cuecue:0.476
+		tzicuin:0.459
+		milacatzo:0.459
+		maza:0.456
+		choloa:0.451 
+	Gold: {'cui', 'cana', 'ana'} 
+	Rank: 1
+
+Id: 60 Source: presencia 
+	Translation:
+		mopechteccac:0.613
+		tlacuauh:0.556
+		quimolhui:0.541
+		uad:0.496
+		tzinco:0.492
+		eltilitiuh:0.488
+		tzicuin:0.469
+		contla:0.461
+		tlazoh:0.452
+		juan:0.437 
+	Gold: {'ix'} 
+	Rank: 30
+
+Id: 61 Source: escalera 
+	Translation:
+		nmediasco:0.858
+		oquinanquili:0.627
+		dia:0.552
+		ilpia:0.551
+		pualhuany:0.501
+		nario:0.462
+		icuilacta:0.458
+		mahca:0.456
+		tlahpaloa:0.453
+		cocone:0.441 
+	Gold: {'mama'} 
+	Rank: 387
+
+Id: 62 Source: quitar 
+	Translation:
+		ihcuani:0.673
+		cciz:0.636
+		nech:0.597
+		cuilia:0.561
+		cuih:0.537
+		huizque:0.506
+		pachoa:0.471
+		tlalia:0.458
+		cui:0.450
+		me:0.444 
+	Gold: {'cuicuil', 'cuilia'} 
+	Rank: 4
+
+Id: 63 Source: muerto 
+	Translation:
+		mimic:0.566
+		mic:0.520
+		cuecuepotza:0.512
+		ictique:0.494
+		potoni:0.460
+		zapata:0.458
+		tzontequili:0.458
+		agui:0.454
+		miqui:0.445
+		re:0.434 
+	Gold: {'mic', 'mimic'} 
+	Rank: 1
+
+Id: 64 Source: reunir 
+	Translation:
+		potz:0.791
+		nechico:0.719
+		puchteca:0.502
+		nemoa:0.484
+		xipehua:0.476
+		otitla:0.470
+		moyacanilia:0.468
+		pochteca:0.466
+		notza:0.444
+		otito:0.439 
+	Gold: {'cen', 'nechico'} 
+	Rank: 2
+
+Id: 65 Source: unir 
+	Translation:
+		f:0.771
+		george:0.715
+		estado:0.641
+		do:0.552
+		19:0.545
+		tlahtocayotl:0.528
+		cahuan:0.512
+		fe:0.499
+		isoldado:0.476
+		rtes:0.469 
+	Gold: {'cen'} 
+	Rank: 486
+
+Id: 66 Source: introducir 
+	Translation:
+		calaqui:0.672
+		calaquia:0.634
+		calac:0.598
+		nican:0.535
+		puerta:0.472
+		tzacua:0.426
+		hual:0.425
+		cala:0.424
+		acualli:0.408
+		anotimocau:0.396 
+	Gold: {'calaqui', 'calaquia'} 
+	Rank: 1
+
+Id: 67 Source: nido 
+	Translation:
+		nepapan:0.838
+		motemilih:0.750
+		mota:0.607
+		tenanco:0.572
+		huipan:0.566
+		cuexan:0.533
+		huiptla:0.527
+		tatemp:0.524
+		beethoven:0.508
+		comal:0.500 
+	Gold: {'zol'} 
+	Rank: 1646
+
+Id: 68 Source: alfredo 
+	Translation:
+		alfredo:0.946
+		matiloa:0.728
+		hernand:0.697
+		chachal:0.680
+		felipe:0.670
+		club:0.656
+		xacualoa:0.654
+		ieltapach:0.654
+		nehtotilo:0.654
+		rafael:0.647 
+	Gold: {'alfredo'} 
+	Rank: 1
+
+Id: 69 Source: muñeca 
+	Translation:
+		quech:0.798
+		nacaz:0.606
+		ilpi:0.589
+		notozca:0.587
+		motozcatlan:0.582
+		cotona:0.574
+		immoma:0.562
+		chalchihui:0.559
+		lpilia:0.557
+		acol:0.539 
+	Gold: {'quech'} 
+	Rank: 1
+
+Id: 70 Source: tepaneca 
+	Translation:
+		colhuaca:0.858
+		eca:0.629
+		culhuacan:0.563
+		popolo:0.548
+		motlanahuatili:0.505
+		cocox:0.486
+		rtes:0.484
+		mexica:0.475
+		oquim:0.471
+		zcuecuex:0.456 
+	Gold: {'eca'} 
+	Rank: 2
+
+Id: 71 Source: efecto 
+	Translation:
+		ihtotia:0.572
+		tlaocox:0.540
+		oquich:0.517
+		nehnemi:0.515
+		ellel:0.431
+		mixco:0.427
+		oceloquichtle:0.418
+		mito:0.408
+		icnop:0.401
+		tz:0.386 
+	Gold: {'nel'} 
+	Rank: 1254
+
+Id: 72 Source: llano 
+	Translation:
+		talmanic:0.899
+		mani:0.613
+		tlalticpac:0.560
+		tlal:0.534
+		xacualoa:0.471
+		cuechac:0.470
+		organil:0.458
+		tupile:0.456
+		echicoliz:0.454
+		nehtol:0.449 
+	Gold: {'tlal', 'talmanic', 'xtlahua'} 
+	Rank: 1
+
+Id: 73 Source: anáhuac 
+	Translation:
+		noch:0.646
+		nahuac:0.583
+		tlamatiliz:0.571
+		cultura:0.569
+		siempre:0.556
+		tzaoctimanca:0.542
+		dueño:0.534
+		axcatili:0.531
+		de:0.504
+		nahua:0.495 
+	Gold: {'nahuac'} 
+	Rank: 2
+
+Id: 74 Source: derecho 
+	Translation:
+		ihtoh:0.767
+		melahua:0.651
+		iyaca:0.634
+		ozto:0.603
+		melauh:0.602
+		nel:0.482
+		itt:0.440
+		pilca:0.439
+		moilochti:0.429
+		tlananquili:0.418 
+	Gold: {'melauh', 'melahua', 'yec'} 
+	Rank: 2
+
+Id: 75 Source: vender 
+	Translation:
+		tlanamacazquia:0.931
+		tlanamaca:0.928
+		namaco:0.787
+		namaca:0.743
+		villistas:0.577
+		onitla:0.560
+		abril:0.550
+		club:0.549
+		tlazohtla:0.544
+		rosario:0.542 
+	Gold: {'namaca', 'tlanamacazquia', 'tlanamaca', 'namaco'} 
+	Rank: 1
+
+Id: 76 Source: quiltoniles 
+	Translation:
+		cualac:0.844
+		illi:0.766
+		alac:0.611
+		oomicihcicu:0.539
+		cuacualaca:0.525
+		apiaz:0.518
+		chilmolli:0.480
+		chil:0.465
+		1:0.464
+		coch:0.459 
+	Gold: {'quil'} 
+	Rank: 17
+
+Id: 77 Source: señorito 
+	Translation:
+		etzta:0.832
+		sihuat:0.567
+		omote:0.490
+		chiliaya:0.464
+		tinenca:0.458
+		ipilhua:0.458
+		tiliaya:0.454
+		conetl:0.452
+		itlah:0.423
+		ilhuia:0.418 
+	Gold: {'sihuat'} 
+	Rank: 2
+
+Id: 78 Source: saltar 
+	Translation:
+		huixoa:0.773
+		laxoc:0.637
+		ochol:0.637
+		oquich:0.624
+		tzetzeloa:0.554
+		cholo:0.492
+		tzatzi:0.486
+		oceloquichtle:0.442
+		choloa:0.441
+		huitequi:0.440 
+	Gold: {'ochol'} 
+	Rank: 3
+
+Id: 79 Source: querer 
+	Translation:
+		nequi:0.866
+		znequi:0.750
+		nequia:0.625
+		ixquich:0.571
+		zazo:0.552
+		nec:0.543
+		fa:0.514
+		uilizque:0.507
+		izta:0.506
+		monequilti:0.502 
+	Gold: {'nequi', 'monequilti', 'nequia', 'znequi'} 
+	Rank: 1
+
+Id: 80 Source: verde 
+	Translation:
+		xoxo:0.841
+		xoxouhqui:0.801
+		ayohhuach:0.695
+		zaca:0.636
+		chilmolli:0.620
+		molli:0.581
+		calhuahza:0.524
+		xole:0.517
+		catarina:0.509
+		chalchiuh:0.489 
+	Gold: {'xoxouhqui', 'xoxo'} 
+	Rank: 1
+
+Id: 81 Source: naranja 
+	Translation:
+		naranja:0.950
+		juzga:0.606
+		ameyal:0.558
+		tzopel:0.513
+		matiloa:0.506
+		nezahualco:0.493
+		orcasitas:0.490
+		ifor:0.486
+		perah:0.479
+		westfalen:0.479 
+	Gold: {'naranja', 'xal'} 
+	Rank: 1
+
+Id: 82 Source: pedir 
+	Translation:
+		htlani:0.816
+		tahtan:0.575
+		tamechtahtanil:0.571
+		tlania:0.561
+		neltili:0.535
+		htlan:0.517
+		nimitz:0.512
+		lih:0.491
+		cuiloz:0.470
+		ichpoc:0.461 
+	Gold: {'tamechtahtanil', 'htlan', 'mihtlanililia', 'htlani', 'tahtan'} 
+	Rank: 1
+
+Id: 83 Source: pantalón 
+	Translation:
+		pantalon:0.950
+		juev:0.714
+		matiloa:0.714
+		ciriales:0.707
+		hernand:0.702
+		albert:0.700
+		beethoven:0.687
+		chachal:0.685
+		villistas:0.683
+		comal:0.678 
+	Gold: {'pantalon'} 
+	Rank: 1
+
+Id: 84 Source: echar 
+	Translation:
+		patahuaz:0.663
+		contla:0.629
+		totoca:0.516
+		tz:0.514
+		yaca:0.498
+		tlaxcal:0.495
+		zque:0.488
+		yeco:0.472
+		tlaloa:0.468
+		quim:0.463 
+	Gold: {'atlatzicuina', 'contla'} 
+	Rank: 2
+
+Id: 85 Source: vasija 
+	Translation:
+		comitl:0.664
+		cax:0.631
+		chiquihui:0.615
+		tecoma:0.577
+		zoqui:0.552
+		nechicalhui:0.552
+		caxi:0.536
+		xommo:0.514
+		xaxa:0.494
+		temolcax:0.481 
+	Gold: {'cax', 'comitl', 'tecoma'} 
+	Rank: 1
+
+Id: 86 Source: transportar 
+	Translation:
+		axiti:0.712
+		chalchiuh:0.634
+		chalchihui:0.596
+		illam:0.553
+		quetzal:0.526
+		xillan:0.511
+		zacuan:0.505
+		itoz:0.496
+		notozca:0.491
+		tlatui:0.491 
+	Gold: {'axiti'} 
+	Rank: 1
+
+Id: 87 Source: seno 
+	Translation:
+		xillan:0.929
+		notozca:0.792
+		illam:0.768
+		motozcatlan:0.752
+		itoz:0.740
+		immoma:0.558
+		uitlapilco:0.546
+		mocnelili:0.542
+		icnop:0.527
+		potztlatziuh:0.517 
+	Gold: {'xillan'} 
+	Rank: 1
+
+Id: 88 Source: oír 
+	Translation:
+		acica:0.898
+		nlcaci:0.729
+		ami:0.615
+		cac:0.612
+		cuic:0.592
+		mitalhui:0.535
+		camati:0.531
+		quimolhui:0.526
+		oiuhquimoca:0.516
+		ihuinti:0.499 
+	Gold: {'cac'} 
+	Rank: 4
+
+Id: 89 Source: tigre 
+	Translation:
+		ocelo:0.924
+		tecuan:0.670
+		zacuan:0.662
+		quechol:0.591
+		cacehuaztli:0.585
+		totome:0.505
+		ehua:0.504
+		xahua:0.475
+		uetz:0.473
+		tototl:0.473 
+	Gold: {'tecuan', 'ocelo'} 
+	Rank: 1
+
+Id: 90 Source: pasar 
+	Translation:
+		pano:0.890
+		saroa:0.782
+		amen:0.532
+		tlen:0.531
+		lti:0.511
+		moch:0.479
+		p:0.475
+		omo:0.449
+		cia:0.449
+		moztla:0.446 
+	Gold: {'panoa', 'pano'} 
+	Rank: 1
+
+Id: 91 Source: aire 
+	Translation:
+		yehyecatl:0.729
+		eheca:0.650
+		eca:0.610
+		tetzahui:0.582
+		hui:0.531
+		yeyeca:0.509
+		tlacochcalca:0.498
+		mach:0.486
+		huilo:0.478
+		ahua:0.431 
+	Gold: {'yeyeca', 'eheca', 'yehyecatl'} 
+	Rank: 1
+
+Id: 92 Source: centenario 
+	Translation:
+		nario:0.889
+		premios:0.774
+		icuilacta:0.756
+		ipanoque:0.716
+		presi:0.624
+		tazohta:0.566
+		hcuilo:0.546
+		ludovi:0.506
+		erra:0.499
+		estado:0.498 
+	Gold: {'presi', 'nario'} 
+	Rank: 1
+
+Id: 93 Source: horno 
+	Translation:
+		horno:0.926
+		tu:0.698
+		timihtil:0.584
+		teoticanantzin:0.460
+		cuep:0.456
+		cuepa:0.439
+		tlananquili:0.428
+		prefec:0.423
+		tz:0.417
+		temi:0.412 
+	Gold: {'horno'} 
+	Rank: 1
+
+Id: 94 Source: tortuga 
+	Translation:
+		tectli:0.777
+		tlahuicxitilli:0.642
+		ayo:0.631
+		caxi:0.583
+		alac:0.577
+		chiyahuizotl:0.574
+		zoqui:0.574
+		paca:0.571
+		chilcuitlaxcolli:0.552
+		cuacualaca:0.545 
+	Gold: {'ayo'} 
+	Rank: 3
+
+Id: 95 Source: comenzar 
+	Translation:
+		pehua:0.849
+		peuh:0.761
+		pen:0.603
+		ignacio:0.573
+		tlahuiz:0.479
+		otlacua:0.463
+		uel:0.462
+		yohua:0.449
+		omo:0.446
+		xipehua:0.444 
+	Gold: {'peuh', 'pehua'} 
+	Rank: 1
+
+Id: 96 Source: indígena 
+	Translation:
+		lahtol:0.833
+		macehual:0.685
+		nahuatlahtol:0.570
+		moyacanilia:0.512
+		toyalhuayo:0.484
+		elehuia:0.471
+		cultura:0.467
+		hcuilo:0.458
+		tlamatiliz:0.444
+		ludovi:0.442 
+	Gold: {'macehual'} 
+	Rank: 2
+
+Id: 97 Source: aguacate 
+	Translation:
+		aztlacapalli:0.930
+		tolachno:0.780
+		ahua:0.588
+		pix:0.546
+		poyox:0.528
+		tlaxamanil:0.457
+		ü:0.431
+		temolcax:0.423
+		izhua:0.418
+		soldados:0.413 
+	Gold: {'ahua'} 
+	Rank: 3
+
+Id: 98 Source: agregar 
+	Translation:
+		motlali:0.792
+		tiliaya:0.787
+		tlahuicxitilli:0.654
+		cuacualaca:0.625
+		itzoltilia:0.597
+		tlalia:0.575
+		tec:0.563
+		huic:0.538
+		paca:0.523
+		chiyahuizotl:0.521 
+	Gold: {'tlalia', 'motlali'} 
+	Rank: 1
+
+Id: 99 Source: uña 
+	Translation:
+		cuicuil:0.755
+		moci:0.668
+		ahuiz:0.579
+		poch:0.522
+		mihiyohuilti:0.493
+		itz:0.455
+		moteihtitili:0.446
+		cuiloz:0.438
+		america:0.434
+		quiyauh:0.427 
+	Gold: {'itz'} 
+	Rank: 6
+
+Id: 100 Source: llanura 
+	Translation:
+		xtlahua:0.756
+		as:0.562
+		ip:0.522
+		ua:0.513
+		tlahui:0.476
+		xinach:0.460
+		mitz:0.447
+		tlalli:0.420
+		cueh:0.392
+		eu:0.391 
+	Gold: {'xtlahua'} 
+	Rank: 1
+
+Id: 101 Source: levantar 
+	Translation:
+		ohuatzintic:0.588
+		quetza:0.581
+		yb:0.523
+		yollo:0.497
+		quechi:0.495
+		bar:0.480
+		iuh:0.464
+		elehuia:0.463
+		yaca:0.461
+		tona:0.460 
+	Gold: {'quetza'} 
+	Rank: 2
+
+Id: 102 Source: derribar 
+	Translation:
+		mota:0.763
+		tatemp:0.713
+		tata:0.598
+		motemilih:0.533
+		nepapan:0.519
+		nimitz:0.472
+		rdenas:0.470
+		seg:0.461
+		latztic:0.455
+		matiloa:0.443 
+	Gold: {'tatemp'} 
+	Rank: 2
+
+Id: 103 Source: cofre 
+	Translation:
+		top:0.924
+		petlacal:0.824
+		xillan:0.506
+		ilpi:0.504
+		itoz:0.488
+		pale:0.485
+		tlachie:0.481
+		motozcatlan:0.464
+		nacaz:0.436
+		onimitz:0.432 
+	Gold: {'petlacal', 'top'} 
+	Rank: 1
+
+Id: 104 Source: final 
+	Translation:
+		mix:0.722
+		tzoaloni:0.645
+		cualac:0.611
+		permiso:0.602
+		tlaxamanil:0.589
+		alac:0.572
+		ü:0.568
+		cuacua:0.567
+		tlahuicxitilli:0.564
+		dral:0.561 
+	Gold: {'tlatz'} 
+	Rank: 45
+
+Id: 105 Source: izquierda 
+	Translation:
+		pochcopa:0.871
+		poch:0.552
+		imayauhcampa:0.527
+		mian:0.445
+		imayauhcan:0.441
+		au:0.431
+		mochantilia:0.419
+		acacic:0.413
+		iye:0.409
+		felipe:0.387 
+	Gold: {'poch', 'opoch', 'pochcopa'} 
+	Rank: 1
+
+Id: 106 Source: mirada 
+	Translation:
+		tlachia:0.797
+		mix:0.610
+		tz:0.598
+		im:0.589
+		mixco:0.564
+		tzinco:0.555
+		naz:0.553
+		tta:0.549
+		notelpo:0.543
+		milacatzo:0.543 
+	Gold: {'tlachia'} 
+	Rank: 1
+
+Id: 107 Source: prestar 
+	Translation:
+		ehuia:0.914
+		onite:0.702
+		icni:0.547
+		19:0.505
+		jo:0.488
+		gr:0.470
+		tlatemitilli:0.438
+		zumarraga:0.436
+		uzcuta:0.434
+		htlan:0.433 
+	Gold: {'ehuia'} 
+	Rank: 1
+
+Id: 108 Source: coyote 
+	Translation:
+		camachalo:0.609
+		coyoc:0.590
+		ichca:0.561
+		huitequi:0.472
+		zauh:0.469
+		cuaz:0.468
+		extiz:0.451
+		zahua:0.442
+		pu:0.442
+		po:0.404 
+	Gold: {'coyo', 'coyoc'} 
+	Rank: 2
+
+Id: 109 Source: desear 
+	Translation:
+		elehui:0.868
+		elehuia:0.667
+		qu:0.521
+		quechi:0.517
+		znequi:0.507
+		monequilti:0.503
+		tzitzihuan:0.475
+		achto:0.463
+		nequia:0.431
+		nec:0.431 
+	Gold: {'elehui', 'znequi', 'elehuia', 'nequi'} 
+	Rank: 1
+
+Id: 110 Source: sabor 
+	Translation:
+		mati:0.542
+		lan:0.531
+		tro:0.522
+		chil:0.507
+		mian:0.431
+		xinach:0.411
+		yoyolcameh:0.408
+		iahhuui:0.404
+		electri:0.402
+		xumalli:0.400 
+	Gold: {'mati', 'iahhuui'} 
+	Rank: 1
+
+Id: 111 Source: teatro 
+	Translation:
+		tlamahuiz:0.883
+		mahuizo:0.659
+		mahui:0.492
+		imottilih:0.490
+		yah:0.484
+		itt:0.450
+		cala:0.440
+		ihcahuaca:0.440
+		cotoni:0.437
+		tlacacalata:0.433 
+	Gold: {'mahui', 'tlamahuiz'} 
+	Rank: 1
+
+Id: 112 Source: salvador 
+	Translation:
+		salvador:0.937
+		tema:0.748
+		quixti:0.649
+		pr:0.538
+		jesu:0.521
+		cachihualiz:0.481
+		yia:0.474
+		macehui:0.467
+		ioann:0.448
+		iesu:0.439 
+	Gold: {'tema', 'salvador', 'quixti'} 
+	Rank: 1
+
+Id: 113 Source: galleta 
+	Translation:
+		galleta:0.939
+		gr:0.548
+		g:0.523
+		pohualli:0.521
+		comal:0.507
+		tralladora:0.501
+		egorio:0.498
+		xacualoa:0.489
+		nterrey:0.489
+		nezahualco:0.484 
+	Gold: {'galleta', 'tlaxcal'} 
+	Rank: 1
+
+Id: 114 Source: destrozar 
+	Translation:
+		x:0.740
+		tepahpaquiltia:0.662
+		yb:0.648
+		dral:0.640
+		diego:0.627
+		fa:0.624
+		rosario:0.622
+		secretario:0.620
+		castillo:0.619
+		acamapich:0.611 
+	Gold: {'teciz'} 
+	Rank: 255
+
+Id: 115 Source: ramo 
+	Translation:
+		ramos:0.915
+		g:0.692
+		gr:0.519
+		pixca:0.515
+		ri:0.514
+		señor:0.503
+		poalli:0.486
+		egorio:0.470
+		vor:0.461
+		tlaca:0.455 
+	Gold: {'ramos'} 
+	Rank: 1
+
+Id: 116 Source: paso 
+	Translation:
+		pasilla:0.932
+		chilcuitlaxcolli:0.725
+		chil:0.666
+		zoh:0.612
+		xumalli:0.576
+		club:0.550
+		bicitleta:0.537
+		ztlachiel:0.535
+		xacualoa:0.527
+		abril:0.514 
+	Gold: {'pasilla'} 
+	Rank: 1
+
+Id: 117 Source: jadear 
+	Translation:
+		tixtomahua:0.906
+		itlachi:0.691
+		tolini:0.639
+		cuitl:0.594
+		ili:0.538
+		timamalihuac:0.520
+		ixeo:0.497
+		icemel:0.496
+		ixpetla:0.484
+		pinauhtiz:0.463 
+	Gold: {'tixtomahua'} 
+	Rank: 1
+
+Id: 118 Source: gritar 
+	Translation:
+		tzatzi:0.926
+		lero:0.501
+		ihcahuaca:0.485
+		tzahtzi:0.474
+		tlacacalata:0.398
+		laxoc:0.394
+		cirio:0.387
+		rafael:0.384
+		sarmien:0.383
+		rrancista:0.381 
+	Gold: {'tzatzi', 'tzahtzi'} 
+	Rank: 1
+
+Id: 119 Source: escupir 
+	Translation:
+		chichi:0.706
+		itzcuin:0.658
+		huiz:0.640
+		cual:0.606
+		zcuco:0.591
+		im:0.573
+		zque:0.559
+		yb:0.543
+		oc:0.537
+		nocupix:0.536 
+	Gold: {'chichi'} 
+	Rank: 1
+
+Id: 120 Source: vestido 
+	Translation:
+		tzotzoma:0.619
+		nequia:0.519
+		xolochcue:0.516
+		sa:0.515
+		quen:0.457
+		cocone:0.454
+		icuilacta:0.437
+		nmediasco:0.418
+		neltoqui:0.418
+		ilpi:0.417 
+	Gold: {'quen', 'tzotzoma'} 
+	Rank: 1
+
+Id: 121 Source: tierno 
+	Translation:
+		xoxouhqui:0.731
+		stancia:0.573
+		chilmolli:0.561
+		calhuahza:0.559
+		nohpal:0.555
+		nopal:0.530
+		xoxo:0.527
+		catarina:0.523
+		izhua:0.489
+		chil:0.476 
+	Gold: {'xoxouhqui', 'ne'} 
+	Rank: 1
+
+Id: 122 Source: portal 
+	Translation:
+		ticchi:0.651
+		por:0.545
+		min:0.497
+		chia:0.485
+		yehhua:0.468
+		moyacanilia:0.451
+		axcan:0.433
+		ohuala:0.430
+		le:0.428
+		chien:0.421 
+	Gold: {'por', 'tal'} 
+	Rank: 2
+
+Id: 123 Source: madera 
+	Translation:
+		icuil:0.666
+		tlapech:0.618
+		llan:0.484
+		cuauh:0.483
+		cuahuitl:0.475
+		pech:0.450
+		huilia:0.433
+		ahco:0.424
+		cocolo:0.410
+		tepe:0.402 
+	Gold: {'tlacuauh', 'cuauh'} 
+	Rank: 4
+
+Id: 124 Source: barca 
+	Translation:
+		acalli:0.805
+		latuic:0.540
+		ltemalo:0.518
+		ono:0.504
+		tlatia:0.463
+		tzitz:0.430
+		poyahua:0.408
+		tlathui:0.406
+		choqui:0.404
+		aquia:0.376 
+	Gold: {'acalli'} 
+	Rank: 1
+
+Id: 125 Source: despreciar 
+	Translation:
+		ech:0.746
+		xinech:0.740
+		tlecuezal:0.636
+		pu:0.546
+		cizu:0.544
+		xmechmo:0.518
+		ilama:0.486
+		tlachie:0.480
+		petz:0.466
+		nezca:0.462 
+	Gold: {'mah', 'pehua'} 
+	Rank: 14
+
+Id: 126 Source: amargo 
+	Translation:
+		chichi:0.611
+		itzcuin:0.555
+		mimizt:0.468
+		mocnopil:0.464
+		choca:0.459
+		miz:0.449
+		onohualco:0.446
+		pia:0.405
+		tza:0.401
+		tepahpaquiltia:0.401 
+	Gold: {'chichi'} 
+	Rank: 1
+
+Id: 127 Source: quetzal 
+	Translation:
+		quetzal:0.937
+		zacuan:0.687
+		coatl:0.662
+		chalchihui:0.655
+		chalchiuh:0.628
+		potonia:0.612
+		tapayol:0.592
+		cozqui:0.586
+		cozcatl:0.580
+		quechol:0.573 
+	Gold: {'quetzal'} 
+	Rank: 1
+
+Id: 128 Source: pluma 
+	Translation:
+		quetzal:0.870
+		ihui:0.724
+		potonia:0.698
+		tapayol:0.644
+		xahua:0.632
+		zacuan:0.614
+		huitz:0.609
+		coatl:0.575
+		quechol:0.568
+		chalchihui:0.565 
+	Gold: {'quetzal'} 
+	Rank: 1
+
+Id: 129 Source: perforar 
+	Translation:
+		coyoni:0.884
+		coyoc:0.760
+		acacic:0.626
+		ohuehyiyac:0.575
+		rdenas:0.540
+		amaihcuilol:0.530
+		poch:0.508
+		erics:0.499
+		celia:0.490
+		lmenas:0.485 
+	Gold: {'coyoni', 'coyoc'} 
+	Rank: 1
+
+Id: 130 Source: caja 
+	Translation:
+		petlacal:0.909
+		top:0.717
+		tlachie:0.525
+		ilpi:0.465
+		ui:0.463
+		ixtelolo:0.463
+		mohuaxca:0.444
+		pale:0.443
+		xillan:0.439
+		quexquich:0.407 
+	Gold: {'petlacal'} 
+	Rank: 1
+
+Id: 131 Source: pez 
+	Translation:
+		mimic:0.778
+		michi:0.608
+		ahhua:0.582
+		rrancista:0.538
+		ictique:0.532
+		uar:0.496
+		orcasitas:0.489
+		fria:0.488
+		agui:0.480
+		felipe:0.480 
+	Gold: {'mimic'} 
+	Rank: 1
+
+Id: 132 Source: tema 
+	Translation:
+		tema:0.942
+		salvador:0.777
+		zcal:0.608
+		cachihualiz:0.550
+		quixti:0.535
+		zque:0.485
+		mauh:0.480
+		auh:0.462
+		tepon:0.453
+		zcuco:0.453 
+	Gold: {'tema'} 
+	Rank: 1
+
+Id: 133 Source: patio 
+	Translation:
+		patio:0.952
+		itual:0.937
+		ithual:0.889
+		ber:0.618
+		nepantla:0.579
+		pixca:0.497
+		calitic:0.487
+		cotona:0.453
+		ommihzo:0.453
+		nex:0.436 
+	Gold: {'patio', 'ithual', 'itual'} 
+	Rank: 1
+
+Id: 134 Source: yo 
+	Translation:
+		nicpia:0.745
+		ne:0.709
+		zquia:0.670
+		fa:0.657
+		hua:0.609
+		iuh:0.568
+		onie:0.556
+		tlazohtla:0.526
+		nehhua:0.522
+		e:0.520 
+	Gold: {'nehhua', 'ne'} 
+	Rank: 2
+
+Id: 135 Source: amado 
+	Translation:
+		tlazohtla:0.910
+		ama:0.750
+		ticcua:0.738
+		zquia:0.720
+		tazohta:0.554
+		tlazo:0.553
+		tlahcuilolli:0.531
+		tralladora:0.526
+		comal:0.525
+		nami:0.524 
+	Gold: {'tlazohtla', 'tlazo'} 
+	Rank: 1
+
+Id: 136 Source: pedirle 
+	Translation:
+		mihtlanililia:0.931
+		pouhilil:0.734
+		chililiz:0.605
+		neltili:0.600
+		eltilitiuh:0.591
+		itti:0.591
+		tti:0.588
+		titlani:0.579
+		neltoc:0.579
+		quimolhui:0.570 
+	Gold: {'mihtlanililia'} 
+	Rank: 1
+
+Id: 137 Source: ropa 
+	Translation:
+		tzotzoma:0.949
+		ui:0.556
+		tzatzapal:0.510
+		xolochcue:0.505
+		misa:0.499
+		lahuan:0.472
+		pixque:0.466
+		nuevo:0.457
+		comal:0.453
+		yancui:0.446 
+	Gold: {'tzotzoma'} 
+	Rank: 1
+
+Id: 138 Source: rogar 
+	Translation:
+		tahtan:0.904
+		tlauhti:0.843
+		tamechtahtanil:0.760
+		tlauhtia:0.609
+		ili:0.570
+		idl:0.562
+		end:0.535
+		namech:0.515
+		tlalhuia:0.509
+		vor:0.498 
+	Gold: {'tahtan'} 
+	Rank: 1
+
+Id: 139 Source: jugar 
+	Translation:
+		mahui:0.844
+		ltih:0.638
+		nocniu:0.593
+		ahuil:0.545
+		pahpa:0.514
+		mahuizzo:0.498
+		sombra:0.467
+		ihcuilo:0.460
+		cuetlaxo:0.448
+		tzinoa:0.424 
+	Gold: {'mahui'} 
+	Rank: 1
+
+Id: 140 Source: grande 
+	Translation:
+		hueyi:0.921
+		huey:0.631
+		hue:0.598
+		chamahuac:0.565
+		ohuehyiyac:0.561
+		altpe:0.556
+		izcal:0.538
+		gali:0.533
+		piloa:0.508
+		año:0.507 
+	Gold: {'hueyi', 'huey'} 
+	Rank: 1
+
+Id: 141 Source: tráiganla 
+	Translation:
+		xic:0.767
+		namoahtapal:0.753
+		cui:0.601
+		hual:0.565
+		nican:0.539
+		yb:0.507
+		necoc:0.499
+		tih:0.487
+		dar:0.487
+		agua:0.471 
+	Gold: {'cui', 'huica'} 
+	Rank: 3
+
+Id: 142 Source: pídele 
+	Translation:
+		htlan:0.896
+		puebla:0.716
+		mayana:0.544
+		illi:0.519
+		icni:0.519
+		xicol:0.508
+		19:0.495
+		htlani:0.491
+		apiz:0.481
+		apiaz:0.472 
+	Gold: {'htlan'} 
+	Rank: 1
+
+Id: 143 Source: presidente 
+	Translation:
+		presi:0.731
+		us:0.675
+		ludovi:0.599
+		tlahtoca:0.593
+		premios:0.552
+		nario:0.543
+		tlahtoani:0.497
+		yacana:0.496
+		luis:0.483
+		icuilacta:0.479 
+	Gold: {'presi'} 
+	Rank: 1
+
+Id: 144 Source: nombre 
+	Translation:
+		toca:0.836
+		tocayoti:0.674
+		hispan:0.606
+		v:0.583
+		tlahtoca:0.568
+		de:0.568
+		ixiptla:0.562
+		españa:0.556
+		año:0.536
+		nuestro:0.532 
+	Gold: {'toca'} 
+	Rank: 1
+
+Id: 145 Source: rostro 
+	Translation:
+		mixco:0.755
+		tlachia:0.696
+		yollo:0.611
+		notelpo:0.601
+		timamalihuac:0.600
+		notozca:0.580
+		chihui:0.573
+		naz:0.571
+		ixeo:0.538
+		azoc:0.538 
+	Gold: {'mixco'} 
+	Rank: 1
+
+Id: 146 Source: lodo 
+	Translation:
+		atlatzicuina:0.897
+		mimacaci:0.634
+		zoqui:0.613
+		atahuit:0.597
+		itti:0.596
+		caxi:0.510
+		salvador:0.504
+		temolcax:0.486
+		motzicoa:0.478
+		tema:0.478 
+	Gold: {'zoqui'} 
+	Rank: 3
+
+Id: 147 Source: puramente 
+	Translation:
+		ommihzo:0.785
+		imayauhcan:0.754
+		imayauhcampa:0.607
+		ceuh:0.540
+		pochcopa:0.487
+		iye:0.483
+		nepantla:0.474
+		avell:0.468
+		itzcuin:0.439
+		comal:0.438 
+	Gold: {'za', 'zan'} 
+	Rank: 222
+
+Id: 148 Source: establecer 
+	Translation:
+		itoa:0.531
+		acique:0.466
+		cauh:0.460
+		pul:0.460
+		iuh:0.444
+		chic:0.436
+		lique:0.427
+		tepe:0.421
+		otlaixmatia:0.412
+		cuezcoma:0.406 
+	Gold: {'chan', 'tlalia'} 
+	Rank: 171
+
+Id: 149 Source: voz 
+	Translation:
+		tzahtzi:0.851
+		nopiltzin:0.520
+		xinechmotlapohpolhuili:0.488
+		tzatzi:0.454
+		omitz:0.444
+		mu:0.434
+		silva:0.411
+		tepotz:0.400
+		ammi:0.399
+		onite:0.386 
+	Gold: {'tzatzi', 'tzahtzi'} 
+	Rank: 1
+
+Id: 150 Source: pipián 
+	Translation:
+		chilacach:0.927
+		temolcax:0.614
+		arroz:0.580
+		textli:0.561
+		bis:0.554
+		ayohhuach:0.543
+		yohuac:0.532
+		soldados:0.530
+		felipe:0.527
+		rafael:0.526 
+	Gold: {'yohuac', 'chilacach'} 
+	Rank: 1
+Corrected: None
+Prec@1: 0.627
+Prec@5: 0.867
+Prec@10: 0.880
+Printing mapped vectors: ./translated_vecs

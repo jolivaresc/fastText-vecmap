@@ -5,3 +5,4 @@ test.py
 models/
 .vscode/
 .evaluation.py.swp
+graph.pb
