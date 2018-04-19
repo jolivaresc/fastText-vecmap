@@ -312,7 +312,7 @@ def next_batch(x, y, step, batch_size):
 
 def get_topk_vectors(vector, matrix, k=10, kind="quicksort"):
     """Función que mide la similitud coseno entre `vector` y `matrix` y las ordena
-    de mayor a menor. 
+    de mayor a menor y retorna los `k` más cercanos. 
     Los índices que retorna los obtiene de `matrix` y corresponden
     a los vectores más cercanos entre `vector` y `matrix`.
 
@@ -322,6 +322,9 @@ def get_topk_vectors(vector, matrix, k=10, kind="quicksort"):
         Vector a medir.
     matrix : {numpy.ndarray}
         Matriz de embeddings.
+    k : {int}, optional
+        k vectores más cercanos.
+        (the default is "10", 10 vecinos más cercanos)
     kind : {str}, optional
         Algoritmo de ordenamiento.
         (the default is "quicksort", puede utilizarse: {‘quicksort’, ‘mergesort’, ‘heapsort’})
@@ -341,14 +344,14 @@ def get_topk_vectors(vector, matrix, k=10, kind="quicksort"):
     unsorted = np.argsort(unsorted, kind=kind)
 
     # El algoritmo hacer ordenamiento ascendente, por lo que se invierte `[::-1]`
-    # para que quede en orden descendente y se seleccionan los 10 primeros
+    # para que quede en orden descendente y se seleccionan los `k` primeros
     # más cercanos `[:10]`.
-    distances = unsorted[::-1][:10]
+    distances = unsorted[::-1][:k]
 
     # Se eliminan variables innecesarias.
     del unsorted
 
-    # Se retorna una lista con los índices de `matrix` más cercanos a `vector`
+    # Se retorna una lista con los `k` índices de `matrix` más cercanos a `vector`
     return distances
 
 
