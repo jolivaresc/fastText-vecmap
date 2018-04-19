@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 
-
 from collections import defaultdict
 from io import BufferedReader
 from zipfile import ZipFile
@@ -17,7 +16,7 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
     """Función para leer datasets en formato:
     palabra vector
     por cada línea
-    
+
     Parameters:
     ----------
     file : {io.TextIOWrapper}
@@ -36,14 +35,13 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
     dtype : {numpy format}, optional
         Tipo de dato de los vectores (the default is np.float64,
         which [formato float64])
-    
+
     Returns
     -------
     [list],[numpy.ndarray]
         Retorna una lista con las palabras y una matriz del dataset.
     """
 
-    
     words = []
 
     # Si el archivo está comprimido, usar el método decode para poder leerlo.
@@ -52,7 +50,7 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
     else:
         header = file.readline().split()
 
-    # Se lee la cabecera del archivo. Indica el número total embeddings y 
+    # Se lee la cabecera del archivo. Indica el número total embeddings y
     # su dimensionalidad.
     count = int(header[0])  # if is_zipped else 5000
     dim = int(header[1])  # if is_zipped else 300
@@ -66,9 +64,9 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
         if is_zipped:
             word, vec = file.readline().decode(encoding).split(" ", 1)
         else:
-            #try:
+            # try:
             word, vec = file.readline().split(" ", 1)
-            #except ValueError as e:
+            # except ValueError as e:
             #    print(e, file.readline().split(" ", 1), i)
         # Si no se indica un vocabulario se lee el dataset completo
         if vocabulary is None:
@@ -76,20 +74,20 @@ def read(file, vocabulary=None, is_zipped=True, encoding="utf-8", dtype=np.float
             matrix[i] = np.fromstring(vec, sep=" ", dtype=dtype)
         # Si se indica un vocabulario, sólo se cargan las palabras del dataset necesarias.
         elif word in vocabulary:
-            #for _ in range(vocabulary[word]):
+            # for _ in range(vocabulary[word]):
             words.append(word)
             matrix.append(np.fromstring(vec, sep=" ", dtype=dtype))
 
     # Cerrar apuntador al archivo
     file.close()
-    
+
     # Retorna lista con palabras y la matriz de embeddings
     return (words, matrix) if vocabulary is None else (words, np.array(matrix, dtype=dtype))
 
 
 def get_lexicon(source, path=None):
     """Función para cargar lexicones de entrenamiento/pruebas
-    
+
     Parameters:
     ----------
     source : {str}
@@ -97,13 +95,13 @@ def get_lexicon(source, path=None):
     path : {str}, optional
         Indica la ruta en donde se ubican los lexicones
         (the default is None, which [ruta por defecto])
-    
+
     Raises
     ------
     ValueError
         Si no encuentra el lexicon solicitado, muestra un error de que no lo encontró
         o de que el nombre es inválido.
-    
+
     Returns
     -------
     list
@@ -132,7 +130,7 @@ def get_lexicon(source, path=None):
         src, trg = load_lexicon(path + "es-na.train.txt")
     elif source.__eq__("es-na.test"):
         src, trg = load_lexicon(path + "es-na.test.true.txt")
-    
+
     # Si no encuentra el archivo o en nombre es inválido muestra un error.
     else:
         raise ValueError("{} no encontrado".format(source))
@@ -146,7 +144,7 @@ def load_lexicon(source):
     en dos listas. El lexicon está en formato:
     palabra1 palabra2
     por cada línea.
-    
+
     Parameters:
     ----------
     source : {str}
@@ -156,39 +154,40 @@ def load_lexicon(source):
     list
         Retorna dos listas con los pares de palabra.
     """
+
     # listas para cargar las palabras del lexicon
     src, trg = [], []
-    
+
     # Se abre el archivo
     with open(source, "r") as file:
         # Ciclo para leer el archivo línea por línea
         for line in file:
             # Se divide la línea
-            # palabra1 palabra2 
+            # palabra1 palabra2
             # para añadirlas a las listas `src`, `trg`
             src.append(line.split()[0])
             trg.append(line.split()[1])
-    
+
     # Listas con los pares de palabras por separado.
     return (src, trg)
 
 
 def open_file(source, path=None):
     """Función para leer datasets. Los datasets están en formato [zip, gz] o simple. 
-    
+
     Parameters:
     ----------
     source : {str}
         Dataset a leer.
     path : {str}, optional
         Ruta del dataset (the default is None, which [Ruta por defecto])
-    
+
     Raises
     ------
     ValueError
         Si no encuentra el dataset solicitado, muestra un error de que no lo encontró
         o de que el nombre es inválido.
-    
+
     Returns
     -------
     io.TextIOWrapper
@@ -200,7 +199,7 @@ def open_file(source, path=None):
 
     # Se carga en dataset indicado en `source`.
 
-    # Si el dataset está en formato simple i.e: no comprimido se retorna 
+    # Si el dataset está en formato simple i.e: no comprimido se retorna
     # el apuntador al archivo.
     if source.__eq__("en.norm.fst"):
         return open(path + "en.200k.300d.norm.fst", "r", encoding="utf-8", errors="surrogateescape")
@@ -210,7 +209,7 @@ def open_file(source, path=None):
         return open(path + "en.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
     elif source.__eq__("it.fst"):
         return open(path + "en-it/it.200k.300d.fst", "r", encoding="utf-8", errors="surrogateescape")
-        
+
     elif source.__eq__("es.norm.n2v"):
         return open(path + "es-na/es.node2vec.norm.embeddings")
     elif source.__eq__("na.norm.n2v"):
@@ -222,7 +221,7 @@ def open_file(source, path=None):
 
     # Dataset comprimidos.
     elif source.__eq__("en-wiki"):
-        #2519370 vectors
+        # 2519370 vectors
         file = ZipFile(path + "wiki/wiki.en.zip")\
             .open("wiki.en.vec")
     elif source.__eq__("en-wiki-news"):
@@ -251,7 +250,7 @@ def open_file(source, path=None):
 def get_vectors(lexicon, words, embeddings, dtype='float'):
     """Función que busca los embeddings que corresponden a una lista de palabras
     en un dataset dado.
-    
+
     Parameters:
     ----------
     lexicon : {list}
@@ -263,7 +262,7 @@ def get_vectors(lexicon, words, embeddings, dtype='float'):
         Matriz con todos los embeddings que existen dentro del dataset dado
     dtype : {str}, optional
         Tipo de dato de los embeddings (the default is 'float')
-    
+
     Returns
     -------
     numpy.ndarray
@@ -275,7 +274,7 @@ def get_vectors(lexicon, words, embeddings, dtype='float'):
 
     # Ciclo para llenar la matriz
     for i in range(len(lexicon)):
-        # Busca las palabras indicadas en `lexicon` dentro de `words` 
+        # Busca las palabras indicadas en `lexicon` dentro de `words`
         # para obtener su embedding.
         if lexicon[i] in words:
             matrix[i] = embeddings[words.index(lexicon[i])]
@@ -286,7 +285,7 @@ def get_vectors(lexicon, words, embeddings, dtype='float'):
 
 def next_batch(x, y, step, batch_size):
     """Función para generar batches a partir de una matriz.
-    
+
     Parameters:
     ----------
     x : {numpy.ndarray}
@@ -311,12 +310,12 @@ def next_batch(x, y, step, batch_size):
     return x[ix:iy], y[ix:iy]
 
 
-def get_top10_vectors(vector, matrix, kind="quicksort"):
+def get_topk_vectors(vector, matrix, k=10, kind="quicksort"):
     """Función que mide la similitud coseno entre `vector` y `matrix` y las ordena
     de mayor a menor. 
     Los índices que retorna los obtiene de `matrix` y corresponden
     a los vectores más cercanos entre `vector` y `matrix`.
-    
+
     Parameters:
     ----------
     vector : {numpy.ndarray}
@@ -326,7 +325,7 @@ def get_top10_vectors(vector, matrix, kind="quicksort"):
     kind : {str}, optional
         Algoritmo de ordenamiento.
         (the default is "quicksort", puede utilizarse: {‘quicksort’, ‘mergesort’, ‘heapsort’})
-    
+
     Returns
     -------
     list
@@ -342,7 +341,7 @@ def get_top10_vectors(vector, matrix, kind="quicksort"):
     unsorted = np.argsort(unsorted, kind=kind)
 
     # El algoritmo hacer ordenamiento ascendente, por lo que se invierte `[::-1]`
-    # para que quede en orden descendente y se seleccionan los 10 primeros 
+    # para que quede en orden descendente y se seleccionan los 10 primeros
     # más cercanos `[:10]`.
     distances = unsorted[::-1][:10]
 
@@ -355,7 +354,7 @@ def get_top10_vectors(vector, matrix, kind="quicksort"):
 
 def closest_word_to(top_10, words):
     """Función que retorna lista de palabras según los índices en `top_10`
-    
+
     Parameters:
     ----------
     top_10 : {list}
@@ -367,13 +366,14 @@ def closest_word_to(top_10, words):
     list
         Lista de palabras según los índices de `words`
     """
+
     return [words[index] for index in top_10]
 
 
 def gold_dict(list_src, list_trg):
     """Función que genera un diccionario de palabras y sus traducciones 
     gold-standard.
-    
+
     Parameters:
     ----------
     list_src : {list}
@@ -386,6 +386,7 @@ def gold_dict(list_src, list_trg):
         Diccionario donde su llave es la palabra en idioma origen y su valor es una lista
         con sus traducciones 
     """
+
     # Lista de pares traducción
     pares_eval = list(zip(list_src, list_trg))
 
