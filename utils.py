@@ -345,7 +345,7 @@ def get_topk_vectors(vector, matrix, k=10, kind="quicksort"):
 
     # El algoritmo hacer ordenamiento ascendente, por lo que se invierte `[::-1]`
     # para que quede en orden descendente y se seleccionan los `k` primeros
-    # más cercanos `[:10]`.
+    # más cercanos `[:k]`.
     distances = unsorted[::-1][:k]
 
     # Se eliminan variables innecesarias.
