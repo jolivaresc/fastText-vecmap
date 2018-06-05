@@ -24,15 +24,17 @@ print("TensorFlow version: {}".format(tf.VERSION))
 if tf.test.gpu_device_name():
     print("GPU disponible")
 
-source_lex = "en-it.test"
-#source_lex = "es-na.test"
+#source_lex = "en-it.test"
+source_lex = "es-na.test"
 words_scr_lexicon, words_trg_lexicon = utils.get_lexicon(source_lex)
 print("size of lexicon:",set(words_scr_lexicon).__len__())
 #print(len(words_scr_lexicon), len(words_trg_lexicon))
 
 
+source_str = "es.n2v"
+target_str = "na.n2v"
 #source_str = "es.norm.n2v"
-source_str = "en.fst"
+#source_str = "en.fst"
 source_vec = utils.open_file(source_str)
 words_src, source_vec = utils.read(source_vec, is_zipped=False)
 eval_src = list(set(words_scr_lexicon))
@@ -41,8 +43,8 @@ print("source_vec: " + source_str)
 #print(src_vec.shape)
 
 
-#target_str = "na.norm.n2v"
-target_str = "it.fst"
+
+#target_str = "it.fst"
 target_vec = utils.open_file(target_str)
 words_trg, target_vec = utils.read(target_vec, is_zipped=False)
 print("target_vec: " + target_str)
@@ -56,8 +58,8 @@ test_vectors = src_vec
 
 tf.reset_default_graph()
 sess = tf.Session()
-#path="models/en-it/2/"
-path = "models/en-it/6/"
+#path="models/en-it/1/"
+path = "models/es-na/2/"
 #path = "models/es-na/encoding_n2v/es-na/"
 saver = tf.train.import_meta_graph(path + "model2250.ckpt.meta")
 saver.restore(sess, tf.train.latest_checkpoint(path))
@@ -72,6 +74,7 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 
 
 output_NN = graph.get_tensor_by_name("nah_predicted/Tanh:0")
+#output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("xw_plus_b_1:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted:0")
 #code = graph.get_tensor_by_name("xw_plus_b_2:0")

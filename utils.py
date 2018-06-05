@@ -129,7 +129,8 @@ def get_lexicon(source, path=None):
     elif source.__eq__("es-na.train"):
         src, trg = load_lexicon(path + "es-na.train.txt")
     elif source.__eq__("es-na.test"):
-        src, trg = load_lexicon(path + "es-na.test.true.txt")
+        #src, trg = load_lexicon(path + "es-na.test.true.txt")
+        src, trg = load_lexicon(path + "evaluationset_sinproblematicn2v.txt")
 
     # Si no encuentra el archivo o en nombre es inválido muestra un error.
     else:
