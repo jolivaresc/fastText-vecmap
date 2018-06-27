@@ -27,7 +27,7 @@ if tf.test.gpu_device_name():
 #source_lex = "en-it.test"
 source_lex = "es-na.test"
 words_scr_lexicon, words_trg_lexicon = utils.get_lexicon(source_lex)
-print("size of lexicon:",set(words_scr_lexicon).__len__())
+print("size of lexicon:", set(words_scr_lexicon).__len__())
 #print(len(words_scr_lexicon), len(words_trg_lexicon))
 
 
@@ -37,11 +37,11 @@ target_str = "na.n2v"
 #source_str = "en.fst"
 source_vec = utils.open_file(source_str)
 words_src, source_vec = utils.read(source_vec, is_zipped=False)
+# lista de palabras en español del lexicon semilla
 eval_src = list(set(words_scr_lexicon))
 src_vec = utils.get_vectors(eval_src, words_src, source_vec)
 print("source_vec: " + source_str)
 #print(src_vec.shape)
-
 
 
 #target_str = "it.fst"
@@ -73,7 +73,7 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 #print([n.name for n in graph.as_graph_def().node])
 
 
-output_NN = graph.get_tensor_by_name("nah_predicted/Tanh:0")
+output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("xw_plus_b_1:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted:0")
@@ -104,6 +104,15 @@ p1, p5, p10 = 0, 0, 0
 list_en_eval = list(resultados.keys())
 hits, not_found = [], []
 
+
+for palabra in eval_src:
+    print("Traducción de:", palabra)
+    for i,w in enumerate(resultados[palabra]):
+        print("\t",str(i+1)+ ".- " + w)
+    print()
+
+
+# Medir Precision_at_k
 for palabra_gold in list_en_eval:
     for i in gold[palabra_gold]:
         if i in resultados[palabra_gold]:
