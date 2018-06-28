@@ -7,6 +7,10 @@ from collections import Counter
 
 import numpy as np
 import tensorflow as tf
+from sklearn.manifold import TSNE
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+from random import choice
 
 import utils
 
@@ -72,6 +76,7 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 
 #print([n.name for n in graph.as_graph_def().node])
 
+#print(eval_src.index("vaca"))
 
 output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
@@ -104,7 +109,7 @@ p1, p5, p10 = 0, 0, 0
 list_en_eval = list(resultados.keys())
 hits, not_found = [], []
 
-
+# Mostrar los candidatos a traducción del lexicón de evaluación
 for palabra in eval_src:
     print("Traducción de:", palabra)
     for i,w in enumerate(resultados[palabra]):
@@ -138,3 +143,51 @@ print("P@1:", p1, "\tP@5:", p5, "\tP@10:", p10)
 print("P@1:", p1 / length, "\tP@5:", p5 / length, "\tP@10:", p10 / length)
 e = time.time() - start_time
 print("Time: %02d:%02d:%02d" % (e // 3600, (e % 3600 // 60), (e % 60 // 1)))
+
+
+
+# Se reduce dimensiones de los
+# vectores para Graficar pares de traducción español-náhuatl
+# palabras_test =["vaca","caja","tema","quetzal","jadear","esfuerzo","querer"]
+palabras_test =[]
+
+
+# Se eligen aleatoriamente palabras para graficar
+for i in range(6):
+    palabras_test.append(choice(eval_src))
+
+plot_matrix = np.empty((len(palabras_test),128),dtype=np.float)
+plot_matrix1 = np.empty((len(palabras_test),128),dtype=np.float)
+
+for i,w in enumerate(palabras_test):
+    plot_matrix[i] = test_vectors[eval_src.index(w)]
+    plot_matrix1[i]=pred[eval_src.index(w)]
+
+method = PCA
+reduction = method(n_components=2, random_state=42).fit_transform(plot_matrix)
+reduction1 = method(n_components=2, random_state=42).fit_transform(plot_matrix1)
+#palabras_test_ids = range(len(palabras_test))
+
+#plt.figure(figsize=(6,5))
+
+# for i,label in zip(palabras_test_ids,palabras_test):
+#     plt.scatter(reduction[i,0],reduction[i,1],c="b",label=label)
+# plt.legend()
+
+fig,(ax1,ax2)=plt.subplots(1,2,sharey=True)
+ax1.scatter(reduction[:,0],reduction[:,1],marker="*")
+ax2.scatter(reduction1[:, 0], reduction1[:, 1], c="r", marker="d")
+
+for i,txt in enumerate(palabras_test):
+    ax1.annotate(txt,(reduction[i,0],reduction[i,1]))
+    ax2.annotate(txt, (reduction1[i, 0], reduction1[i, 1]))
+    
+
+ax1.grid()
+ax1.set_title("Español")
+ax2.grid()
+ax2.set_title("Náhuatl")
+
+# plt.scatter(reduction[:,0],reduction[:,1])
+
+plt.show()
