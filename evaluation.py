@@ -110,11 +110,11 @@ list_en_eval = list(resultados.keys())
 hits, not_found = [], []
 
 # Mostrar los candidatos a traducción del lexicón de evaluación
-for palabra in eval_src:
-    print("Traducción de:", palabra)
-    for i,w in enumerate(resultados[palabra]):
-        print("\t",str(i+1)+ ".- " + w)
-    print()
+# for palabra in eval_src:
+#     print("Traducción de:", palabra)
+#     for i, w in enumerate(resultados[palabra]):
+#         print("\t", str(i + 1) + ".- " + w)
+#     print()
 
 
 # Medir Precision_at_k
@@ -145,27 +145,36 @@ e = time.time() - start_time
 print("Time: %02d:%02d:%02d" % (e // 3600, (e % 3600 // 60), (e % 60 // 1)))
 
 
-
 # Se reduce dimensiones de los
 # vectores para Graficar pares de traducción español-náhuatl
 # palabras_test =["vaca","caja","tema","quetzal","jadear","esfuerzo","querer"]
-palabras_test =[]
+
+
+# ,"altepe", "tecuan", "maca", "eheca", "mocuep","xtlahua"]
+palabras_test_na = ["tatemp", "petlacal", "coyoc", "quetza" ,"altepe", "tecuan", "maca", "eheca", "mocuep","xtlahua"]
+
+# , "ciudad","tigre", "dar", "aire", "volver", "llanura"]
+palabras_test_es = ["derribar", "cofre", "coyote", "levantar", "ciudad","tigre", "dar", "aire", "volver", "llanura"]
 
 
 # Se eligen aleatoriamente palabras para graficar
-for i in range(6):
-    palabras_test.append(choice(eval_src))
+# for i in range(6):
+#     palabras_test.append(choice(eval_src))
 
-plot_matrix = np.empty((len(palabras_test),128),dtype=np.float)
-plot_matrix1 = np.empty((len(palabras_test),128),dtype=np.float)
+plot_matrix = np.empty((len(palabras_test_na), 128), dtype=np.float)
+plot_matrix1 = np.empty((len(palabras_test_es), 128), dtype=np.float)
 
-for i,w in enumerate(palabras_test):
-    plot_matrix[i] = test_vectors[eval_src.index(w)]
-    plot_matrix1[i]=pred[eval_src.index(w)]
+for i, (w_na, w_es) in enumerate(zip(palabras_test_na, palabras_test_es)):
+    plot_matrix[i] = target_vec[words_trg.index(w_na)]
+    plot_matrix1[i] = pred[eval_src.index(w_es)]
 
-method = PCA
-reduction = method(n_components=2, random_state=42).fit_transform(plot_matrix)
-reduction1 = method(n_components=2, random_state=42).fit_transform(plot_matrix1)
+
+method = TSNE
+reduction = method(n_components=2, random_state=42, perplexity=50,
+                   n_iter=5000, method="exact").fit_transform(plot_matrix)
+
+reduction1 = method(n_components=2, random_state=42, perplexity=50,
+                    n_iter=5000, method="exact").fit_transform(plot_matrix1)
 #palabras_test_ids = range(len(palabras_test))
 
 #plt.figure(figsize=(6,5))
@@ -174,19 +183,19 @@ reduction1 = method(n_components=2, random_state=42).fit_transform(plot_matrix1)
 #     plt.scatter(reduction[i,0],reduction[i,1],c="b",label=label)
 # plt.legend()
 
-fig,(ax1,ax2)=plt.subplots(1,2,sharey=True)
-ax1.scatter(reduction[:,0],reduction[:,1],marker="*")
+fig, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
+#fig, ax = plt.subplots()
+ax1.scatter(reduction[:, 0], reduction[:, 1], marker="o")
 ax2.scatter(reduction1[:, 0], reduction1[:, 1], c="r", marker="d")
 
-for i,txt in enumerate(palabras_test):
-    ax1.annotate(txt,(reduction[i,0],reduction[i,1]))
-    ax2.annotate(txt, (reduction1[i, 0], reduction1[i, 1]))
-    
+for i, (txt_na, text_es) in enumerate(zip(palabras_test_na, palabras_test_es)):
+    ax1.annotate(txt_na, (reduction[i, 0], reduction[i, 1]))
+    ax2.annotate(text_es, (reduction1[i, 0], reduction1[i, 1]))
 
 ax1.grid()
-ax1.set_title("Español")
+ax1.set_title("Náhuatl")
 ax2.grid()
-ax2.set_title("Náhuatl")
+ax2.set_title("Español")
 
 # plt.scatter(reduction[:,0],reduction[:,1])
 
