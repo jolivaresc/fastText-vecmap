@@ -26,7 +26,7 @@ if tf.test.gpu_device_name():
     print("GPU disponible")
 
 
-source_str = "it.fst"
+source_str = "es.n2v"
 source_vec = utils.open_file(source_str)
 words_src, source_vec = utils.read(source_vec, is_zipped=False)
 print("source_vec: " + source_str)
@@ -36,7 +36,7 @@ tf.reset_default_graph()
 sess = tf.Session()
 #path="models/en-it/2/"
 #path = "models/es-na/encoding_n2v/na-es/3/"
-path = "models/en-it/encoder/it-en/6/"
+path = "models/es-na/2/"
 #path = "models/es-na/encoding_n2v/na-es/"
 saver = tf.train.import_meta_graph(path + "model2250.ckpt.meta")
 saver.restore(sess, tf.train.latest_checkpoint(path))
@@ -50,7 +50,7 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 #print([n.name for n in graph.as_graph_def().node])
 
 
-output_NN = graph.get_tensor_by_name("h1/Elu:0")
+output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 
 
 feed_dict = {X: source_vec, kprob: 1}
