@@ -15,14 +15,23 @@ def read(path,count=10):
     return (words, matrix)
 
 
-palabra_es, matrix_es = read("es.embeddings")
-palabra_na, matrix_na = read("na.embeddings")
+c = 5
+palabra_es, matrix_es = read("es.embeddings",count=c)
+palabra_na, matrix_na = read("na.embeddings",count=c)
 
+
+print("before TSNE:",matrix_es.shape,matrix_na.shape)
 
 method = TSNE
 
-es = method(n_components=2,method="barnes_hut").fit_transform(matrix_es)
-na = method(n_components=2,method="barnes_hut").fit_transform(matrix_na)
+es = method(n_components=2,random_state=42).fit_transform(matrix_es)
+na = method(n_components=2,random_state=42).fit_transform(matrix_na)
+
+print("after TSNE:",es.shape,na.shape)
+
+for i,j in zip(palabra_es,palabra_na):
+    print(i,j)
+
 
 fig, ax = plt.subplots()
 ax.scatter(es[:, 0], es[:, 1], marker="o")

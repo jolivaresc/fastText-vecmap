@@ -7,3 +7,4 @@ models/
 .vscode/
 .evaluation.py.swp
 graph.pb
+Node2Vec.tar.gz

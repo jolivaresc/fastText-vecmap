@@ -94,7 +94,7 @@ def get_lexicon(source, path=None):
         Lexicon que se va a cargar
     path : {str}, optional
         Indica la ruta en donde se ubican los lexicones
-        (the default is None, which [ruta por defecto])
+        (the default is None, which [datasets/dictionaries/])
 
     Raises
     ------
