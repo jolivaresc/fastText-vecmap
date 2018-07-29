@@ -135,3 +135,9 @@ for i in range(EPOCHS):
     })
 
     print("Epoch:", i, "/", EPOCHS, "\tLoss:", _loss)
+
+model = "ae-weights"
+
+SAVE_PATH = "./" + model + ".ckpt"
+print("save path", SAVE_PATH)
+save_model = saver.save(sess, SAVE_PATH)

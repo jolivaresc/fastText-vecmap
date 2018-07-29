@@ -7,7 +7,7 @@ from collections import Counter
 
 import numpy as np
 import tensorflow as tf
-#from sklearn.manifold import TSNE
+from sklearn.manifold import TSNE as TSNE_SK
 from Node2Vec.tsne import tsne as TSNE
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
@@ -170,25 +170,24 @@ for i, (w_es, w_na) in enumerate(palabras_test):
 
 
 
-method = TSNE
+method = PCA
 # reduction = method(n_components=2, random_state=42).fit_transform(plot_matrix)
 # reduction1 = method(n_components=2, random_state=42).fit_transform(plot_matrix1)
-reduction = TSNE(target_vec)
-reduction1 = TSNE(pred)
+reduction = method(n_components=2,random_state=42).fit_transform(plot_matrix)
+reduction1 = method(n_components=2,random_state=42).fit_transform(plot_matrix1)
 
 
 # fig, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
 fig, ax = plt.subplots()
 ax.scatter(reduction[:, 0], reduction[:, 1], marker="o", label="nahuatl")
-ax.scatter(reduction1[:, 0], reduction1[:, 1],
-           marker="d", c="r", label="español")
+ax.scatter(reduction1[:, 0], reduction1[:, 1],marker="d", c="r", label="español")
 # ax2.scatter(reduction1[:, 0], reduction1[:, 1], c="r", marker="d")
 
-for text_es,text_na in palabras_test:
-    a = words_trg.index(text_na)
-    b = eval_src.index(text_es)
-    ax.annotate(text_na,(reduction[a,0],reduction[a,1]))
-    ax.annotate(text_es,(reduction1[b,0],reduction[b,1]))
+for i,(text_es,text_na), in enumerate(palabras_test):
+    # a = words_trg.index(text_na)
+    # b = eval_src.index(text_es)
+    ax.annotate(text_na,(reduction[i,:]))
+    ax.annotate(text_es,(reduction1[i,:]))
     
 
 # for i, (text_es, text_na) in enumerate(palabras_test):
