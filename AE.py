@@ -2,6 +2,7 @@
 import tensorflow as tf
 import numpy as np
 import utils
+import modelo
 
 
 __author__ = "Olivares Castillo José Luis"
