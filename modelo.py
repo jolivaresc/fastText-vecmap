@@ -6,8 +6,8 @@ https://github.com/keras-team/keras/blob/master/keras/engine/network.py
 
 import tensorflow as tf
 import tensorflow.contrib.eager as tfe
-#import numpy as np
-#from sklearn.datasets import load_wine
+# import numpy as np
+# from sklearn.datasets import load_wine
 
 
 '''# Eager execution
@@ -45,6 +45,7 @@ class Autoencoder(tf.keras.Model):
                                       # vectores de entrada
                                       # input_shape=(self.dims,),
                                       use_bias=True,
+                                      #bias_initializer=tf.zeros_initializer(),
                                       kernel_initializer=tf.truncated_normal_initializer(
                                           stddev=0.1,
                                           seed=self.RANDOM_SEED
@@ -58,6 +59,7 @@ class Autoencoder(tf.keras.Model):
             [
                 tf.keras.layers.Dense(units=self.dims,
                                       use_bias=True,
+                                      #bias_initializer=tf.zeros_initializer(),
                                       kernel_initializer=tf.truncated_normal_initializer(
                                           stddev=0.1,
                                           seed=self.RANDOM_SEED
@@ -66,12 +68,12 @@ class Autoencoder(tf.keras.Model):
             ],
             name="decoder"
         )
-        self.dropout = tf.keras.layers.Dropout(self.dropout,
+        self._dropout = tf.keras.layers.Dropout(self.dropout,
                                                seed=self.RANDOM_SEED)
 
-    def predict(self, inputs, training=False):
+    def predict(self, inputs):
         outputs = self.encoder(inputs)
-        outputs = self.dropout(inputs)
+        outputs = self._dropout(outputs)
         outputs = self.decoder(outputs)
 
         return outputs
@@ -83,29 +85,36 @@ class Autoencoder(tf.keras.Model):
         return loss
 
     def grads_fn(self, inputs, targets):
+        #TODO: 
+        # - return loss,tape.gradients
         with tf.GradientTape() as tape:
             loss = self.loss_fn(inputs, targets)
-        return tape.gradient(loss, self.variables)
+        return loss, tape.gradient(loss, self.variables)
 
     def fit(self, inputs, targets, hparams):
+        # TODO:
+        # - global_step = tf.train.get_or_create_global_step()
+        # - track accuracy
+
         if hparams["plot"]:
             import matplotlib.pyplot as plt
         track_accuracy = []
-        epoch_accuracy = tfe.metrics.Accuracy()
         track_loss = []
+        epoch_accuracy = tfe.metrics.Accuracy()
 
         for i in range(hparams['num_epochs']):
-            grads = self.grads_fn(inputs, targets)
+            loss_val, grads = self.grads_fn(inputs, targets)
             hparams['optimizer'].apply_gradients(zip(grads, self.variables))
             epoch_accuracy(self.predict(inputs), targets)
             track_accuracy.append(epoch_accuracy.result())
-            track_loss.append(self.loss_fn(inputs, targets))
+            track_loss.append(loss_val)
             #epoch_accuracy.init_variables()
             if (i == 0) | ((i + 1) % hparams['verbose'] == 0):
                 print('Loss at epoch %d: %f - %f' %
                       (i + 1, self.loss_fn(inputs, targets), epoch_accuracy.result()))
         if hparams["plot"]:
             plt.plot(track_loss)
+            plt.title("Loss")
             plt.grid()
             plt.show()
 
@@ -114,11 +123,12 @@ class Autoencoder(tf.keras.Model):
         self.built = True
 
 '''
+
 hparams = {
     'optimizer': tf.train.RMSPropOptimizer(1e-4, centered=True),
     'num_epochs': 2000,
     'verbose': 50,
-    'plot': True
+    'plot': False
 }
 
 
@@ -136,4 +146,5 @@ model = Autoencoder(dims=X.shape[1], dim_encoded=2,)
 model.fit(X, X, hparams)
 
 model.summary()
+
 '''
