@@ -21,7 +21,7 @@ start_time = time.time()
 
 __author__ = "Olivares Castillo José Luis"
 
-#tf.enable_eager_execution()
+# tf.enable_eager_execution()
 tf.logging.set_verbosity(tf.logging.INFO)
 
 print("TensorFlow version: {}".format(tf.VERSION))
@@ -47,7 +47,7 @@ words_src, source_vec = utils.read(source_vec, is_zipped=False)
 eval_src = list(set(words_scr_lexicon))
 src_vec = utils.get_vectors(eval_src, words_src, source_vec)
 print("source_vec: " + source_str)
-#print(src_vec.shape)
+# print(src_vec.shape)
 
 
 #target_str = "it.fst"
@@ -56,14 +56,14 @@ words_trg, target_vec = utils.read(target_vec, is_zipped=False)
 print("target_vec: " + target_str)
 #eval_it = list(set(it))
 #trg_vec = get_vectors(eval_it, words_it, it_vec)
-#print(target_vec.shape)
+# print(target_vec.shape)
 
 test_vectors = src_vec
 
 
 tf.reset_default_graph()
 sess = tf.Session()
-#path="models/en-it/1/"
+# path="models/en-it/1/"
 path = "models/es-na/2/"
 #path = "models/es-na/encoding_n2v/es-na/"
 saver = tf.train.import_meta_graph(path + "model2250.ckpt.meta")
@@ -77,18 +77,18 @@ kprob = graph.get_tensor_by_name("dropout_prob:0")
 
 #print([n.name for n in graph.as_graph_def().node])
 
-#print(eval_src.index("vaca"))
+# print(eval_src.index("vaca"))
 
 output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted/BiasAdd:0")
 #output_NN = graph.get_tensor_by_name("xw_plus_b_1:0")
 #output_NN = graph.get_tensor_by_name("nah_predicted:0")
 #code = graph.get_tensor_by_name("xw_plus_b_2:0")
-#print(output_NN)
+# print(output_NN)
 
 feed_dict = {X: test_vectors, kprob: 1}
 pred = sess.run(output_NN, feed_dict)
-#print(pred.shape)
+# print(pred.shape)
 
 
 top_10 = [utils.get_topk_vectors(pred[_], target_vec)
@@ -111,11 +111,12 @@ list_en_eval = list(resultados.keys())
 hits, not_found = [], []
 
 # Mostrar los candidatos a traducción del lexicón de evaluación
-# for palabra in eval_src:
-#     print("Traducción de:", palabra)
-#     for i, w in enumerate(resultados[palabra]):
-#         print("\t", str(i + 1) + ".- " + w)
-#     print()
+for palabra in eval_src:
+    print("Traducción de:", palabra)
+    for i, w in enumerate(resultados[palabra]):
+        print("\t", str(i + 1) + ".- " + w)
+    print(gold[palabra])
+    print()
 
 
 # Medir Precision_at_k
@@ -208,7 +209,7 @@ for i, (text_es, text_na), in enumerate(palabras_test_plot):
 # ax1.grid()
 # ax1.set_title("Náhuatl")
 ax.grid()
-#ax.set_title("Español")
+# ax.set_title("Español")
 plt.legend()
 
 # plt.scatter(reduction[:,0],reduction[:,1])

@@ -49,16 +49,15 @@ words_trg, target_vec = utils.read(target_vec, is_zipped=False)
 eval_target = words_trg_lexicon
 # Obtener vectores de palabras del lexicon
 trg_vec = utils.get_vectors(eval_target, words_trg, target_vec)
-print("Target_vec: " + target_str, "\tShape:", trg_vec.shape,"\n")
-
+print("Target_vec: " + target_str, "\tShape:", trg_vec.shape, "\n")
 
 
 ##########################
 
 # Se instancia un nuevo objeto (Autoencoder)
-ae = Autoencoder(dims=src_vec.shape[1], # Dimensión de entrada/salida
-                     dim_encoded=300,       # Dimensión de vector latente
-                     )
+ae = Autoencoder(dims=src_vec.shape[1],  # Dimensión de entrada/salida
+                 dim_encoded=350,       # Dimensión de vector latente
+                 dropout=0.51)
 
 # Hiper-parámetros del modelo
 hparams = {
@@ -68,14 +67,19 @@ hparams = {
     'plot': False
 }
 
-# Se castean los vectores 
+# Se castean los vectores
 # de entrenamiento (numpy.array) a tensores (tf.Tensor)
-X = tf.constant(src_vec,dtype=tf.float32)
-y = tf.constant(trg_vec,dtype=tf.float32)
+X = tf.constant(src_vec, dtype=tf.float32)
+y = tf.constant(trg_vec, dtype=tf.float32)
+
+# TODO: compilar modelo
+# ae.compile(optimizer=tf.train.RMSPropOptimizer(1e-4, centered=True),
+#            loss=tf.losses.mean_squared_error,
+#            metrics=["accuracy"])
 
 # Se entrena el modelo
-ae.fit(X,y,hparams)
+ae.fit(X, y, hparams)
 
 
-# TODO:
 # Guardar parámetros aprendidos de la red
+ae.save_weights("ae-weights.h5", save_format='h5', overwrite=True)

@@ -1,212 +1,7 @@
-TensorFlow version: 1.8.0
+TensorFlow version: 1.9.0
 size of lexicon: 140
 source_vec: es.n2v
 target_vec: na.n2v
-INFO:tensorflow:Restoring parameters from models/es-na/2/model2250.ckpt
-Traducción de: volver
-	 1.- cuepa
-	 2.- mocuep
-	 3.- ixpetani
-	 4.- amo
-	 5.- cala
-	 6.- yahualoa
-	 7.- im
-	 8.- ac
-	 9.- cuep
-	 10.- ol
-
-Traducción de: querer
-	 1.- nequi
-	 2.- znequi
-	 3.- nequia
-	 4.- ixquich
-	 5.- fa
-	 6.- amo
-	 7.- zazo
-	 8.- nec
-	 9.- uilizque
-	 10.- nozo
-
-Traducción de: pedirle
-	 1.- mihtlanililia
-	 2.- pouhilil
-	 3.- neltili
-	 4.- chililiz
-	 5.- quimolhui
-	 6.- tti
-	 7.- titlani
-	 8.- neltoc
-	 9.- eltilitiuh
-	 10.- obispo
-
-Traducción de: indio
-	 1.- ig
-	 2.- macehual
-	 3.- quixtiz
-	 4.- obispo
-	 5.- quiliz
-	 6.- ocaxil
-	 7.- quimolhui
-	 8.- chix
-	 9.- iteopixca
-	 10.- tta
-
-Traducción de: perforar
-	 1.- coyoni
-	 2.- coyoc
-	 3.- acacic
-	 4.- amaihcuilol
-	 5.- ohuehyiyac
-	 6.- celia
-	 7.- rdenas
-	 8.- tlatzotzonque
-	 9.- poch
-	 10.- mimil
-
-Traducción de: salvaje
-	 1.- uanime
-	 2.- mexica
-	 3.- ticuahcua
-	 4.- xolochcue
-	 5.- oyuh
-	 6.- yb
-	 7.- quim
-	 8.- zcuecuex
-	 9.- dral
-	 10.- rne
-
-Traducción de: pedir
-	 1.- htlani
-	 2.- tlania
-	 3.- tahtan
-	 4.- nimitz
-	 5.- tamechtahtanil
-	 6.- neltili
-	 7.- lih
-	 8.- htlan
-	 9.- ichpoc
-	 10.- tlauhti
-
-Traducción de: seno
-	 1.- xillan
-	 2.- notozca
-	 3.- illam
-	 4.- motozcatlan
-	 5.- itoz
-	 6.- uitlapilco
-	 7.- immoma
-	 8.- mocnelili
-	 9.- potztlatziuh
-	 10.- nino
-
-Traducción de: mesero
-	 1.- xexelo
-	 2.- pech
-	 3.- ahco
-	 4.- cualica
-	 5.- xeloa
-	 6.- comal
-	 7.- loyan
-	 8.- anotimocau
-	 9.- club
-	 10.- tlanamaca
-
-Traducción de: comer
-	 1.- cua
-	 2.- cuaz
-	 3.- ´tos
-	 4.- tlacual
-	 5.- cualtiz
-	 6.- zque
-	 7.- tepahpaquiltia
-	 8.- cen
-	 9.- ﻿
-	 10.- maca
-
-Traducción de: amado
-	 1.- tlazohtla
-	 2.- ama
-	 3.- zquia
-	 4.- ticcua
-	 5.- tlazo
-	 6.- tazohta
-	 7.- tlahcuilolli
-	 8.- niz
-	 9.- tlanamaca
-	 10.- tlanamacazquia
-
-Traducción de: cultura
-	 1.- cultura
-	 2.- tlamatiliz
-	 3.- toyalhuayo
-	 4.- nahuatlahtol
-	 5.- lahtol
-	 6.- iayah
-	 7.- moteihtitili
-	 8.- huehue
-	 9.- moyacanilia
-	 10.- nahua
-
-Traducción de: establecer
-	 1.- cauh
-	 2.- iuh
-	 3.- itoa
-	 4.- tepe
-	 5.- acique
-	 6.- lique
-	 7.- auh
-	 8.- cala
-	 9.- pul
-	 10.- polihui
-
-Traducción de: verde
-	 1.- xoxo
-	 2.- xoxouhqui
-	 3.- zaca
-	 4.- ayohhuach
-	 5.- chilmolli
-	 6.- molli
-	 7.- chalchiuh
-	 8.- chichil
-	 9.- totome
-	 10.- celi
-
-Traducción de: conocer
-	 1.- ixmati
-	 2.- quix
-	 3.- mati
-	 4.- quiximati
-	 5.- machi
-	 6.- ixmachilia
-	 7.- iximacho
-	 8.- tlaca
-	 9.- y
-	 10.- omochantili
-
-Traducción de: naranja
-	 1.- naranja
-	 2.- juzga
-	 3.- ameyal
-	 4.- nacochtli
-	 5.- orcasitas
-	 6.- perah
-	 7.- comal
-	 8.- ahuax
-	 9.- matiloa
-	 10.- nezahualco
-
-Traducción de: transportar
-	 1.- axiti
-	 2.- chalchiuh
-	 3.- chalchihui
-	 4.- quetzal
-	 5.- illam
-	 6.- zacuan
-	 7.- itoz
-	 8.- xillan
-	 9.- tzotzona
-	 10.- teu
-
 Traducción de: itacates
 	 1.- ihtacatl
 	 2.- huauh
@@ -218,1074 +13,7 @@ Traducción de: itacates
 	 8.- michi
 	 9.- ezzotilli
 	 10.- alexander
-
-Traducción de: rostro
-	 1.- mixco
-	 2.- tlachia
-	 3.- yollo
-	 4.- timamalihuac
-	 5.- notozca
-	 6.- naz
-	 7.- ixeo
-	 8.- notelpo
-	 9.- acol
-	 10.- mix
-
-Traducción de: mirada
-	 1.- tlachia
-	 2.- im
-	 3.- mix
-	 4.- tz
-	 5.- yuhqui
-	 6.- tta
-	 7.- ix
-	 8.- xip
-	 9.- auh
-	 10.- chiuh
-
-Traducción de: pluma
-	 1.- quetzal
-	 2.- ihui
-	 3.- potonia
-	 4.- tapayol
-	 5.- xahua
-	 6.- coatl
-	 7.- ten
-	 8.- zacuan
-	 9.- huitz
-	 10.- chalchihui
-
-Traducción de: cierto
-	 1.- melahua
-	 2.- nel
-	 3.- hualla
-	 4.- mitzmo
-	 5.- omo
-	 6.- zque
-	 7.- ichpoc
-	 8.- tac
-	 9.- yb
-	 10.- ihtoh
-
-Traducción de: enorme
-	 1.- mil
-	 2.- huehca
-	 3.- cpac
-	 4.- oc
-	 5.- occe
-	 6.- huel
-	 7.- tia
-	 8.- zcuco
-	 9.- xochi
-	 10.- fr
-
-Traducción de: adornar
-	 1.- uan
-	 2.- chihchihua
-	 3.- apana
-	 4.- quimon
-	 5.- oquich
-	 6.- oztomeca
-	 7.- pochteca
-	 8.- yahualoa
-	 9.- auh
-	 10.- tzaoctimanca
-
-Traducción de: izquierda
-	 1.- pochcopa
-	 2.- imayauhcampa
-	 3.- poch
-	 4.- au
-	 5.- calaquia
-	 6.- imayauhcan
-	 7.- calac
-	 8.- calaqui
-	 9.- opoch
-	 10.- mian
-
-Traducción de: olvidar
-	 1.- huilli
-	 2.- quil
-	 3.- cahua
-	 4.- el
-	 5.- mihtalhui
-	 6.- nino
-	 7.- xonm
-	 8.- xquin
-	 9.- y
-	 10.- peh
-
-Traducción de: esfuerzo
-	 1.- quexquich
-	 2.- chicahua
-	 3.- ihiyo
-	 4.- potztlatziuh
-	 5.- machi
-	 6.- huehue
-	 7.- y
-	 8.- quezqui
-	 9.- tolini
-	 10.- nohuian
-
-Traducción de: limpiar
-	 1.- chipahuaque
-	 2.- pohpo
-	 3.- mitz
-	 4.- cciz
-	 5.- zatepan
-	 6.- comitl
-	 7.- mozacaticonti
-	 8.- stancia
-	 9.- caxi
-	 10.- bo
-
-Traducción de: introducir
-	 1.- calaqui
-	 2.- calaquia
-	 3.- calac
-	 4.- nican
-	 5.- puerta
-	 6.- hual
-	 7.- xip
-	 8.- im
-	 9.- auh
-	 10.- cala
-
-Traducción de: mixcólotl
-	 1.- mixco
-	 2.- tepuz
-	 3.- tlachia
-	 4.- timamalihuac
-	 5.- cochi
-	 6.- tepotz
-	 7.- naz
-	 8.- notozca
-	 9.- tz
-	 10.- xuchitl
-
-Traducción de: venir
-	 1.- hual
-	 2.- hualla
-	 3.- m
-	 4.- huitz
-	 5.- zcuco
-	 6.- zque
-	 7.- uh
-	 8.- yb
-	 9.- quin
-	 10.- auh
-
-Traducción de: derribar
-	 1.- mota
-	 2.- tatemp
-	 3.- tata
-	 4.- motemilih
-	 5.- nepapan
-	 6.- nimitz
-	 7.- secretario
-	 8.- castillo
-	 9.- loyan
-	 10.- dral
-
-Traducción de: tepaneca
-	 1.- colhuaca
-	 2.- eca
-	 3.- popolo
-	 4.- culhuacan
-	 5.- mexica
-	 6.- oyuh
-	 7.- rtes
-	 8.- oquim
-	 9.- yao
-	 10.- quim
-
-Traducción de: alegrar
-	 1.- ahuia
-	 2.- tlaza
-	 3.- tehhuellamac
-	 4.- pahpaqui
-	 5.- papa
-	 6.- nicnexti
-	 7.- liztica
-	 8.- qu
-	 9.- tinemiz
-	 10.- nemi
-
-Traducción de: prestar
-	 1.- ehuia
-	 2.- onite
-	 3.- icni
-	 4.- 19
-	 5.- gr
-	 6.- nocupix
-	 7.- rosario
-	 8.- htlan
-	 9.- diego
-	 10.- jo
-
-Traducción de: efecto
-	 1.- tlaocox
-	 2.- ihtotia
-	 3.- nehnemi
-	 4.- oquich
-	 5.- ellel
-	 6.- mixco
-	 7.- oceloquichtle
-	 8.- mito
-	 9.- tz
-	 10.- ixeo
-
-Traducción de: grande
-	 1.- hueyi
-	 2.- huey
-	 3.- hue
-	 4.- altpe
-	 5.- gali
-	 6.- año
-	 7.- xihuitl
-	 8.- altepe
-	 9.- izcal
-	 10.- ohuehyiyac
-
-Traducción de: comenzar
-	 1.- pehua
-	 2.- peuh
-	 3.- omo
-	 4.- ignacio
-	 5.- pen
-	 6.- eca
-	 7.- uel
-	 8.- yohua
-	 9.- man
-	 10.- otlacua
-
-Traducción de: vasija
-	 1.- cax
-	 2.- comitl
-	 3.- chiquihui
-	 4.- tecoma
-	 5.- nechicalhui
-	 6.- caxi
-	 7.- zoqui
-	 8.- xommo
-	 9.- xel
-	 10.- molcaxitl
-
-Traducción de: presidente
-	 1.- presi
-	 2.- us
-	 3.- tlahtoca
-	 4.- ludovi
-	 5.- premios
-	 6.- tlahtoani
-	 7.- hueyi
-	 8.- año
-	 9.- gali
-	 10.- nario
-
-Traducción de: rogar
-	 1.- tlauhti
-	 2.- tahtan
-	 3.- tamechtahtanil
-	 4.- ili
-	 5.- tlauhtia
-	 6.- idl
-	 7.- nimitz
-	 8.- end
-	 9.- namech
-	 10.- xip
-
-Traducción de: voz
-	 1.- tzahtzi
-	 2.- nopiltzin
-	 3.- mu
-	 4.- xinechmotlapohpolhuili
-	 5.- omitz
-	 6.- yehua
-	 7.- im
-	 8.- nocupix
-	 9.- nan
-	 10.- tzatzi
-
-Traducción de: quiltoniles
-	 1.- cualac
-	 2.- illi
-	 3.- alac
-	 4.- oomicihcicu
-	 5.- coch
-	 6.- cuacualaca
-	 7.- apiaz
-	 8.- quil
-	 9.- pozoni
-	 10.- chilmolli
-
-Traducción de: caja
-	 1.- petlacal
-	 2.- top
-	 3.- tlachie
-	 4.- ui
-	 5.- ilpi
-	 6.- ixtelolo
-	 7.- mohuaxca
-	 8.- pale
-	 9.- xillan
-	 10.- cxi
-
-Traducción de: reunir
-	 1.- potz
-	 2.- nechico
-	 3.- nemoa
-	 4.- pochteca
-	 5.- auh
-	 6.- iuhqui
-	 7.- puchteca
-	 8.- notza
-	 9.- miec
-	 10.- otitla
-
-Traducción de: salvador
-	 1.- salvador
-	 2.- tema
-	 3.- quixti
-	 4.- macehui
-	 5.- cachihualiz
-	 6.- pr
-	 7.- jesu
-	 8.- yia
-	 9.- tepon
-	 10.- omo
-
-Traducción de: echar
-	 1.- contla
-	 2.- patahuaz
-	 3.- zque
-	 4.- quim
-	 5.- tz
-	 6.- yaca
-	 7.- za
-	 8.- im
-	 9.- zcuco
-	 10.- yuhqui
-
-Traducción de: silvestre
-	 1.- tlal
-	 2.- tlalticpac
-	 3.- y
-	 4.- talmanic
-	 5.- tal
-	 6.- ayo
-	 7.- tin
-	 8.- tlalli
-	 9.- ax
-	 10.- al
-
-Traducción de: descubrir
-	 1.- ixpetla
-	 2.- nexti
-	 3.- tolini
-	 4.- cala
-	 5.- timamalihuac
-	 6.- mix
-	 7.- tlachia
-	 8.- namiqui
-	 9.- im
-	 10.- tz
-
-Traducción de: vaca
-	 1.- uacax
-	 2.- enepil
-	 3.- huen
-	 4.- cueh
-	 5.- cuacua
-	 6.- tictohuaxcati
-	 7.- pih
-	 8.- cihua
-	 9.- quiximati
-	 10.- mp
-
-Traducción de: descanso
-	 1.- mocehui
-	 2.- icpal
-	 3.- calyolot
-	 4.- huizque
-	 5.- pepe
-	 6.- immotla
-	 7.- tlauh
-	 8.- acia
-	 9.- xtuo
-	 10.- ipetla
-
-Traducción de: molcajete
-	 1.- molcaxitl
-	 2.- temolcax
-	 3.- otzoy
-	 4.- tlaxamanil
-	 5.- xommo
-	 6.- caxi
-	 7.- zoqui
-	 8.- tzoaloni
-	 9.- chiquihui
-	 10.- club
-
-Traducción de: madera
-	 1.- icuil
-	 2.- tlapech
-	 3.- cuauh
-	 4.- cuahuitl
-	 5.- llan
-	 6.- pech
-	 7.- tepe
-	 8.- yuhqui
-	 9.- icpac
-	 10.- ahco
-
-Traducción de: brazo
-	 1.- cuecue
-	 2.- milacatzo
-	 3.- huetzi
-	 4.- mauh
-	 5.- timamalihuac
-	 6.- tepotz
-	 7.- tonehua
-	 8.- cocone
-	 9.- mama
-	 10.- cuitla
-
-Traducción de: horno
-	 1.- horno
-	 2.- tu
-	 3.- timihtil
-	 4.- tz
-	 5.- teoticanantzin
-	 6.- nan
-	 7.- cuep
-	 8.- tlananquili
-	 9.- cuepa
-	 10.- tel
-
-Traducción de: oír
-	 1.- acica
-	 2.- nlcaci
-	 3.- cac
-	 4.- ami
-	 5.- cuic
-	 6.- camati
-	 7.- quimolhui
-	 8.- qu
-	 9.- ihiyo
-	 10.- oiuhquimoca
-
-Traducción de: visceras
-	 1.- cuacualaca
-	 2.- tlahuicxitilli
-	 3.- motlali
-	 4.- cuacua
-	 5.- temolcax
-	 6.- zoqui
-	 7.- huatza
-	 8.- itzoltilia
-	 9.- tlalia
-	 10.- caxi
-
-Traducción de: chiquillo
-	 1.- ninozcalia
-	 2.- pohua
-	 3.- ten
-	 4.- mahuizo
-	 5.- miec
-	 6.- im
-	 7.- xip
-	 8.- mahui
-	 9.- mahuiztili
-	 10.- immoma
-
-Traducción de: paso
-	 1.- pasilla
-	 2.- chilcuitlaxcolli
-	 3.- chil
-	 4.- zoh
-	 5.- xumalli
-	 6.- club
-	 7.- tlalih
-	 8.- xacualoa
-	 9.- ztlachiel
-	 10.- bicitleta
-
-Traducción de: patio
-	 1.- patio
-	 2.- itual
-	 3.- ithual
-	 4.- nepantla
-	 5.- ber
-	 6.- pixca
-	 7.- calitic
-	 8.- ticatca
-	 9.- nex
-	 10.- ommihzo
-
-Traducción de: admirar
-	 1.- mahuizo
-	 2.- imottilih
-	 3.- tlamahuiz
-	 4.- itt
-	 5.- chililiz
-	 6.- onimitz
-	 7.- mahui
-	 8.- mihtlanililia
-	 9.- itti
-	 10.- mahuiztili
-
-Traducción de: derecho
-	 1.- ihtoh
-	 2.- melahua
-	 3.- iyaca
-	 4.- melauh
-	 5.- ozto
-	 6.- nel
-	 7.- milacatzo
-	 8.- itt
-	 9.- tecu
-	 10.- quetza
-
-Traducción de: tomar
-	 1.- zcuco
-	 2.- cui
-	 3.- xip
-	 4.- auh
-	 5.- tia
-	 6.- omo
-	 7.- hual
-	 8.- fa
-	 9.- tepahpaquiltia
-	 10.- zque
-
-Traducción de: despreciar
-	 1.- ech
-	 2.- xinech
-	 3.- tlecuezal
-	 4.- ilama
-	 5.- cizu
-	 6.- pu
-	 7.- nino
-	 8.- petz
-	 9.- pehua
-	 10.- xmechmo
-
-Traducción de: unir
-	 1.- f
-	 2.- george
-	 3.- estado
-	 4.- 19
-	 5.- cahuan
-	 6.- tlahtocayotl
-	 7.- do
-	 8.- fe
-	 9.- ahuacatl
-	 10.- huehue
-
-Traducción de: tapar
-	 1.- pachoa
-	 2.- cciz
-	 3.- motequipacho
-	 4.- cuih
-	 5.- pacho
-	 6.- mochi
-	 7.- zoqui
-	 8.- tequi
-	 9.- itzoltilia
-	 10.- caxi
-
-Traducción de: final
-	 1.- mix
-	 2.- im
-	 3.- cauh
-	 4.- xip
-	 5.- mochi
-	 6.- y
-	 7.- zcuco
-	 8.- yb
-	 9.- yuhqui
-	 10.- l
-
-Traducción de: desierto
-	 1.- ceuh
-	 2.- des
-	 3.- er
-	 4.- ommihzo
-	 5.- olpi
-	 6.- izquin
-	 7.- ez
-	 8.- huehue
-	 9.- oticma
-	 10.- cuahuitl
-
-Traducción de: ocurrir
-	 1.- yoh
-	 2.- quem
-	 3.- pano
-	 4.- machi
-	 5.- bar
-	 6.- onino
-	 7.- cha
-	 8.- chiuh
-	 9.- nino
-	 10.- zquiani
-
-Traducción de: jugar
-	 1.- mahui
-	 2.- ltih
-	 3.- nocniu
-	 4.- mahuizzo
-	 5.- ahuil
-	 6.- ihcuilo
-	 7.- mahuizo
-	 8.- mahuiztili
-	 9.- pahpa
-	 10.- sombra
-
-Traducción de: uña
-	 1.- cuicuil
-	 2.- moci
-	 3.- ahuiz
-	 4.- poch
-	 5.- tetzahui
-	 6.- itz
-	 7.- tazohta
-	 8.- mihiyohuilti
-	 9.- acol
-	 10.- tlahcuilolli
-
-Traducción de: pipián
-	 1.- chilacach
-	 2.- temolcax
-	 3.- arroz
-	 4.- oransio
-	 5.- molli
-	 6.- secretario
-	 7.- castillo
-	 8.- rafael
-	 9.- acamapich
-	 10.- rosario
-
-Traducción de: pez
-	 1.- mimic
-	 2.- michi
-	 3.- mic
-	 4.- ictique
-	 5.- ahhua
-	 6.- mictia
-	 7.- rrancista
-	 8.- guerrero
-	 9.- dral
-	 10.- diego
-
-Traducción de: alfredo
-	 1.- alfredo
-	 2.- matiloa
-	 3.- chachal
-	 4.- club
-	 5.- xacualoa
-	 6.- juzga
-	 7.- ieltapach
-	 8.- felipe
-	 9.- futb
-	 10.- comal
-
-Traducción de: alimento
-	 1.- pal
-	 2.- tota
-	 3.- celi
-	 4.- ol
-	 5.- nuestro
-	 6.- tlacual
-	 7.- tiaz
-	 8.- quiyauh
-	 9.- ihchican
-	 10.- toh
-
-Traducción de: llanura
-	 1.- xtlahua
-	 2.- as
-	 3.- ip
-	 4.- tlalli
-	 5.- mitz
-	 6.- ua
-	 7.- tlahui
-	 8.- xinach
-	 9.- puerta
-	 10.- zaca
-
-Traducción de: barca
-	 1.- acalli
-	 2.- latuic
-	 3.- ono
-	 4.- ltemalo
-	 5.- tlatia
-	 6.- calaquia
-	 7.- tzitz
-	 8.- choqui
-	 9.- tlathui
-	 10.- aquia
-
-Traducción de: coyote
-	 1.- coyoc
-	 2.- camachalo
-	 3.- ichca
-	 4.- huitequi
-	 5.- zauh
-	 6.- po
-	 7.- cuaz
-	 8.- pu
-	 9.- extiz
-	 10.- zahua
-
-Traducción de: anáhuac
-	 1.- nahuac
-	 2.- noch
-	 3.- tzaoctimanca
-	 4.- tlamatiliz
-	 5.- cultura
-	 6.- siempre
-	 7.- huehue
-	 8.- m
-	 9.- dueño
-	 10.- nahua
-
-Traducción de: tierno
-	 1.- xoxouhqui
-	 2.- chilmolli
-	 3.- nohpal
-	 4.- stancia
-	 5.- xoxo
-	 6.- calhuahza
-	 7.- nopal
-	 8.- izhua
-	 9.- ahnozo
-	 10.- catarina
-
-Traducción de: decir
-	 1.- hto
-	 2.- lhui
-	 3.- auh
-	 4.- zcuco
-	 5.- lhuia
-	 6.- niman
-	 7.- ilhui
-	 8.- tlaca
-	 9.- omo
-	 10.- quin
-
-Traducción de: familiar
-	 1.- familiar
-	 2.- xicol
-	 3.- cocox
-	 4.- chmotlahpalhui
-	 5.- tlaloa
-	 6.- achcacauh
-	 7.- chihuili
-	 8.- comal
-	 9.- gu
-	 10.- bar
-
-Traducción de: yo
-	 1.- ne
-	 2.- nicpia
-	 3.- fa
-	 4.- zquia
-	 5.- hua
-	 6.- iuh
-	 7.- tlazohtla
-	 8.- mati
-	 9.- nehhua
-	 10.- tia
-
-Traducción de: valer
-	 1.- 1
-	 2.- quexquich
-	 3.- ton
-	 4.- yancui
-	 5.- toma
-	 6.- quezqui
-	 7.- mama
-	 8.- nuevo
-	 9.- pah
-	 10.- s
-
-Traducción de: acabar
-	 1.- tlami
-	 2.- mic
-	 3.- cauh
-	 4.- ahui
-	 5.- auh
-	 6.- yoltequipacho
-	 7.- miqui
-	 8.- tami
-	 9.- totecuyo
-	 10.- zque
-
-Traducción de: cargo
-	 1.- ahqui
-	 2.- tlaliliz
-	 3.- onino
-	 4.- chihui
-	 5.- im
-	 6.- ihto
-	 7.- milacatzo
-	 8.- xip
-	 9.- macehual
-	 10.- ticmo
-
-Traducción de: ramo
-	 1.- ramos
-	 2.- g
-	 3.- pixca
-	 4.- tlaca
-	 5.- señor
-	 6.- gr
-	 7.- vor
-	 8.- ri
-	 9.- egorio
-	 10.- yb
-
-Traducción de: traer
-	 1.- hual
-	 2.- cui
-	 3.- huica
-	 4.- t
-	 5.- tih
-	 6.- tqui
-	 7.- zcuco
-	 8.- na
-	 9.- tlaca
-	 10.- tepahpaquiltia
-
-Traducción de: gritar
-	 1.- tzatzi
-	 2.- ihcahuaca
-	 3.- tzahtzi
-	 4.- lero
-	 5.- tlacacalata
-	 6.- laxoc
-	 7.- huixoa
-	 8.- cala
-	 9.- ixmantaz
-	 10.- cirio
-
-Traducción de: puramente
-	 1.- ommihzo
-	 2.- imayauhcan
-	 3.- imayauhcampa
-	 4.- ceuh
-	 5.- nepantla
-	 6.- iye
-	 7.- ama
-	 8.- itual
-	 9.- tlazohtla
-	 10.- patio
-
-Traducción de: agregar
-	 1.- motlali
-	 2.- tiliaya
-	 3.- cuacualaca
-	 4.- tlahuicxitilli
-	 5.- tlalia
-	 6.- tec
-	 7.- huic
-	 8.- tzon
-	 9.- ihti
-	 10.- cuacua
-
-Traducción de: montaña
-	 1.- cem
-	 2.- huehca
-	 3.- tepe
-	 4.- tlaloa
-	 5.- miec
-	 6.- temo
-	 7.- teu
-	 8.- ahquetz
-	 9.- temoa
-	 10.- choca
-
-Traducción de: perdonar
-	 1.- pohpo
-	 2.- mozacaticonti
-	 3.- otimitzno
-	 4.- pahcayo
-	 5.- chipahuaque
-	 6.- comitl
-	 7.- max
-	 8.- zatepan
-	 9.- huellala
-	 10.- ay
-
-Traducción de: diverso
-	 1.- nepapan
-	 2.- mota
-	 3.- motemilih
-	 4.- huipan
-	 5.- tatemp
-	 6.- tenanco
-	 7.- huiptla
-	 8.- loyan
-	 9.- tepahpaquiltia
-	 10.- izqui
-
-Traducción de: muerto
-	 1.- mic
-	 2.- mimic
-	 3.- im
-	 4.- ictique
-	 5.- tzontequili
-	 6.- miqui
-	 7.- cuecuepotza
-	 8.- oquin
-	 9.- potoni
-	 10.- tiaque
-
-Traducción de: cofre
-	 1.- top
-	 2.- petlacal
-	 3.- tlachie
-	 4.- ilpi
-	 5.- itoz
-	 6.- xillan
-	 7.- motozcatlan
-	 8.- onimitz
-	 9.- pale
-	 10.- nacaz
-
-Traducción de: quetzal
-	 1.- quetzal
-	 2.- coatl
-	 3.- zacuan
-	 4.- chalchihui
-	 5.- chalchiuh
-	 6.- potonia
-	 7.- ihui
-	 8.- quechol
-	 9.- tapayol
-	 10.- teocuitla
-
-Traducción de: ciudad
-	 1.- altepe
-	 2.- altpe
-	 3.- huey
-	 4.- hueyi
-	 5.- nemiliz
-	 6.- mexica
-	 7.- tepe
-	 8.- tlahtoca
-	 9.- huehue
-	 10.- gali
-
-Traducción de: tráiganla
-	 1.- xic
-	 2.- namoahtapal
-	 3.- cui
-	 4.- hual
-	 5.- nican
-	 6.- yb
-	 7.- necoc
-	 8.- dar
-	 9.- can
-	 10.- tih
-
-Traducción de: sólo
-	 1.- zan
-	 2.- im
-	 3.- zcuco
-	 4.- choh
-	 5.- yuhqui
-	 6.- oc
-	 7.- auh
-	 8.- chiuh
-	 9.- omo
-	 10.- zque
-
-Traducción de: aire
-	 1.- yehyecatl
-	 2.- eca
-	 3.- eheca
-	 4.- tetzahui
-	 5.- hui
-	 6.- mach
-	 7.- yeyeca
-	 8.- huilo
-	 9.- ahua
-	 10.- tihuetz
-
-Traducción de: vestido
-	 1.- tzotzoma
-	 2.- nequia
-	 3.- sa
-	 4.- quen
-	 5.- neltoqui
-	 6.- xolochcue
-	 7.- cah
-	 8.- oquin
-	 9.- cocone
-	 10.- ilpi
-
-Traducción de: vender
-	 1.- tlanamacazquia
-	 2.- tlanamaca
-	 3.- namaco
-	 4.- namaca
-	 5.- tlazohtla
-	 6.- onitla
-	 7.- yah
-	 8.- villistas
-	 9.- rosario
-	 10.- secretario
-
-Traducción de: animal
-	 1.- yolca
-	 2.- v
-	 3.- pu
-	 4.- rn
-	 5.- mictia
-	 6.- pah
-	 7.- ichca
-	 8.- iapizmi
-	 9.- yoyolcameh
-	 10.- cala
-
-Traducción de: centenario
-	 1.- nario
-	 2.- premios
-	 3.- icuilacta
-	 4.- ipanoque
-	 5.- presi
-	 6.- tazohta
-	 7.- elehuia
-	 8.- hcuilo
-	 9.- george
-	 10.- tlahtocayotl
-
-Traducción de: nombre
-	 1.- toca
-	 2.- tocayoti
-	 3.- tlahtoca
-	 4.- hispan
-	 5.- año
-	 6.- y
-	 7.- xihuitl
-	 8.- d
-	 9.- omo
-	 10.- de
-
-Traducción de: presencia
-	 1.- mopechteccac
-	 2.- quimolhui
-	 3.- tlacuauh
-	 4.- tzinco
-	 5.- tlazoh
-	 6.- contla
-	 7.- ix
-	 8.- uad
-	 9.- eltilitiuh
-	 10.- copa
+['ihtacatl']
 
 Traducción de: pídele
 	 1.- htlan
@@ -1298,378 +26,137 @@ Traducción de: pídele
 	 8.- illi
 	 9.- nocupix
 	 10.- ehuia
+['htlan']
 
-Traducción de: teatro
-	 1.- tlamahuiz
-	 2.- mahuizo
-	 3.- yah
-	 4.- mahui
-	 5.- imottilih
-	 6.- ihcahuaca
-	 7.- onimitz
-	 8.- cala
-	 9.- diego
-	 10.- rosario
+Traducción de: silvestre
+	 1.- tlal
+	 2.- tlalticpac
+	 3.- y
+	 4.- talmanic
+	 5.- tal
+	 6.- ayo
+	 7.- tin
+	 8.- tlalli
+	 9.- ax
+	 10.- al
+['tlal', 'cuauh']
 
-Traducción de: suceder
-	 1.- chiuh
-	 2.- chihua
-	 3.- tlaca
-	 4.- oquimo
-	 5.- cholo
-	 6.- tihuetz
-	 7.- xip
-	 8.- quenin
-	 9.- pix
-	 10.- cequin
+Traducción de: centenario
+	 1.- nario
+	 2.- premios
+	 3.- icuilacta
+	 4.- ipanoque
+	 5.- presi
+	 6.- tazohta
+	 7.- elehuia
+	 8.- hcuilo
+	 9.- george
+	 10.- tlahtocayotl
+['nario', 'presi']
 
-Traducción de: fino
-	 1.- tlazo
-	 2.- zacuan
-	 3.- xomoihui
+Traducción de: puramente
+	 1.- ommihzo
+	 2.- imayauhcan
+	 3.- imayauhcampa
+	 4.- ceuh
+	 5.- nepantla
+	 6.- iye
+	 7.- ama
+	 8.- itual
+	 9.- tlazohtla
+	 10.- patio
+['zan', 'za']
+
+Traducción de: izquierda
+	 1.- pochcopa
+	 2.- imayauhcampa
+	 3.- poch
+	 4.- au
+	 5.- calaquia
+	 6.- imayauhcan
+	 7.- calac
+	 8.- calaqui
+	 9.- opoch
+	 10.- mian
+['pochcopa', 'poch', 'opoch']
+
+Traducción de: transportar
+	 1.- axiti
+	 2.- chalchiuh
+	 3.- chalchihui
 	 4.- quetzal
-	 5.- quechol
-	 6.- concui
-	 7.- cahuia
-	 8.- pech
-	 9.- xical
-	 10.- teocuitla
-
-Traducción de: ropa
-	 1.- tzotzoma
-	 2.- ui
-	 3.- pixque
-	 4.- nuevo
-	 5.- lahuan
-	 6.- tzatzapal
-	 7.- yancui
-	 8.- oquin
-	 9.- itac
-	 10.- xmatia
-
-Traducción de: leche
-	 1.- ihchican
-	 2.- notlazohca
-	 3.- chichi
-	 4.- itzcuin
-	 5.- pac
-	 6.- illi
-	 7.- xmechmo
-	 8.- xinechmo
-	 9.- chihchi
-	 10.- cualita
-
-Traducción de: portal
-	 1.- ticchi
-	 2.- por
-	 3.- chia
-	 4.- tlalticpac
-	 5.- chix
-	 6.- min
-	 7.- yehhua
-	 8.- axcan
-	 9.- tal
-	 10.- le
-
-Traducción de: dar
-	 1.- dar
-	 2.- maca
-	 3.- zcuco
-	 4.- mah
-	 5.- auh
-	 6.- quin
-	 7.- omo
-	 8.- xic
-	 9.- uh
-	 10.- tia
-
-Traducción de: nabo
-	 1.- stancia
-	 2.- bo
-	 3.- catarina
-	 4.- ga
-	 5.- cuechahua
-	 6.- temolcax
-	 7.- zul
-	 8.- cec
-	 9.- molcaxitl
-	 10.- chilmolli
-
-Traducción de: sabor
-	 1.- mati
-	 2.- lan
-	 3.- chil
-	 4.- tro
-	 5.- yol
-	 6.- yehua
-	 7.- nocupix
-	 8.- ixmachilia
-	 9.- ahnozo
-	 10.- choh
-
-Traducción de: aguacate
-	 1.- aztlacapalli
-	 2.- tolachno
-	 3.- ahua
-	 4.- pix
-	 5.- poyox
-	 6.- tlaxamanil
-	 7.- izhua
-	 8.- yb
-	 9.- ü
-	 10.- ehua
-
-Traducción de: amargo
-	 1.- chichi
-	 2.- itzcuin
-	 3.- miz
-	 4.- mimizt
-	 5.- choca
-	 6.- onohualco
-	 7.- tepahpaquiltia
-	 8.- im
-	 9.- mocnopil
-	 10.- auh
-
-Traducción de: lodo
-	 1.- atlatzicuina
-	 2.- mimacaci
-	 3.- atahuit
-	 4.- zoqui
-	 5.- itti
-	 6.- salvador
-	 7.- tema
-	 8.- ich
-	 9.- caxi
-	 10.- cu
-
-Traducción de: llevar
-	 1.- huica
-	 2.- mama
-	 3.- cuica
-	 4.- tqui
-	 5.- t
-	 6.- cui
-	 7.- zcuco
-	 8.- auh
-	 9.- liz
-	 10.- xip
-
-Traducción de: lavar
-	 1.- paca
-	 2.- caxi
-	 3.- ihti
-	 4.- mochi
-	 5.- tlalia
-	 6.- tec
-	 7.- motlali
-	 8.- tlahuicxitilli
-	 9.- zatepan
-	 10.- mp
-
-Traducción de: coger
-	 1.- ana
-	 2.- cholo
-	 3.- ochol
-	 4.- ictique
-	 5.- milacatzo
-	 6.- miqui
-	 7.- tlahueliloc
-	 8.- ixeo
-	 9.- mac
-	 10.- tecuan
-
-Traducción de: jadear
-	 1.- tixtomahua
-	 2.- tolini
-	 3.- itlachi
-	 4.- ixpetla
-	 5.- ixeo
-	 6.- timamalihuac
-	 7.- ili
-	 8.- cuitl
-	 9.- icemel
-	 10.- im
-
-Traducción de: tortuga
-	 1.- tectli
-	 2.- ayo
-	 3.- tlahuicxitilli
-	 4.- xip
-	 5.- tlalia
-	 6.- mochi
-	 7.- alac
-	 8.- caxi
-	 9.- zoqui
-	 10.- huatza
-
-Traducción de: indígena
-	 1.- lahtol
-	 2.- macehual
-	 3.- nahuatlahtol
-	 4.- elehuia
-	 5.- toyalhuayo
-	 6.- cultura
-	 7.- hcuilo
-	 8.- tlamatiliz
-	 9.- tazohta
-	 10.- tlahcuilolli
-
-Traducción de: escalera
-	 1.- nmediasco
-	 2.- oquinanquili
-	 3.- ilpia
-	 4.- dia
-	 5.- pualhuany
-	 6.- mahca
-	 7.- ipanoque
-	 8.- nario
-	 9.- icuilacta
-	 10.- comal
-
-Traducción de: tigre
-	 1.- ocelo
-	 2.- zacuan
-	 3.- tecuan
-	 4.- quechol
-	 5.- cacehuaztli
-	 6.- totome
-	 7.- quetzal
-	 8.- ehua
-	 9.- cuauh
-	 10.- tototl
-
-Traducción de: quitar
-	 1.- nech
-	 2.- ihcuani
-	 3.- cciz
-	 4.- cuilia
-	 5.- cui
-	 6.- me
-	 7.- tlalia
-	 8.- mochi
-	 9.- cuih
-	 10.- huizque
-
-Traducción de: pasar
-	 1.- pano
-	 2.- saroa
-	 3.- amen
-	 4.- tlen
-	 5.- omo
-	 6.- lti
-	 7.- moch
-	 8.- im
-	 9.- p
-	 10.- chiuh
-
-Traducción de: ver
-	 1.- ver
-	 2.- tta
-	 3.- uh
-	 4.- tac
-	 5.- auh
-	 6.- cen
-	 7.- yb
-	 8.- itta
-	 9.- oncan
-	 10.- tia
-
-Traducción de: levantar
-	 1.- quetza
-	 2.- ohuatzintic
-	 3.- yb
-	 4.- iuh
-	 5.- bar
-	 6.- yollo
-	 7.- yaca
-	 8.- quiz
-	 9.- quiza
-	 10.- tlazoh
-
-Traducción de: desear
-	 1.- elehui
-	 2.- elehuia
-	 3.- qu
-	 4.- znequi
-	 5.- quechi
-	 6.- achto
-	 7.- monequilti
-	 8.- tzitzihuan
+	 5.- illam
+	 6.- zacuan
+	 7.- itoz
+	 8.- xillan
 	 9.- tzotzona
-	 10.- nequia
+	 10.- teu
+['axiti']
 
-Traducción de: tema
-	 1.- tema
-	 2.- salvador
-	 3.- zcal
-	 4.- quixti
-	 5.- auh
-	 6.- cachihualiz
-	 7.- yuhqui
-	 8.- zque
-	 9.- zcuco
-	 10.- omo
-
-Traducción de: pieza
-	 1.- xexelo
-	 2.- xeloa
-	 3.- lero
-	 4.- loyan
-	 5.- yah
-	 6.- micuani
-	 7.- cualica
-	 8.- tlacual
-	 9.- ticatca
-	 10.- huehca
-
-Traducción de: pantalón
-	 1.- pantalon
-	 2.- matiloa
-	 3.- beethoven
-	 4.- comal
-	 5.- chachal
-	 6.- villistas
-	 7.- juev
-	 8.- echicoliz
-	 9.- anechhuall
-	 10.- ciriales
-
-Traducción de: tanto
-	 1.- ih
-	 2.- zazan
-	 3.- meh
-	 4.- itemohui
-	 5.- t
-	 6.- amuel
-	 7.- zcuco
-	 8.- nocupix
-	 9.- hcuilo
-	 10.- y
-
-Traducción de: niño
-	 1.- cocone
-	 2.- tzitzintin
-	 3.- pipil
-	 4.- conetl
-	 5.- toton
-	 6.- pil
-	 7.- cihuanton
-	 8.- machti
-	 9.- oquin
-	 10.- tizque
-
-Traducción de: llano
-	 1.- talmanic
-	 2.- mani
-	 3.- tlalticpac
-	 4.- tlal
-	 5.- tlaocol
-	 6.- dral
-	 7.- xacualoa
-	 8.- cuechac
+Traducción de: prestar
+	 1.- ehuia
+	 2.- onite
+	 3.- icni
+	 4.- 19
+	 5.- gr
+	 6.- nocupix
+	 7.- rosario
+	 8.- htlan
 	 9.- diego
-	 10.- rosario
+	 10.- jo
+['ehuia']
+
+Traducción de: muerto
+	 1.- mic
+	 2.- mimic
+	 3.- im
+	 4.- ictique
+	 5.- tzontequili
+	 6.- miqui
+	 7.- cuecuepotza
+	 8.- oquin
+	 9.- potoni
+	 10.- tiaque
+['mimic', 'mic']
+
+Traducción de: oír
+	 1.- acica
+	 2.- nlcaci
+	 3.- cac
+	 4.- ami
+	 5.- cuic
+	 6.- camati
+	 7.- quimolhui
+	 8.- qu
+	 9.- ihiyo
+	 10.- oiuhquimoca
+['cac', 'caqui']
+
+Traducción de: montaña
+	 1.- cem
+	 2.- huehca
+	 3.- tepe
+	 4.- tlaloa
+	 5.- miec
+	 6.- temo
+	 7.- teu
+	 8.- ahquetz
+	 9.- temoa
+	 10.- choca
+['tepe']
+
+Traducción de: brazo
+	 1.- cuecue
+	 2.- milacatzo
+	 3.- huetzi
+	 4.- mauh
+	 5.- timamalihuac
+	 6.- tepotz
+	 7.- tonehua
+	 8.- cocone
+	 9.- mama
+	 10.- cuitla
+['aca']
 
 Traducción de: galleta
 	 1.- galleta
@@ -1682,8 +169,1660 @@ Traducción de: galleta
 	 8.- rafael
 	 9.- beethoven
 	 10.- ieltapach
+['galleta', 'tlaxcal']
+
+Traducción de: enorme
+	 1.- mil
+	 2.- huehca
+	 3.- cpac
+	 4.- oc
+	 5.- occe
+	 6.- huel
+	 7.- tia
+	 8.- zcuco
+	 9.- xochi
+	 10.- fr
+['huey']
+
+Traducción de: animal
+	 1.- yolca
+	 2.- v
+	 3.- pu
+	 4.- rn
+	 5.- mictia
+	 6.- pah
+	 7.- ichca
+	 8.- iapizmi
+	 9.- yoyolcameh
+	 10.- cala
+['yolca', 'yoyolcameh']
+
+Traducción de: caja
+	 1.- petlacal
+	 2.- top
+	 3.- tlachie
+	 4.- ui
+	 5.- ilpi
+	 6.- ixtelolo
+	 7.- mohuaxca
+	 8.- pale
+	 9.- xillan
+	 10.- cxi
+['petlacal']
+
+Traducción de: vender
+	 1.- tlanamacazquia
+	 2.- tlanamaca
+	 3.- namaco
+	 4.- namaca
+	 5.- tlazohtla
+	 6.- onitla
+	 7.- yah
+	 8.- villistas
+	 9.- rosario
+	 10.- secretario
+['tlanamacazquia', 'tlanamaca', 'namaca', 'namaco']
+
+Traducción de: acabar
+	 1.- tlami
+	 2.- mic
+	 3.- cauh
+	 4.- ahui
+	 5.- auh
+	 6.- yoltequipacho
+	 7.- miqui
+	 8.- tami
+	 9.- totecuyo
+	 10.- zque
+['tlami', 'tami']
+
+Traducción de: adornar
+	 1.- uan
+	 2.- chihchihua
+	 3.- apana
+	 4.- quimon
+	 5.- oquich
+	 6.- oztomeca
+	 7.- pochteca
+	 8.- yahualoa
+	 9.- auh
+	 10.- tzaoctimanca
+['apana', 'chihchihua']
+
+Traducción de: diverso
+	 1.- nepapan
+	 2.- mota
+	 3.- motemilih
+	 4.- huipan
+	 5.- tatemp
+	 6.- tenanco
+	 7.- huiptla
+	 8.- loyan
+	 9.- tepahpaquiltia
+	 10.- izqui
+['nepapan']
+
+Traducción de: establecer
+	 1.- cauh
+	 2.- iuh
+	 3.- itoa
+	 4.- tepe
+	 5.- acique
+	 6.- lique
+	 7.- auh
+	 8.- cala
+	 9.- pul
+	 10.- polihui
+['tlalia', 'chan']
+
+Traducción de: sólo
+	 1.- zan
+	 2.- im
+	 3.- zcuco
+	 4.- choh
+	 5.- yuhqui
+	 6.- oc
+	 7.- auh
+	 8.- chiuh
+	 9.- omo
+	 10.- zque
+['zan', 'za']
+
+Traducción de: alegrar
+	 1.- ahuia
+	 2.- tlaza
+	 3.- tehhuellamac
+	 4.- pahpaqui
+	 5.- papa
+	 6.- nicnexti
+	 7.- liztica
+	 8.- qu
+	 9.- tinemiz
+	 10.- nemi
+['ahuia', 'pahpa', 'pahpaqui']
+
+Traducción de: lavar
+	 1.- paca
+	 2.- caxi
+	 3.- ihti
+	 4.- mochi
+	 5.- tlalia
+	 6.- tec
+	 7.- motlali
+	 8.- tlahuicxitilli
+	 9.- zatepan
+	 10.- mp
+['paca']
+
+Traducción de: ocurrir
+	 1.- yoh
+	 2.- quem
+	 3.- pano
+	 4.- machi
+	 5.- bar
+	 6.- onino
+	 7.- cha
+	 8.- chiuh
+	 9.- nino
+	 10.- zquiani
+['pano', 'chiuh']
+
+Traducción de: tigre
+	 1.- ocelo
+	 2.- zacuan
+	 3.- tecuan
+	 4.- quechol
+	 5.- cacehuaztli
+	 6.- totome
+	 7.- quetzal
+	 8.- ehua
+	 9.- cuauh
+	 10.- tototl
+['ocelo', 'tecuan']
+
+Traducción de: dar
+	 1.- dar
+	 2.- maca
+	 3.- zcuco
+	 4.- mah
+	 5.- auh
+	 6.- quin
+	 7.- omo
+	 8.- xic
+	 9.- uh
+	 10.- tia
+['maca', 'dar']
+
+Traducción de: ramo
+	 1.- ramos
+	 2.- g
+	 3.- pixca
+	 4.- tlaca
+	 5.- señor
+	 6.- gr
+	 7.- vor
+	 8.- ri
+	 9.- egorio
+	 10.- yb
+['ramos']
+
+Traducción de: llano
+	 1.- talmanic
+	 2.- mani
+	 3.- tlalticpac
+	 4.- tlal
+	 5.- tlaocol
+	 6.- dral
+	 7.- xacualoa
+	 8.- cuechac
+	 9.- diego
+	 10.- rosario
+['talmanic', 'tlal', 'xtlahua']
+
+Traducción de: rostro
+	 1.- mixco
+	 2.- tlachia
+	 3.- yollo
+	 4.- timamalihuac
+	 5.- notozca
+	 6.- naz
+	 7.- ixeo
+	 8.- notelpo
+	 9.- acol
+	 10.- mix
+['mixco']
+
+Traducción de: verde
+	 1.- xoxo
+	 2.- xoxouhqui
+	 3.- zaca
+	 4.- ayohhuach
+	 5.- chilmolli
+	 6.- molli
+	 7.- chalchiuh
+	 8.- chichil
+	 9.- totome
+	 10.- celi
+['xoxo', 'xoxouhqui']
+
+Traducción de: pluma
+	 1.- quetzal
+	 2.- ihui
+	 3.- potonia
+	 4.- tapayol
+	 5.- xahua
+	 6.- coatl
+	 7.- ten
+	 8.- zacuan
+	 9.- huitz
+	 10.- chalchihui
+['quetzal']
+
+Traducción de: venir
+	 1.- hual
+	 2.- hualla
+	 3.- m
+	 4.- huitz
+	 5.- zcuco
+	 6.- zque
+	 7.- uh
+	 8.- yb
+	 9.- quin
+	 10.- auh
+['hualla', 'hual']
+
+Traducción de: tomar
+	 1.- zcuco
+	 2.- cui
+	 3.- xip
+	 4.- auh
+	 5.- tia
+	 6.- omo
+	 7.- hual
+	 8.- fa
+	 9.- tepahpaquiltia
+	 10.- zque
+['concui', 'ana', 'cuilia', 'cui', 'can']
+
+Traducción de: visceras
+	 1.- cuacualaca
+	 2.- tlahuicxitilli
+	 3.- motlali
+	 4.- cuacua
+	 5.- temolcax
+	 6.- zoqui
+	 7.- huatza
+	 8.- itzoltilia
+	 9.- tlalia
+	 10.- caxi
+['ihti', 'ehua']
+
+Traducción de: alimento
+	 1.- pal
+	 2.- tota
+	 3.- celi
+	 4.- ol
+	 5.- nuestro
+	 6.- tlacual
+	 7.- tiaz
+	 8.- quiyauh
+	 9.- ihchican
+	 10.- toh
+['pal', 'atetzocoa']
+
+Traducción de: ropa
+	 1.- tzotzoma
+	 2.- ui
+	 3.- pixque
+	 4.- nuevo
+	 5.- lahuan
+	 6.- tzatzapal
+	 7.- yancui
+	 8.- oquin
+	 9.- itac
+	 10.- xmatia
+['tzotzoma']
+
+Traducción de: seno
+	 1.- xillan
+	 2.- notozca
+	 3.- illam
+	 4.- motozcatlan
+	 5.- itoz
+	 6.- uitlapilco
+	 7.- immoma
+	 8.- mocnelili
+	 9.- potztlatziuh
+	 10.- nino
+['xillan']
+
+Traducción de: uña
+	 1.- cuicuil
+	 2.- moci
+	 3.- ahuiz
+	 4.- poch
+	 5.- tetzahui
+	 6.- itz
+	 7.- tazohta
+	 8.- mihiyohuilti
+	 9.- acol
+	 10.- tlahcuilolli
+['itz']
+
+Traducción de: vaca
+	 1.- uacax
+	 2.- enepil
+	 3.- huen
+	 4.- cueh
+	 5.- cuacua
+	 6.- tictohuaxcati
+	 7.- pih
+	 8.- cihua
+	 9.- quiximati
+	 10.- mp
+['uacax', 'cuacua']
+
+Traducción de: tortuga
+	 1.- tectli
+	 2.- ayo
+	 3.- tlahuicxitilli
+	 4.- xip
+	 5.- tlalia
+	 6.- mochi
+	 7.- alac
+	 8.- caxi
+	 9.- zoqui
+	 10.- huatza
+['ayo']
+
+Traducción de: reunir
+	 1.- potz
+	 2.- nechico
+	 3.- nemoa
+	 4.- pochteca
+	 5.- auh
+	 6.- iuhqui
+	 7.- puchteca
+	 8.- notza
+	 9.- miec
+	 10.- otitla
+['nechico', 'cen']
+
+Traducción de: ver
+	 1.- ver
+	 2.- tta
+	 3.- uh
+	 4.- tac
+	 5.- auh
+	 6.- cen
+	 7.- yb
+	 8.- itta
+	 9.- oncan
+	 10.- tia
+['tta', 'conmottilia', 'itta', 'itac', 'ver']
+
+Traducción de: teatro
+	 1.- tlamahuiz
+	 2.- mahuizo
+	 3.- yah
+	 4.- mahui
+	 5.- imottilih
+	 6.- ihcahuaca
+	 7.- onimitz
+	 8.- cala
+	 9.- diego
+	 10.- rosario
+['tlamahuiz', 'mahui']
+
+Traducción de: descubrir
+	 1.- ixpetla
+	 2.- nexti
+	 3.- tolini
+	 4.- cala
+	 5.- timamalihuac
+	 6.- mix
+	 7.- tlachia
+	 8.- namiqui
+	 9.- im
+	 10.- tz
+['ixpetla', 'nexti']
+
+Traducción de: quitar
+	 1.- nech
+	 2.- ihcuani
+	 3.- cciz
+	 4.- cuilia
+	 5.- cui
+	 6.- me
+	 7.- tlalia
+	 8.- mochi
+	 9.- cuih
+	 10.- huizque
+['cuicuil', 'cuilia']
+
+Traducción de: lodo
+	 1.- atlatzicuina
+	 2.- mimacaci
+	 3.- atahuit
+	 4.- zoqui
+	 5.- itti
+	 6.- salvador
+	 7.- tema
+	 8.- ich
+	 9.- caxi
+	 10.- cu
+['zoqui']
+
+Traducción de: portal
+	 1.- ticchi
+	 2.- por
+	 3.- chia
+	 4.- tlalticpac
+	 5.- chix
+	 6.- min
+	 7.- yehhua
+	 8.- axcan
+	 9.- tal
+	 10.- le
+['por', 'tal']
+
+Traducción de: efecto
+	 1.- tlaocox
+	 2.- ihtotia
+	 3.- nehnemi
+	 4.- oquich
+	 5.- ellel
+	 6.- mixco
+	 7.- oceloquichtle
+	 8.- mito
+	 9.- tz
+	 10.- ixeo
+['nel']
+
+Traducción de: ciudad
+	 1.- altepe
+	 2.- altpe
+	 3.- huey
+	 4.- hueyi
+	 5.- nemiliz
+	 6.- mexica
+	 7.- tepe
+	 8.- tlahtoca
+	 9.- huehue
+	 10.- gali
+['altpe', 'altepe']
+
+Traducción de: tema
+	 1.- tema
+	 2.- salvador
+	 3.- zcal
+	 4.- quixti
+	 5.- auh
+	 6.- cachihualiz
+	 7.- yuhqui
+	 8.- zque
+	 9.- zcuco
+	 10.- omo
+['tema']
+
+Traducción de: leche
+	 1.- ihchican
+	 2.- notlazohca
+	 3.- chichi
+	 4.- itzcuin
+	 5.- pac
+	 6.- illi
+	 7.- xmechmo
+	 8.- xinechmo
+	 9.- chihchi
+	 10.- cualita
+['chichi']
+
+Traducción de: amargo
+	 1.- chichi
+	 2.- itzcuin
+	 3.- miz
+	 4.- mimizt
+	 5.- choca
+	 6.- onohualco
+	 7.- tepahpaquiltia
+	 8.- im
+	 9.- mocnopil
+	 10.- auh
+['chichi']
+
+Traducción de: sabor
+	 1.- mati
+	 2.- lan
+	 3.- chil
+	 4.- tro
+	 5.- yol
+	 6.- yehua
+	 7.- nocupix
+	 8.- ixmachilia
+	 9.- ahnozo
+	 10.- choh
+['iahhuui', 'mati']
+
+Traducción de: mixcólotl
+	 1.- mixco
+	 2.- tepuz
+	 3.- tlachia
+	 4.- timamalihuac
+	 5.- cochi
+	 6.- tepotz
+	 7.- naz
+	 8.- notozca
+	 9.- tz
+	 10.- xuchitl
+['mixco']
+
+Traducción de: presencia
+	 1.- mopechteccac
+	 2.- quimolhui
+	 3.- tlacuauh
+	 4.- tzinco
+	 5.- tlazoh
+	 6.- contla
+	 7.- ix
+	 8.- uad
+	 9.- eltilitiuh
+	 10.- copa
+['ix']
+
+Traducción de: desear
+	 1.- elehui
+	 2.- elehuia
+	 3.- qu
+	 4.- znequi
+	 5.- quechi
+	 6.- achto
+	 7.- monequilti
+	 8.- tzitzihuan
+	 9.- tzotzona
+	 10.- nequia
+['elehui', 'elehuia', 'znequi', 'nequi']
+
+Traducción de: nabo
+	 1.- stancia
+	 2.- bo
+	 3.- catarina
+	 4.- ga
+	 5.- cuechahua
+	 6.- temolcax
+	 7.- zul
+	 8.- cec
+	 9.- molcaxitl
+	 10.- chilmolli
+['bo']
+
+Traducción de: pieza
+	 1.- xexelo
+	 2.- xeloa
+	 3.- lero
+	 4.- loyan
+	 5.- yah
+	 6.- micuani
+	 7.- cualica
+	 8.- tlacual
+	 9.- ticatca
+	 10.- huehca
+['xexelo']
+
+Traducción de: esfuerzo
+	 1.- quexquich
+	 2.- chicahua
+	 3.- ihiyo
+	 4.- potztlatziuh
+	 5.- machi
+	 6.- huehue
+	 7.- y
+	 8.- quezqui
+	 9.- tolini
+	 10.- nohuian
+['cuammaca', 'chicahua', 'chicahuaz']
+
+Traducción de: fino
+	 1.- tlazo
+	 2.- zacuan
+	 3.- xomoihui
+	 4.- quetzal
+	 5.- quechol
+	 6.- concui
+	 7.- cahuia
+	 8.- pech
+	 9.- xical
+	 10.- teocuitla
+['tlazo', 'quetzal']
+
+Traducción de: indio
+	 1.- ig
+	 2.- macehual
+	 3.- quixtiz
+	 4.- obispo
+	 5.- quiliz
+	 6.- ocaxil
+	 7.- quimolhui
+	 8.- chix
+	 9.- iteopixca
+	 10.- tta
+['macehual']
+
+Traducción de: voz
+	 1.- tzahtzi
+	 2.- nopiltzin
+	 3.- mu
+	 4.- xinechmotlapohpolhuili
+	 5.- omitz
+	 6.- yehua
+	 7.- im
+	 8.- nocupix
+	 9.- nan
+	 10.- tzatzi
+['tozki', 'tzahtzi', 'tzatzi']
+
+Traducción de: agregar
+	 1.- motlali
+	 2.- tiliaya
+	 3.- cuacualaca
+	 4.- tlahuicxitilli
+	 5.- tlalia
+	 6.- tec
+	 7.- huic
+	 8.- tzon
+	 9.- ihti
+	 10.- cuacua
+['motlali', 'tlalia']
+
+Traducción de: salvaje
+	 1.- uanime
+	 2.- mexica
+	 3.- ticuahcua
+	 4.- xolochcue
+	 5.- oyuh
+	 6.- yb
+	 7.- quim
+	 8.- zcuecuex
+	 9.- dral
+	 10.- rne
+['uanime']
+
+Traducción de: vasija
+	 1.- cax
+	 2.- comitl
+	 3.- chiquihui
+	 4.- tecoma
+	 5.- nechicalhui
+	 6.- caxi
+	 7.- zoqui
+	 8.- xommo
+	 9.- xel
+	 10.- molcaxitl
+['cax', 'tecoma', 'comitl']
+
+Traducción de: levantar
+	 1.- quetza
+	 2.- ohuatzintic
+	 3.- yb
+	 4.- iuh
+	 5.- bar
+	 6.- yollo
+	 7.- yaca
+	 8.- quiz
+	 9.- quiza
+	 10.- tlazoh
+['quetza']
+
+Traducción de: comenzar
+	 1.- pehua
+	 2.- peuh
+	 3.- omo
+	 4.- ignacio
+	 5.- pen
+	 6.- eca
+	 7.- uel
+	 8.- yohua
+	 9.- man
+	 10.- otlacua
+['pehua', 'peuh']
+
+Traducción de: chiquillo
+	 1.- ninozcalia
+	 2.- pohua
+	 3.- ten
+	 4.- mahuizo
+	 5.- miec
+	 6.- im
+	 7.- xip
+	 8.- mahui
+	 9.- mahuiztili
+	 10.- immoma
+['pipil']
+
+Traducción de: suceder
+	 1.- chiuh
+	 2.- chihua
+	 3.- tlaca
+	 4.- oquimo
+	 5.- cholo
+	 6.- tihuetz
+	 7.- xip
+	 8.- quenin
+	 9.- pix
+	 10.- cequin
+['pano', 'chiuh', 'panoa', 'chiu']
+
+Traducción de: desierto
+	 1.- ceuh
+	 2.- des
+	 3.- er
+	 4.- ommihzo
+	 5.- olpi
+	 6.- izquin
+	 7.- ez
+	 8.- huehue
+	 9.- oticma
+	 10.- cuahuitl
+['des']
+
+Traducción de: niño
+	 1.- cocone
+	 2.- tzitzintin
+	 3.- pipil
+	 4.- conetl
+	 5.- toton
+	 6.- pil
+	 7.- cihuanton
+	 8.- machti
+	 9.- oquin
+	 10.- tizque
+['cocone', 'conetl', 'cihuanton', 'pipil']
+
+Traducción de: jadear
+	 1.- tixtomahua
+	 2.- tolini
+	 3.- itlachi
+	 4.- ixpetla
+	 5.- ixeo
+	 6.- timamalihuac
+	 7.- ili
+	 8.- cuitl
+	 9.- icemel
+	 10.- im
+['tixtomahua']
+
+Traducción de: pasar
+	 1.- pano
+	 2.- saroa
+	 3.- amen
+	 4.- tlen
+	 5.- omo
+	 6.- lti
+	 7.- moch
+	 8.- im
+	 9.- p
+	 10.- chiuh
+['pano', 'panoa']
+
+Traducción de: pez
+	 1.- mimic
+	 2.- michi
+	 3.- mic
+	 4.- ictique
+	 5.- ahhua
+	 6.- mictia
+	 7.- rrancista
+	 8.- guerrero
+	 9.- dral
+	 10.- diego
+['mimic']
+
+Traducción de: querer
+	 1.- nequi
+	 2.- znequi
+	 3.- nequia
+	 4.- ixquich
+	 5.- fa
+	 6.- amo
+	 7.- zazo
+	 8.- nec
+	 9.- uilizque
+	 10.- nozo
+['znequi', 'nequi', 'monequilti', 'nequia']
+
+Traducción de: patio
+	 1.- patio
+	 2.- itual
+	 3.- ithual
+	 4.- nepantla
+	 5.- ber
+	 6.- pixca
+	 7.- calitic
+	 8.- ticatca
+	 9.- nex
+	 10.- ommihzo
+['patio', 'itual', 'ithual']
+
+Traducción de: mirada
+	 1.- tlachia
+	 2.- im
+	 3.- mix
+	 4.- tz
+	 5.- yuhqui
+	 6.- tta
+	 7.- ix
+	 8.- xip
+	 9.- auh
+	 10.- chiuh
+['tlachia']
+
+Traducción de: nombre
+	 1.- toca
+	 2.- tocayoti
+	 3.- tlahtoca
+	 4.- hispan
+	 5.- año
+	 6.- y
+	 7.- xihuitl
+	 8.- d
+	 9.- omo
+	 10.- de
+['toca']
+
+Traducción de: olvidar
+	 1.- huilli
+	 2.- quil
+	 3.- cahua
+	 4.- el
+	 5.- mihtalhui
+	 6.- nino
+	 7.- xonm
+	 8.- xquin
+	 9.- y
+	 10.- peh
+['ilcaruaz', 'cahua']
+
+Traducción de: quetzal
+	 1.- quetzal
+	 2.- coatl
+	 3.- zacuan
+	 4.- chalchihui
+	 5.- chalchiuh
+	 6.- potonia
+	 7.- ihui
+	 8.- quechol
+	 9.- tapayol
+	 10.- teocuitla
+['quetzal']
+
+Traducción de: cierto
+	 1.- melahua
+	 2.- nel
+	 3.- hualla
+	 4.- mitzmo
+	 5.- omo
+	 6.- zque
+	 7.- ichpoc
+	 8.- tac
+	 9.- yb
+	 10.- ihtoh
+['melahua', 'nel', 'cecni']
+
+Traducción de: salvador
+	 1.- salvador
+	 2.- tema
+	 3.- quixti
+	 4.- macehui
+	 5.- cachihualiz
+	 6.- pr
+	 7.- jesu
+	 8.- yia
+	 9.- tepon
+	 10.- omo
+['salvador', 'tema', 'quixti']
+
+Traducción de: naranja
+	 1.- naranja
+	 2.- juzga
+	 3.- ameyal
+	 4.- nacochtli
+	 5.- orcasitas
+	 6.- perah
+	 7.- comal
+	 8.- ahuax
+	 9.- matiloa
+	 10.- nezahualco
+['naranja', 'xal', 'ronyaa']
+
+Traducción de: madera
+	 1.- icuil
+	 2.- tlapech
+	 3.- cuauh
+	 4.- cuahuitl
+	 5.- llan
+	 6.- pech
+	 7.- tepe
+	 8.- yuhqui
+	 9.- icpac
+	 10.- ahco
+['cuauh', 'tlacuauh']
+
+Traducción de: despreciar
+	 1.- ech
+	 2.- xinech
+	 3.- tlecuezal
+	 4.- ilama
+	 5.- cizu
+	 6.- pu
+	 7.- nino
+	 8.- petz
+	 9.- pehua
+	 10.- xmechmo
+['mah', 'pehua']
+
+Traducción de: amado
+	 1.- tlazohtla
+	 2.- ama
+	 3.- zquia
+	 4.- ticcua
+	 5.- tlazo
+	 6.- tazohta
+	 7.- tlahcuilolli
+	 8.- niz
+	 9.- tlanamaca
+	 10.- tlanamacazquia
+['tlazo', 'tlazohtla']
+
+Traducción de: perdonar
+	 1.- pohpo
+	 2.- mozacaticonti
+	 3.- otimitzno
+	 4.- pahcayo
+	 5.- chipahuaque
+	 6.- comitl
+	 7.- max
+	 8.- zatepan
+	 9.- huellala
+	 10.- ay
+['pohpo']
+
+Traducción de: valer
+	 1.- 1
+	 2.- quexquich
+	 3.- ton
+	 4.- yancui
+	 5.- toma
+	 6.- quezqui
+	 7.- mama
+	 8.- nuevo
+	 9.- pah
+	 10.- s
+['patio']
+
+Traducción de: llanura
+	 1.- xtlahua
+	 2.- as
+	 3.- ip
+	 4.- tlalli
+	 5.- mitz
+	 6.- ua
+	 7.- tlahui
+	 8.- xinach
+	 9.- puerta
+	 10.- zaca
+['xtlahua']
+
+Traducción de: coger
+	 1.- ana
+	 2.- cholo
+	 3.- ochol
+	 4.- ictique
+	 5.- milacatzo
+	 6.- miqui
+	 7.- tlahueliloc
+	 8.- ixeo
+	 9.- mac
+	 10.- tecuan
+['ana', 'cana', 'cui']
+
+Traducción de: llevar
+	 1.- huica
+	 2.- mama
+	 3.- cuica
+	 4.- tqui
+	 5.- t
+	 6.- cui
+	 7.- zcuco
+	 8.- auh
+	 9.- liz
+	 10.- xip
+['huica', 'cuica', 'tqui']
+
+Traducción de: volver
+	 1.- cuepa
+	 2.- mocuep
+	 3.- ixpetani
+	 4.- amo
+	 5.- cala
+	 6.- yahualoa
+	 7.- im
+	 8.- ac
+	 9.- cuep
+	 10.- ol
+['cuepa', 'mocuep']
+
+Traducción de: tepaneca
+	 1.- colhuaca
+	 2.- eca
+	 3.- popolo
+	 4.- culhuacan
+	 5.- mexica
+	 6.- oyuh
+	 7.- rtes
+	 8.- oquim
+	 9.- yao
+	 10.- quim
+['eca']
+
+Traducción de: indígena
+	 1.- lahtol
+	 2.- macehual
+	 3.- nahuatlahtol
+	 4.- elehuia
+	 5.- toyalhuayo
+	 6.- cultura
+	 7.- hcuilo
+	 8.- tlamatiliz
+	 9.- tazohta
+	 10.- tlahcuilolli
+['macehual']
+
+Traducción de: pipián
+	 1.- chilacach
+	 2.- temolcax
+	 3.- arroz
+	 4.- oransio
+	 5.- molli
+	 6.- secretario
+	 7.- castillo
+	 8.- rafael
+	 9.- acamapich
+	 10.- rosario
+['chilacach', 'yohuac']
+
+Traducción de: limpiar
+	 1.- chipahuaque
+	 2.- pohpo
+	 3.- mitz
+	 4.- cciz
+	 5.- zatepan
+	 6.- comitl
+	 7.- mozacaticonti
+	 8.- stancia
+	 9.- caxi
+	 10.- bo
+['pohpo', 'chipahuaque', 'chipahua', 'popo']
+
+Traducción de: aguacate
+	 1.- aztlacapalli
+	 2.- tolachno
+	 3.- ahua
+	 4.- pix
+	 5.- poyox
+	 6.- tlaxamanil
+	 7.- izhua
+	 8.- yb
+	 9.- ü
+	 10.- ehua
+['ahua']
+
+Traducción de: comer
+	 1.- cua
+	 2.- cuaz
+	 3.- ´tos
+	 4.- tlacual
+	 5.- cualtiz
+	 6.- zque
+	 7.- tepahpaquiltia
+	 8.- cen
+	 9.- ﻿
+	 10.- maca
+['cuaz', 'cua', 'tlacual', 'otlacua', 'cualtiz']
+
+Traducción de: pantalón
+	 1.- pantalon
+	 2.- matiloa
+	 3.- beethoven
+	 4.- comal
+	 5.- chachal
+	 6.- villistas
+	 7.- juev
+	 8.- echicoliz
+	 9.- anechhuall
+	 10.- ciriales
+['pantalon']
+
+Traducción de: paso
+	 1.- pasilla
+	 2.- chilcuitlaxcolli
+	 3.- chil
+	 4.- zoh
+	 5.- xumalli
+	 6.- club
+	 7.- tlalih
+	 8.- xacualoa
+	 9.- ztlachiel
+	 10.- bicitleta
+['pasilla']
+
+Traducción de: derribar
+	 1.- mota
+	 2.- tatemp
+	 3.- tata
+	 4.- motemilih
+	 5.- nepapan
+	 6.- nimitz
+	 7.- secretario
+	 8.- castillo
+	 9.- loyan
+	 10.- dral
+['tatemp']
+
+Traducción de: conocer
+	 1.- ixmati
+	 2.- quix
+	 3.- mati
+	 4.- quiximati
+	 5.- machi
+	 6.- ixmachilia
+	 7.- iximacho
+	 8.- tlaca
+	 9.- y
+	 10.- omochantili
+['ixmati', 'ixmachilia', 'mati', 'oixmatilia', 'iximacho']
+
+Traducción de: mesero
+	 1.- xexelo
+	 2.- pech
+	 3.- ahco
+	 4.- cualica
+	 5.- xeloa
+	 6.- comal
+	 7.- loyan
+	 8.- anotimocau
+	 9.- club
+	 10.- tlanamaca
+['xexelo']
+
+Traducción de: alfredo
+	 1.- alfredo
+	 2.- matiloa
+	 3.- chachal
+	 4.- club
+	 5.- xacualoa
+	 6.- juzga
+	 7.- ieltapach
+	 8.- felipe
+	 9.- futb
+	 10.- comal
+['alfredo']
+
+Traducción de: aire
+	 1.- yehyecatl
+	 2.- eca
+	 3.- eheca
+	 4.- tetzahui
+	 5.- hui
+	 6.- mach
+	 7.- yeyeca
+	 8.- huilo
+	 9.- ahua
+	 10.- tihuetz
+['yehyecatl', 'yeyeca', 'eheca', 'eheca']
+
+Traducción de: familiar
+	 1.- familiar
+	 2.- xicol
+	 3.- cocox
+	 4.- chmotlahpalhui
+	 5.- tlaloa
+	 6.- achcacauh
+	 7.- chihuili
+	 8.- comal
+	 9.- gu
+	 10.- bar
+['familiar']
+
+Traducción de: quiltoniles
+	 1.- cualac
+	 2.- illi
+	 3.- alac
+	 4.- oomicihcicu
+	 5.- coch
+	 6.- cuacualaca
+	 7.- apiaz
+	 8.- quil
+	 9.- pozoni
+	 10.- chilmolli
+['quil']
+
+Traducción de: descanso
+	 1.- mocehui
+	 2.- icpal
+	 3.- calyolot
+	 4.- huizque
+	 5.- pepe
+	 6.- immotla
+	 7.- tlauh
+	 8.- acia
+	 9.- xtuo
+	 10.- ipetla
+['mocehui']
+
+Traducción de: perforar
+	 1.- coyoni
+	 2.- coyoc
+	 3.- acacic
+	 4.- amaihcuilol
+	 5.- ohuehyiyac
+	 6.- celia
+	 7.- rdenas
+	 8.- tlatzotzonque
+	 9.- poch
+	 10.- mimil
+['coyoc', 'coyoni']
+
+Traducción de: horno
+	 1.- horno
+	 2.- tu
+	 3.- timihtil
+	 4.- tz
+	 5.- teoticanantzin
+	 6.- nan
+	 7.- cuep
+	 8.- tlananquili
+	 9.- cuepa
+	 10.- tel
+['horno']
+
+Traducción de: pedir
+	 1.- htlani
+	 2.- tlania
+	 3.- tahtan
+	 4.- nimitz
+	 5.- tamechtahtanil
+	 6.- neltili
+	 7.- lih
+	 8.- htlan
+	 9.- ichpoc
+	 10.- tlauhti
+['tamechtahtanil', 'tahtan', 'htlani', 'mihtlanililia', 'htlan']
+
+Traducción de: derecho
+	 1.- ihtoh
+	 2.- melahua
+	 3.- iyaca
+	 4.- melauh
+	 5.- ozto
+	 6.- nel
+	 7.- milacatzo
+	 8.- itt
+	 9.- tecu
+	 10.- quetza
+['melahua', 'melauh', 'yec']
+
+Traducción de: cofre
+	 1.- top
+	 2.- petlacal
+	 3.- tlachie
+	 4.- ilpi
+	 5.- itoz
+	 6.- xillan
+	 7.- motozcatlan
+	 8.- onimitz
+	 9.- pale
+	 10.- nacaz
+['top', 'petlacal']
+
+Traducción de: escalera
+	 1.- nmediasco
+	 2.- oquinanquili
+	 3.- ilpia
+	 4.- dia
+	 5.- pualhuany
+	 6.- mahca
+	 7.- ipanoque
+	 8.- nario
+	 9.- icuilacta
+	 10.- comal
+['mama']
+
+Traducción de: grande
+	 1.- hueyi
+	 2.- huey
+	 3.- hue
+	 4.- altpe
+	 5.- gali
+	 6.- año
+	 7.- xihuitl
+	 8.- altepe
+	 9.- izcal
+	 10.- ohuehyiyac
+['huey', 'hueyi']
+
+Traducción de: introducir
+	 1.- calaqui
+	 2.- calaquia
+	 3.- calac
+	 4.- nican
+	 5.- puerta
+	 6.- hual
+	 7.- xip
+	 8.- im
+	 9.- auh
+	 10.- cala
+['calaquia', 'calaqui']
+
+Traducción de: molcajete
+	 1.- molcaxitl
+	 2.- temolcax
+	 3.- otzoy
+	 4.- tlaxamanil
+	 5.- xommo
+	 6.- caxi
+	 7.- zoqui
+	 8.- tzoaloni
+	 9.- chiquihui
+	 10.- club
+['molcaxitl', 'temolcax']
+
+Traducción de: pedirle
+	 1.- mihtlanililia
+	 2.- pouhilil
+	 3.- neltili
+	 4.- chililiz
+	 5.- quimolhui
+	 6.- tti
+	 7.- titlani
+	 8.- neltoc
+	 9.- eltilitiuh
+	 10.- obispo
+['mihtlanililia']
+
+Traducción de: vestido
+	 1.- tzotzoma
+	 2.- nequia
+	 3.- sa
+	 4.- quen
+	 5.- neltoqui
+	 6.- xolochcue
+	 7.- cah
+	 8.- oquin
+	 9.- cocone
+	 10.- ilpi
+['quen', 'tzotzoma']
+
+Traducción de: tapar
+	 1.- pachoa
+	 2.- cciz
+	 3.- motequipacho
+	 4.- cuih
+	 5.- pacho
+	 6.- mochi
+	 7.- zoqui
+	 8.- tequi
+	 9.- itzoltilia
+	 10.- caxi
+['pachoa']
+
+Traducción de: tierno
+	 1.- xoxouhqui
+	 2.- chilmolli
+	 3.- nohpal
+	 4.- stancia
+	 5.- xoxo
+	 6.- calhuahza
+	 7.- nopal
+	 8.- izhua
+	 9.- ahnozo
+	 10.- catarina
+['ne', 'xoxouhqui']
+
+Traducción de: final
+	 1.- mix
+	 2.- im
+	 3.- cauh
+	 4.- xip
+	 5.- mochi
+	 6.- y
+	 7.- zcuco
+	 8.- yb
+	 9.- yuhqui
+	 10.- l
+['tlatz']
+
+Traducción de: decir
+	 1.- hto
+	 2.- lhui
+	 3.- auh
+	 4.- zcuco
+	 5.- lhuia
+	 6.- niman
+	 7.- ilhui
+	 8.- tlaca
+	 9.- omo
+	 10.- quin
+['lhuia', 'ilhuia', 'lhui', 'hto']
+
+Traducción de: tráiganla
+	 1.- xic
+	 2.- namoahtapal
+	 3.- cui
+	 4.- hual
+	 5.- nican
+	 6.- yb
+	 7.- necoc
+	 8.- dar
+	 9.- can
+	 10.- tih
+['cui', 'huica']
+
+Traducción de: unir
+	 1.- f
+	 2.- george
+	 3.- estado
+	 4.- 19
+	 5.- cahuan
+	 6.- tlahtocayotl
+	 7.- do
+	 8.- fe
+	 9.- ahuacatl
+	 10.- huehue
+['cen']
+
+Traducción de: jugar
+	 1.- mahui
+	 2.- ltih
+	 3.- nocniu
+	 4.- mahuizzo
+	 5.- ahuil
+	 6.- ihcuilo
+	 7.- mahuizo
+	 8.- mahuiztili
+	 9.- pahpa
+	 10.- sombra
+['mahui']
+
+Traducción de: anáhuac
+	 1.- nahuac
+	 2.- noch
+	 3.- tzaoctimanca
+	 4.- tlamatiliz
+	 5.- cultura
+	 6.- siempre
+	 7.- huehue
+	 8.- m
+	 9.- dueño
+	 10.- nahua
+['nahuac']
+
+Traducción de: barca
+	 1.- acalli
+	 2.- latuic
+	 3.- ono
+	 4.- ltemalo
+	 5.- tlatia
+	 6.- calaquia
+	 7.- tzitz
+	 8.- choqui
+	 9.- tlathui
+	 10.- aquia
+['acalli']
+
+Traducción de: yo
+	 1.- ne
+	 2.- nicpia
+	 3.- fa
+	 4.- zquia
+	 5.- hua
+	 6.- iuh
+	 7.- tlazohtla
+	 8.- mati
+	 9.- nehhua
+	 10.- tia
+['ne', 'nehhua']
+
+Traducción de: presidente
+	 1.- presi
+	 2.- us
+	 3.- tlahtoca
+	 4.- ludovi
+	 5.- premios
+	 6.- tlahtoani
+	 7.- hueyi
+	 8.- año
+	 9.- gali
+	 10.- nario
+['presi']
+
+Traducción de: cargo
+	 1.- ahqui
+	 2.- tlaliliz
+	 3.- onino
+	 4.- chihui
+	 5.- im
+	 6.- ihto
+	 7.- milacatzo
+	 8.- xip
+	 9.- macehual
+	 10.- ticmo
+['tlahtoca', 'toca']
+
+Traducción de: tanto
+	 1.- ih
+	 2.- zazan
+	 3.- meh
+	 4.- itemohui
+	 5.- t
+	 6.- amuel
+	 7.- zcuco
+	 8.- nocupix
+	 9.- hcuilo
+	 10.- y
+['zazan', 'izqui']
+
+Traducción de: traer
+	 1.- hual
+	 2.- cui
+	 3.- huica
+	 4.- t
+	 5.- tih
+	 6.- tqui
+	 7.- zcuco
+	 8.- na
+	 9.- tlaca
+	 10.- tepahpaquiltia
+['itqui', 'huica', 'huiqui', 'cui']
+
+Traducción de: echar
+	 1.- contla
+	 2.- patahuaz
+	 3.- zque
+	 4.- quim
+	 5.- tz
+	 6.- yaca
+	 7.- za
+	 8.- im
+	 9.- zcuco
+	 10.- yuhqui
+['atlatzicuina', 'contla']
+
+Traducción de: admirar
+	 1.- mahuizo
+	 2.- imottilih
+	 3.- tlamahuiz
+	 4.- itt
+	 5.- chililiz
+	 6.- onimitz
+	 7.- mahui
+	 8.- mihtlanililia
+	 9.- itti
+	 10.- mahuiztili
+['mahuizo', 'iglesia', 'tlamahuiz']
+
+Traducción de: cultura
+	 1.- cultura
+	 2.- tlamatiliz
+	 3.- toyalhuayo
+	 4.- nahuatlahtol
+	 5.- lahtol
+	 6.- iayah
+	 7.- moteihtitili
+	 8.- huehue
+	 9.- moyacanilia
+	 10.- nahua
+['tlamatiliz', 'cultura']
+
+Traducción de: rogar
+	 1.- tlauhti
+	 2.- tahtan
+	 3.- tamechtahtanil
+	 4.- ili
+	 5.- tlauhtia
+	 6.- idl
+	 7.- nimitz
+	 8.- end
+	 9.- namech
+	 10.- xip
+['tahtan']
+
+Traducción de: gritar
+	 1.- tzatzi
+	 2.- ihcahuaca
+	 3.- tzahtzi
+	 4.- lero
+	 5.- tlacacalata
+	 6.- laxoc
+	 7.- huixoa
+	 8.- cala
+	 9.- ixmantaz
+	 10.- cirio
+['tzatzi', 'tzahtzi']
+
+Traducción de: coyote
+	 1.- coyoc
+	 2.- camachalo
+	 3.- ichca
+	 4.- huitequi
+	 5.- zauh
+	 6.- po
+	 7.- cuaz
+	 8.- pu
+	 9.- extiz
+	 10.- zahua
+['coyo', 'coyoc']
 
 not found: 12 - 0.08571428571428572 %
 P@1: 98 	P@5: 125 	P@10: 128
 P@1: 0.7 	P@5: 0.8928571428571429 	P@10: 0.9142857142857143
-Time: 00:00:01
+Time: 00:00:00
