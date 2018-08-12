@@ -115,7 +115,7 @@ for palabra in eval_src:
     print("Traducción de:", palabra)
     for i, w in enumerate(resultados[palabra]):
         print("\t", str(i + 1) + ".- " + w)
-    print(gold[palabra])
+    print("Traducción correcta:", gold[palabra])
     print()
 
 
